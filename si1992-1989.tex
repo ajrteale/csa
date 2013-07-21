@@ -10,6 +10,13 @@
 %\usepackage[2012rules]{optional}
 
 \usepackage[osf]{mathpazo}
+\usepackage{cfr-lm}
+
+\usepackage{perpage} %the perpage package
+\MakePerPage{footnote} %the perpage package command
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\usepackage[perpage,para,symbol]{footmisc}
 
 %\opt{newrules}{
 \title{The Child Support (Collection and Enforcement) Regulations 1992}
@@ -61,12 +68,6 @@
 \setlength\tymin{50pt}
 
 \newcommand\amendment[1]{\subsubsection*{Notes}{\itshape\frenchspacing\footnotesize #1 \par}}
-
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-
-\usepackage[perpage,para,symbol]{footmisc}
 
 \begin{document}
 
@@ -244,10 +245,12 @@ Words substituted in reg. 5(2) and reg. 5(3), (4) substituted (18.4.95) by the C
 %Definition of ``defective'' inserted (18.4.95) by SI 1995/1045 reg 14(2)
 “defective” means in relation to a deduction from earnings order that it does not comply with the requirements of regulations 9 to 11 and such failure to comply has made it impracticable for the employer to comply with his obligations under the Act and these Regulations;
 
+\begin{sloppypar}
 “disposable income” means the amount determined under 
 %regulation 12(1) 
 regulation 12(1)($a$)  % Words substituted (18.4.95) by SI 1995/1045 reg 14(3)
 of the Child Support (Maintenance Assessments and Special Cases) Regulations 1992\footnote{\frenchspacing S.I. 1992/1815.};
+\end{sloppypar}
 
 “earnings” shall be construed in accordance with paragraphs (3) and (4);
 
@@ -803,7 +806,7 @@ On the complaint of the Secretary of State for Social Security that the sums spe
 \begin{tabulary}{0.9\linewidth}{lJJ}
 Sum payable and outstanding \hspace{0.075\linewidth} &  --- & child support maintenance\\
 &--- & interest\\
-& --- & other periodical pay\-\textls[25]{ments collected by} virtue of section 30 of the Child Support Act 1991\\
+& --- & other periodical payments collected by virtue of section 30 of the Child Support Act 1991\\
 \end{tabulary}
 
 \medskip
@@ -836,7 +839,7 @@ Aggregate amount in respect of which the liability order is made:
 \endhead
 \hline
 \endlastfoot
-\textls[75]{A {} For making a visit to} premises with a view to levying distress (whether the levy is made or not):&
+A {} For making a visit to premises with a view to levying distress (whether the levy is made or not):&
 Reasonable costs and fees incurred, but not exceeding an amount which, when aggregated with charges under this head for any previous visits made with a view to levying distress in relation to an amount in respect of which the liability order concerned was made, is not greater than the relevant amount calculated under paragraph 2(1) with respect to the visit.\\
 B {} For levying distress:&
 An amount (if any) which, when aggregated with charges under head A for any visits made with a view to levying distress in relation to an amount in respect of which the liability order concerned was made, is equal to the relevant amount calculated under paragraph 2(1) with respect to the levy.\\
@@ -844,7 +847,7 @@ An amount (if any) which, when aggregated with charges under head A for any visi
 BB {} For preparing and sending a letter advising the liable person that the written authorisation of the Secretary of State is with the person levying the distress and requesting the total sum due: & £10.00.\\
 C {} For the removal and storage of goods for the purposes of sale:&
 Reasonable costs and fees incurred.\\
-\textls[75]{D {}  For the possession of} \textls[25]{goods as described in para\-}graph 2(3)—\\
+D {}  For the possession of goods as described in paragraph 2(3)—\\
 \hspace{12pt}(i) for close possession (the person in possession on behalf of the Secretary of State to provide his own board):&
 £4.50 per day.\\
 \hspace{12pt}(ii) for walking possession:&

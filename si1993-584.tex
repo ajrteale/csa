@@ -10,6 +10,13 @@
 %\usepackage[2012rules]{optional}
 
 \usepackage[osf]{mathpazo}
+\usepackage{cfr-lm}
+
+\usepackage{perpage} %the perpage package
+\MakePerPage{footnote} %the perpage package command
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\usepackage[perpage,para,symbol]{footmisc}
 
 %\opt{newrules}{
 \title{The Child Support (Northern Ireland Reciprocal Arrangements) Regulations 1993}
@@ -61,12 +68,6 @@
 \setlength\tymin{50pt}
 
 \newcommand\amendment[1]{\subsubsection*{Notes}{\itshape\frenchspacing\footnotesize #1 \par}}
-
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-
-\usepackage[perpage,para,symbol]{footmisc}
 
 \begin{document}
 
@@ -365,7 +366,7 @@ Sch. 1A inserted (22.1.96) by the Child Support (Miscellaneous Amendments) (No. 
 \part[Schedule 2 --- Adaptation of certain provisions of the Child Support Act 1991]{Schedule 2\\*Adaptation of certain provisions of the Child Support Act 1991}
 
 \noindent
-\begin{tabulary}{\linewidth}{LJJ}
+\begin{tabulary}{\linewidth}{JJJ}
 \hline
 Column 1 & Column 2 & Column 3\\
 \itshape Provisions of the Child Support Act 1991 & \itshape Provisions of the Child Support (Northern Ireland) Order 1991 & \itshape Subject Matter\\
@@ -378,7 +379,7 @@ Section 10&Article 12&Relationship between maintenance assessments and certain c
 Section 15&Article 17&Powers of inspectors\\
 Sections 27 and 28 & Article 28 & Declaration of parentage\\ % Entry inserted (22.1.96) by SI 1995/3261 reg 55
 Section 29&Article 29&Collection of child support maintenance\\
-Section 30&Article 30&\textls[25]{Collection and enforcement of} other forms of maintenance\\
+Section 30&Article 30&Collection and enforcement of other forms of maintenance\\
 \hline
 \end{tabulary}
 

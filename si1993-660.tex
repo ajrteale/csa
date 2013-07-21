@@ -10,6 +10,13 @@
 %\usepackage[2012rules]{optional}
 
 \usepackage[osf]{mathpazo}
+\usepackage{cfr-lm}
+
+\usepackage{perpage} %the perpage package
+\MakePerPage{footnote} %the perpage package command
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\usepackage[perpage,para,symbol]{footmisc}
 
 %\opt{newrules}{
 \title{The Child Support (Amendments to Primary Legislation) (Scotland) Order 1993}
@@ -61,12 +68,6 @@
 \setlength\tymin{50pt}
 
 \newcommand\amendment[1]{\subsubsection*{Notes}{\itshape\frenchspacing\footnotesize #1 \par}}
-
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-
-\usepackage[perpage,para,symbol]{footmisc}
 
 \begin{document}
 
@@ -141,7 +142,7 @@ The Secretary of State, in exercise of the powers conferred on him by section 58
 }
 
 \noindent
-St. Andrews House,\\
+St.\ Andrews House,\\
 Edinburgh\\
 11th March 1993
 

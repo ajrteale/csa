@@ -10,6 +10,13 @@
 %\usepackage[2012rules]{optional}
 
 \usepackage[osf]{mathpazo}
+\usepackage{cfr-lm}
+
+\usepackage{perpage} %the perpage package
+\MakePerPage{footnote} %the perpage package command
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\usepackage[perpage,para,symbol]{footmisc}
 
 %\opt{newrules}{
 \title{The Child Support Appeal Tribunals (Procedure) Regulations 1992}
@@ -62,12 +69,6 @@
 
 \newcommand\amendment[1]{\subsubsection*{Notes}{\itshape\frenchspacing\footnotesize #1 \par}}
 
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-
-\usepackage[perpage,para,symbol]{footmisc}
-
 \begin{document}
 
 \maketitle
@@ -93,7 +94,7 @@ The Secretary of State for Social Security, in exercise of the powers conferred 
 
 “the Act” means the Child Support Act 1991;
 
-“Central Office” means the Central Office of Child Support Appeal Tribunals at Anchorage Two, Anchorage Quay, Salford Quays, Manchester, M5 2YN;
+“Central Office” means the Central Office of Child Support Appeal Tribunals at Anchorage Two, Anchorage Quay, Salford Quays, Manchester, \textsc{m5 2yn};
 
 “chairman”, subject to paragraph (3), means a person nominated under paragraph 3 of Schedule 3 to the Act and includes the President and any full-time chairman;
 

@@ -10,6 +10,13 @@
 %\usepackage[2012rules]{optional}
 
 \usepackage[osf]{mathpazo}
+\usepackage{cfr-lm}
+
+\usepackage{perpage} %the perpage package
+\MakePerPage{footnote} %the perpage package command
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\usepackage[perpage,para,symbol]{footmisc}
 
 %\opt{newrules}{
 \title{The Child Support Fees Regulations 1992}
@@ -62,12 +69,6 @@
 
 \newcommand\amendment[1]{\subsubsection*{Notes}{\itshape\frenchspacing\footnotesize #1 \par}}
 
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-
-\usepackage[perpage,para,symbol]{footmisc}
-
 \begin{document}
 
 \maketitle
@@ -105,7 +106,7 @@ Now, therefore, the Secretary of State for Social Security, in exercise of the p
 %Defns of ``earnings top-up'', ``the Earnings Top-up Scheme'' inserted (7.10.96) by SI 1996/1945 reg 5
 “earnings top-up” means the allowance paid by the Secretary of State under the rules specified in the Earnings Top-up Scheme;
 
-“the Earnings Top-up Scheme” means the Earnings Top-up Scheme 1996\footnote{\frenchspacing This Scheme, which applies only in certain parts of Great Britain, is an extra-statutory Scheme, introduced by the Secretary of State for Social Security, having effect on 8th October 1996. Copies of the rules of this Scheme may be obtained from the Customer Services Manager, Earnings Top-up, Norcross, Blackpool FY5 3TA.};
+“the Earnings Top-up Scheme” means the Earnings Top-up Scheme 1996\footnote{\frenchspacing This Scheme, which applies only in certain parts of Great Britain, is an extra-statutory Scheme, introduced by the Secretary of State for Social Security, having effect on 8th October 1996. Copies of the rules of this Scheme may be obtained from the Customer Services Manager, Earnings Top-up, Norcross, Blackpool \textsc{fy5 3ta}.};
 
 “Maintenance Assessment Procedure Regulations” means the Child Support (Maintenance Assessment Procedure) Regulations 1992\footnote{\frenchspacing S.I.1992/1813.};
 
