@@ -1,23 +1,11 @@
-\documentclass[a4paper]{article}
+\documentclass[a4paper,12pt]{article}
 
-\usepackage[welsh,english]{babel}
+\newcommand\regstitle{The Child Support (Maintenance Assessment Procedure) Regulations 1992}
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-
-%\usepackage[2012rules]{optional}
-
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-
-\usepackage[perpage,para,symbol]{footmisc}
-
-\usepackage[osf]{mathpazo}
-%\usepackage{cfr-lm}
+\newcommand\regsnumber{1992/1813}
 
 %\opt{newrules}{
-\title{The Child Support (Maintenance Assessment Procedure) Regulations 1992}
+\title{\regstitle}
 %}
 
 %\opt{2012rules}{
@@ -32,42 +20,7 @@
 %\opt{newrules}{\newcommand\versionyear{2003}}
 %\opt{2012rules}{\newcommand\versionyear{2012}}
 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhead[L]{}
-\fancyhead[C]{\itshape The Child Support (Maintenance Assessment Procedure) Regulations 1992 (S.I.~1992/1813) \parthead\phantom{...}% (\versionyear{} scheme version)
-}
-\fancyhead[R]{}
-\fancyfoot[C]{\thepage}
-\newcommand{\parthead}{}
-
-\usepackage{array}
-\usepackage{multirow}
-\usepackage[debugshow]{tabulary}
-\usepackage{longtable}
-\usepackage{multicol}
-\usepackage{lettrine}
-
-\usepackage[colorlinks=true]{hyperref}
-\usepackage{microtype}
-
-\hyphenation{Aw-dur-dod}
-\hyphenation{bank-rupt-cy}
-\hyphenation{Ec-cles-ton}
-\hyphenation{Eux-ton}
-\hyphenation{Hogh-ton}
-\hyphenation{Pres-ton}
-\hyphenation{Pru-den-tial}
-\hyphenation{Riv-ing-ton}
-
-\newcolumntype{x}[1]
-	{>{\raggedright}p{#1}}
-\newcommand{\tn}{\tabularnewline}
-\setlength\tymin{50pt}
-
-\newcommand\amendment[1]{\subsubsection*{Notes}{\itshape\frenchspacing\footnotesize #1 \par}}
-
-\setlength\headheight{22.91502pt}
+\usepackage{csa-regs}
 
 \begin{document}
 
@@ -309,7 +262,7 @@ an effective application for a maintenance assessment has been made the Secretar
 Words substituted in reg. 5(1), inserted in reg. 5(2) and reg. 5(2A) inserted (5.4.93) by the Child Support (Miscellaneous Amendments) Regulations 1993 reg. 2. 
 }
 
-\subsection[6. Response to notification of an application for a maintenance assessment]{Response to notification of an application for a maintenance assessment}
+\subsection[6. Response to notification of an application for a maintenance assessment]{\sloppy Response to notification of an application for a maintenance assessment}
 
 6.—(1) Any person who has received a maintenance enquiry form given or sent under regulation 5(2) shall complete that form in accordance with the Secretary of State’s instructions and return it to the Secretary of State within 14 days of its having been given or sent.
 
@@ -673,7 +626,9 @@ Reg. 8B substituted for reg. 8 (22.1.96) by the Child Support (Miscellaneous Ame
 
 ($d$) in respect of a Category A, Category B or Category C interim maintenance assessment, where the application of the provisions of sub-\hspace{0pt}paragraph ($a$), ($b$) or ($c$) would otherwise set an effective date for an interim maintenance assessment earlier than the end of a period of eight weeks from the date upon which—
 \begin{enumerate}\item[]
+\begin{sloppypar}
 (i) the maintenance enquiry form referred to in regulation 30(2)($a$)(i) was given or sent to an absent parent; or
+\end{sloppypar}
 
 (ii) the application made by an absent parent referred to in regulation 30(2)($b$)(i) was received by the Secretary of State,
 \end{enumerate}
@@ -690,7 +645,7 @@ in circumstances where that absent parent has complied with the provisions of re
 Reg. 8C substituted for reg. 8 (22.1.96) by the Child Support (Miscellaneous Amendments) (No. 2) Regulations 1995 reg. 16.
 }
 
-\subsection[8D. Miscellaneous provisions in relation to interim maintenance assessments]{Miscellaneous provisions in relation to interim maintenance assessments}
+\subsection[8D. Miscellaneous provisions in relation to interim maintenance assessments]{\sloppy Miscellaneous provisions in relation to interim maintenance assessments}
 
 8D.—(1) Subject to paragraph (2), where a maintenance assessment calculated in accordance with Part I of Schedule 1 to the Act is made following an interim maintenance assessment, the amount of child support maintenance assessment, the amount of child support maintenance payable in respect of the period after 18th April 1995, during which that interim maintenance assessment was in force shall be that fixed by the maintenance assessment.
 
@@ -1563,7 +1518,7 @@ Reg. 28 substituted (22.1.96) by the Child Support (Miscellaneous Amendments) (N
 
 (3) Where the Secretary of State receives such an application more than 28 days after the date of notification to the applicant of the maintenance assessment whose review he seeks, the Secretary of State may refer that application to a child support officer if he is satisfied that there was unavoidable delay.
 
-\section[Part VIII --- Commencement and termination of maintenance assessments and maintenance periods]{Part VIII\\*Commencement and termination of maintenance assessments and maintenance periods}
+\section[Part VIII --- Commencement and termination of maintenance assessments and maintenance periods]{\sloppy Part VIII\\*Commencement and termination of maintenance assessments and maintenance periods}
 
 \renewcommand\parthead{--- Part VIII}
 
@@ -2302,7 +2257,7 @@ Reg. 40A revoked (13.1.97) by the Child Support (Miscellaneous Amendments) (No. 
 Under the Child Support (Miscellaneous Amendments) (No. 2) Regulations 1996 reg. 16(3), reg. 40A (as shown below) continues to apply to a reduced benefit direction which as of 13.1.97 is suspended under its provisions:
 \begin{quotation}
 % Reg 40A inserted (22.1.96) by SI 1995/3261 reg 38
-\subsection*{\itshape Suspension of a reduced benefit direction where certain deductions are being made from income support}
+\subsection*{\sloppy \itshape Suspension of a reduced benefit direction where certain deductions are being made from income support}
 
 40A.—(1) A reduced benefit direction made after 22nd January 1996 shall be suspended where, on the date it is given, one or more of the deductions specified in paragraph (2) are being made from income support 
 or an income-based jobseeker’s allowance  % Words inserted (28.10.96) by SI 1996/2538 reg 6(3)
@@ -2428,11 +2383,11 @@ Words inserted in reg. 42(1), (2), words substituted in reg. 42(1), (2), (5), (6
 Words inserted in reg. 42(5) (18.4.95) by the Child Support and Income Support (Amendment) Regulations 1995 reg. 40.
 }
 
-\subsection[43. Termination of a reduced benefit direction where a maintenance assessment is made following an application by a child under section 7 of the Act]{Termination of a reduced benefit direction where a maintenance assessment is made following an application by a child under section 7 of the Act}
+\subsection[43. Termination of a reduced benefit direction where a maintenance assessment is made following an application by a child under section 7 of the Act]{\sloppy Termination of a reduced benefit direction where a maintenance assessment is made following an application by a child under section 7 of the Act}
 
 43.  Where a qualifying child of a parent with respect to whom a direction is in force applies for a maintenance assessment to be made with respect to him under section 7 of the Act, and an assessment is made in response to that application in respect of all of the qualifying children in relation to whom the parent concerned failed to comply with the obligations imposed by section 6 of the Act, that direction shall cease to be in force from the date determined in accordance with regulation 45.
 
-\subsection[44. Termination of a reduced benefit direction where a maintenance assessment is made following an application by an absent parent under section 4 of the Act]{Termination of a reduced benefit direction where a maintenance assessment is made following an application by an absent parent under section 4 of the Act}
+\subsection[44. Termination of a reduced benefit direction where a maintenance assessment is made following an application by an absent parent under section 4 of the Act]{\sloppy Termination of a reduced benefit direction where a maintenance assessment is made following an application by an absent parent under section 4 of the Act}
 
 44.  Where—
 \begin{enumerate}\item[]
@@ -2456,7 +2411,7 @@ that direction shall cease to be in force on the date determined in accordance w
 
 46.  Where a child support officer is satisfied that a direction was given as a result of an error on the part of the Secretary of State or a child support officer, or though not given as a result of such an error has not subsequently ceased to be in force as a result of such an error, the child support officer shall cancel the direction and it shall be treated as not having been given, or as having ceased to be in force on the date it would have ceased to be in force if that error had not been made, as the case may be.
 
-\subsection[47. Reduced benefit directions where there is an additional qualifying child]{Reduced benefit directions where there is an additional qualifying child}
+\subsection[47. Reduced benefit directions where there is an additional qualifying child]{\sloppy Reduced benefit directions where there is an additional qualifying child}
 
 47.—(1) Where a direction is in operation or would be in operation but for the provisions of regulation 40 
 or 40ZA  % Words inserted (7.10.96) by SI 1996/1345 reg 5(11)
@@ -2710,7 +2665,7 @@ Signed by authority of the Secretary of State for Social Security.
 
 20th July 1992
 
-\clearpage
+\small
 
 \part*{S C H E D U L E S}
 
@@ -2927,7 +2882,9 @@ with respect to the same absent parent, those applications shall, if the parent 
 \end{enumerate}
 the child support officer shall proceed with the application of the person who does not fall to be treated as an absent parent under the provisions of regulation 20 of those Regulations.
 
+\begin{sloppypar}
 (10) Where, in a case falling within sub-paragraph (9), there is more than one person who does not fall to be treated as an absent parent under the provisions of regulation 20 of those Regulations, the child support officer shall apply the provisions of paragraph (11) to determine which application he shall proceed with.
+\end{sloppypar}
 
 (11) Where—
 \begin{enumerate}\item[]

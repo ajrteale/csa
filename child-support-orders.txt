@@ -48,10 +48,9 @@ S.I.
 1996/2630	The Child Support Act 1995 (Commencement No 3) Order 1996
 1996/2907	The Child Support Departure Direction and Consequential Amendments Regulations 1996
 1996/3195	The Social Security (Child Maintenance Bonus) Regulations 1996
-
 1996/3196	The Child Support (Miscellaneous Amendments) (No 2) Regulations 1996
-
 1997/645	The Child Maintenance Bonus (Northern Ireland Reciprocal Arrangements) Regulations 1997
+
 1997/802	The Child Support Commissioners (Procedure) (Amendment) Regulations 1997
 1997/827	The Social Security and Child Support (Miscellaneous Amendments) Regulations 1997
 1997/955	The Social Security (Adjudication) and Commissioners Procedure and Child Support Commissioners (Procedure) Amendment Regulations 1997
@@ -155,3 +154,4 @@ S.I.
 2012/3042	The Child Maintenance and Other Payments Act 2008 (Commencement No 10 and Transitional Provisions) Order 2012
 2013/1517	The Child Support (Miscellaneous Amendments) Regulations 2013
 2013/1654	The Child Support and Claims and Payments (Miscellaneous Amendments and Change to the Minimum Amount of Liability) Regulations 2013
+2013/1860	The Child Maintenance and Other Payments Act 2008 (Commencement No 11 and Transitional Provisions) Order 2013

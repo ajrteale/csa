@@ -1,23 +1,11 @@
-\documentclass[a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 
-\usepackage[welsh,english]{babel}
+\newcommand\regstitle{The Child Support (Maintenance Assessments and Special Cases) Regulations 1992}
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-
-%\usepackage[2012rules]{optional}
-
-\usepackage[osf]{mathpazo}
-%\usepackage{cfr-lm}
-
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-
-\usepackage[perpage,para,symbol]{footmisc}
+\newcommand\regsnumber{1992/1815}
 
 %\opt{newrules}{
-\title{The Child Support (Maintenance Assessments and Special Cases) Regulations 1992}
+\title{\regstitle}
 %}
 
 %\opt{2012rules}{
@@ -32,43 +20,7 @@
 %\opt{newrules}{\newcommand\versionyear{2003}}
 %\opt{2012rules}{\newcommand\versionyear{2012}}
 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhead[L]{}
-\fancyhead[C]{\itshape The Child Support (Maintenance Assessments and Special Cases) Regulations 1992 (S.I.~1992/1815) \parthead\phantom{...}% (\versionyear{} scheme version)
-}
-\fancyhead[R]{}
-\fancyfoot[C]{\thepage}
-\newcommand{\parthead}{}
-
-\usepackage{array}
-\usepackage{multirow}
-\usepackage[debugshow]{tabulary}
-\usepackage{longtable}
-\usepackage{multicol}
-\usepackage{lettrine}
-
-\usepackage[colorlinks=true]{hyperref}
-\usepackage{microtype}
-
-\hyphenation{Aw-dur-dod}
-\hyphenation{bank-rupt-cy}
-\hyphenation{def-in-i-tion}
-\hyphenation{Ec-cles-ton}
-\hyphenation{Eux-ton}
-\hyphenation{Hogh-ton}
-\hyphenation{Pres-ton}
-\hyphenation{Pru-den-tial}
-\hyphenation{Riv-ing-ton}
-
-\newcolumntype{x}[1]
-	{>{\raggedright}p{#1}}
-\newcommand{\tn}{\tabularnewline}
-\setlength\tymin{50pt}
-
-\newcommand\amendment[1]{\subsubsection*{Notes}{\itshape\frenchspacing\footnotesize #1 \par\goodbreak}}
-
-\setlength\headheight{22.91502pt}
+\usepackage{csa-regs}
 
 \begin{document}
 
@@ -1418,7 +1370,7 @@ In paragraph (2) and (2A) % Words substituted in reg 23(3) (7.2.94) by SI 1994/2
 Words substituted in reg. 23(2) (7.4.97) by the Child Benefit, Child Support and Social Security (Miscellaneous Amendments) Regulations 1996 reg. 14 (subject to transitional provisions in reg. 49).
 }
 
-\subsection[24. Persons with part-time care—not including a person treated as an absent parent]{\sloppy \textls[25]{Persons with part-time care—not including a person} treated as an absent parent}
+\subsection[24. Persons with part-time care—not including a person treated as an absent parent]{Persons with part-time care—not including a person treated as an absent parent}
 
 24.—(1) Where the circumstances of a case are that—
 \begin{enumerate}\item[]
@@ -1603,6 +1555,8 @@ Signed by authority of the Secretary of State for Social Security.
 20th July 1992
 
 \clearpage
+
+\small
 
 \part*{S C H E D U L E S}
 
@@ -1913,7 +1867,7 @@ Under the Child Support (Miscellaneous Amendments) (No. 2) Regulations 1996 reg.
 (2) 
 %Where 
 Subject to sub-paragraph (2A), where  % Words substituted (18.4.95) by SI 1995/1045 reg 54(9)($b$)(i)
-a person who is a self-employed earner provides in respect of the employment a profit and loss account and, where appropriate, a trading account or a balance sheet or both, and the profit and loss account is in respect of a period at least 6 months but not exceeding 15 months and that period terminates within the 
+a person who is a self-\hspace{0pt}employed earner provides in respect of the employment a profit and loss account and, where appropriate, a trading account or a balance sheet or both, and the profit and loss account is in respect of a period at least 6 months but not exceeding 15 months and that period terminates within the 
 %12 months 
 24 months  % Words substituted (18.4.95) by SI 1995/1045 reg 54(9)($b$)(ii)
 immediately preceding the effective date, the amount of his earnings shall be determined by reference to the average of the earnings over the period to which the profit and loss account relates and such earnings shall include receipts relevant to that period (whether or not received in that period).
@@ -1974,7 +1928,9 @@ Words inserted in para. 6(2) (7.10.96) by the Social Security and Child Support 
 \end{enumerate}
 
 % Para 7(1A) inserted (7.10.96) by SI 1996/1345 reg 6(4)(a)
-(1A) For the purposes of sub-paragraph (1), an addition to a contribution-based jobseeker’s allowance under regulation 9(4) of the Jobseeker’s Allowance (Transitional Provisions) Regulations 1995\footnote{\frenchspacing S.I. 1995/3276.} shall be treated as a dependency increase included with a benefit under the Contributions and Benefits Act.
+\begin{sloppypar}
+(1A) For the purposes of sub-paragraph (1), an addition to a contribution\hspace{0pt}-\hspace{0pt}based jobseeker’s allowance under regulation 9(4) of the Jobseeker’s Allowance (Transitional Provisions) Regulations 1995\footnote{\frenchspacing S.I. 1995/3276.} shall be treated as a dependency increase included with a benefit under the Contributions and Benefits Act.
+\end{sloppypar}
 
 (2) Subject to sub-paragraph (3), payments to a person by way of family credit shall be treated as the income of the parent who has qualified for them by his engagement in, and normal engagement in, remunerative work.
 
@@ -2130,7 +2086,7 @@ Words inserted in para. 15 (7.10.96) by the Child Support (Miscellaneous Amendme
 \begin{enumerate}\item[]
 ($a$) not more than £500 shall be deducted under sub-paragraph (3)($b$);
 
-($b$) not more than £1000 in total shall be deducted under sub-paragraphs (3)($b$) and ($c$).
+($b$) not more than £1000 in total shall be deducted under sub-\hspace{0pt}paragraphs (3)($b$) and ($c$).
 \end{enumerate}
 
 (5) Where in respect of the period of 52 weeks which ends at the end of the relevant week a person is in receipt of interest, dividend or other income which has been produced by his capital, the amount of that income shall be calculated by dividing the aggregate of the income so received by 52.
@@ -2191,7 +2147,7 @@ Words substituted in para. 20($a$)(ii), ($b$) (7.4.97) by the Child Benefit, Chi
 ---(1)  % Para 22 renumbered as para 22(1) (7.10.96) by SI 1996/1456 reg 6(4)(b)
   Where a benefit under the Contributions and Benefits Act includes an adult or child dependency increase in respect of a relevant child, the relevant income of that child shall be calculated or estimated as if it included that amount.
 
-(1A) For the purposes of sub-paragraph (1), an addition to a contribution-based jobseeker’s allowance under regulation 9(4) of the Jobseeker’s Allowance (Transitional Provisions) Regulations 1995 shall be treated as a dependency increase included with a benefit under the Contributions and Benefits Act.
+(1A) For the purposes of sub-paragraph (1), an addition to a contribution\hspace{0pt}-based jobseeker’s allowance under regulation 9(4) of the Jobseeker’s Allowance (Transitional Provisions) Regulations 1995 shall be treated as a dependency increase included with a benefit under the Contributions and Benefits Act.
 
 \amendment{
 Para. 22 renumbered as para. 22(1) and para. 22(1A) inserted (7.10.96) by the Social Security and Child Support (Jobseeker's Allowance) (Consequential Amendments) Regulations 1996 reg. 6(4)($b$).
@@ -2840,7 +2796,7 @@ Words substituted in para. 2 (18.4.95) by the Child Support and Income Support (
 Para. 2A inserted (18.4.95) by the Child Support and Income Support (Amendment) Regulations 1995 reg. 56(4).
 }
 
-\subsection*{Exempt income: additional provisions relating to eligible housing costs}
+\subsection*{\sloppy Exempt income: additional provisions relating to eligible housing costs}
 
 3.—(1) The additional provisions made by this paragraph shall have effect only for the purpose of calculating or estimating exempt income.
 
@@ -3086,7 +3042,7 @@ Sch. 3A inserted (18.4.95) by the Child Support and Income Support (Amendment) R
 ($b$) to the absent parent were references to the parent with care.
 \end{enumerate}
 
-\subsection*{Evidence to be produced in connection with the allowance for transfers of property}
+\subsection*{\sloppy Evidence to be produced in connection with the allowance for transfers of property}
 
 2.—(1) Where the absent parent produces to the Secretary of State—
 \begin{enumerate}\item[]
