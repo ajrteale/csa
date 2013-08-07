@@ -1,27 +1,12 @@
-\documentclass[a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 
-\usepackage[welsh,english]{babel}
+\newcommand\regstitle{The Child Support Departure Direction and Consequential Amendments
+Regulations 1996}
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-
-\usepackage{textcomp}
-
-%\usepackage[2012rules]{optional}
-
-\usepackage{lmodern}
-\usepackage[osf]{mathpazo}
-%\usepackage{cfr-lm}
-
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-
-\usepackage[perpage,para,symbol]{footmisc}
+\newcommand\regsnumber{1996/2907}
 
 %\opt{newrules}{
-\title{The Child Support Departure Direction and Consequential Amendments
-Regulations 1996}
+\title{\regstitle}
 %}
 
 %\opt{2012rules}{
@@ -30,53 +15,15 @@ Regulations 1996}
 
 \author{S.I. 1996 No. 2907}
 
-\date{Made 20th November 1996\\Coming into force 2nd December 1996
-}
+\date{Made 20th November 1996\\Coming into force 2nd December 1996}
 
 %\opt{oldrules}{\newcommand\versionyear{1993}}
 %\opt{newrules}{\newcommand\versionyear{2003}}
 %\opt{2012rules}{\newcommand\versionyear{2012}}
 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhead[L]{}
-\fancyhead[C]{\itshape The Child Support Departure Direction and Consequential
-Amendments Regulations 1996 (S.I.~1996/2907) \parthead%\phantom{...}%(\versionyear{} scheme version)
-}
-\fancyhead[R]{}
-\fancyfoot[C]{\thepage}
-\newcommand{\parthead}{}
+\usepackage{csa-regs}
 
-\usepackage{array}
-\usepackage{multirow}
-\usepackage[debugshow]{tabulary}
-\usepackage{longtable}
-\usepackage{multicol}
-\usepackage{lettrine}
-
-\usepackage[colorlinks=true]{hyperref}
-\usepackage{microtype}
-
-\hyphenation{Aw-dur-dod}
-\hyphenation{bank-rupt-cy}
-\hyphenation{Ec-cles-ton}
-\hyphenation{Eux-ton}
-\hyphenation{Hogh-ton}
-\hyphenation{Pres-ton}
-\hyphenation{Pru-den-tial}
-\hyphenation{Riv-ing-ton}
-
-\newcolumntype{x}[1]
-	{>{\raggedright}p{#1}}
-\newcommand{\tn}{\tabularnewline}
-\setlength\tymin{50pt}
-
-\newcommand\amendment[1]{\subsubsection*{Notes}{\itshape\frenchspacing\footnotesize
-#1 \par}}
-
-\setlength\headheight{22.91502pt}
-
-\newcommand\fnote[1]{\footnote{\frenchspacing #1}}
+\setlength\headheight{27.57402pt}
 
 \begin{document}
 
@@ -249,7 +196,7 @@ exceeds one half and shall be otherwise disregarded.
 
 \renewcommand\parthead{--- Part II}
 
-\subsection[4, Application for a departure direction]{Application for a departure direction}
+\subsection[4. Application for a departure direction]{Application for a departure direction}
 
 4.—(1) Every application shall
 be made in writing on a form (a “departure direction application form”) provided
@@ -375,7 +322,8 @@ rejection to the relevant persons.
 
 8.—(1) Subject to
 paragraph (4), where an application has not failed within the meaning of section
-28D of the Act, the Secretary of State shall—
+28D of the Act, the Secretary of State shall%
+, unless he is satisfied on the information or evidence available to him that a departure direction is unlikely to be given—  % Words inserted (18.1.98) by SI 1998/58 reg 7(2)
 \begin{enumerate}\item[]
 ($a$) give notice of that application to the relevant persons other than the
 applicant;
@@ -432,6 +380,9 @@ or evidence requested in accordance with regulation 6 has not been received by
 the Secretary of State within the period specified in paragraph (2) of that
 regulation and the Secretary of State is satisfied on the information or
 evidence available to him that a departure direction should not be given.
+
+% Reg 8(4A) inserted (18.1.98) by SI 1998/58 reg 7(3)
+(4A) Where the provisions of paragraph (1) have not been complied with because the Secretary of State was satisfied on the information or evidence available to him that a departure direction was unlikely to be given, but on further consideration of the application he is minded to give a departure direction in that case, he shall, before doing so, comply with the provisions of this regulation.
 
 (5) Where the Secretary of State does not receive written representations from a
 relevant person within 14 days of the date on which representations were invited
@@ -496,23 +447,60 @@ of the Act where, after the determination of that application, he receives
 further information or evidence which he is satisfied is relevant to that
 application.
 
-\subsection[9. Departure directions and persons in receipt of income support or income-based
-jobseeker’s allowance]{Departure directions and persons in receipt of income support or income-based
-jobseeker’s allowance}
+\amendment{
+Words inserted in reg. 8(1) and reg. 8(4A) inserted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 7.
+}
 
-9.—(1) The costs referred to in regulations 13 to 18 shall
-not constitute special expenses where they are incurred by a person to or in
-respect of whom income support or income-based jobseeker’s allowance is paid.
+%\subsection[9. Departure directions and persons in receipt of income support or income-based
+%jobseeker’s allowance]{Departure directions and persons in receipt of income support or income-based
+%jobseeker’s allowance}
+%
+%9.—(1) The costs referred to in regulations 13 to 18 shall
+%not constitute special expenses where they are incurred by a person to or in
+%respect of whom income support or income-based jobseeker’s allowance is paid.
+%
+%(2) A transfer shall not constitute a transfer of property for the purposes of
+%paragraph 3(1)($b$) or 4(1)($b$) of Schedule 4B to the Act, or of regulations 21 and
+%22, where the application is made by an absent parent to or in respect of whom
+%income support or income-based jobseeker’s allowance is paid at the time that
+%application is made.
+%
+%(3) A case shall not constitute a case under regulations 23 to 29 where the
+%application is made by an absent parent to or in respect of whom income support
+%or income-based jobseeker’s allowance is paid.
 
-(2) A transfer shall not constitute a transfer of property for the purposes of
-paragraph 3(1)($b$) or 4(1)($b$) of Schedule 4B to the Act, or of regulations 21 and
-22, where the application is made by an absent parent to or in respect of whom
-income support or income-based jobseeker’s allowance is paid at the time that
-application is made.
+% Reg 9 substituted (18.1.98) by SI 1998/58 reg 8
+\subsection[9. Departure directions and persons in receipt of income support, income-based jobseeker’s allowance, family credit or disability working allowance]{Departure directions and persons in receipt of income support, income-based jobseeker’s allowance, family credit or disability working allowance}
 
-(3) A case shall not constitute a case under regulations 23 to 29 where the
-application is made by an absent parent to or in respect of whom income support
-or income-based jobseeker’s allowance is paid.
+9.—(1) The costs referred to in regulations 13 to 18 shall not constitute special expenses where they are or were incurred—
+\begin{enumerate}\item[]
+($a$) by an absent parent to or in respect of whom income support or income-based jobseeker’s allowance is or was in payment at the date on which any departure direction given in response to that application would take effect;
+
+($b$) by a person with care to or in respect of whom income support, income-based jobseeker’s allowance, family credit or disability working allowance is or was in payment at the date on which any departure direction given in response to that application would take effect; or
+
+($c$) by a person with care where, at the date on which any departure direction given in response to that application would take effect, income support or income-based jobseeker’s allowance is or was in payment to or in respect of the absent parent of the child or children in relation to whom the maintenance assessment in question is made.
+\end{enumerate}
+
+(2) A transfer shall not constitute a transfer of property for the purposes of paragraph 3(1)($b$) or 4(1)($b$) of Schedule 4B to the Act, or of regulations 21 and 22, where the application is made—
+\begin{enumerate}\item[]
+($a$) by an absent parent to or in respect of whom income support or income-based jobseeker’s allowance is or was in payment at the date on which any departure direction given in response to that application would take effect;
+
+($b$) by a person with care and, at the date on which any departure direction given in response to that application would take effect, income support or income-based jobseeker’s allowance is or was in payment to or in respect of the absent parent of the child or children in relation to whom the maintenance assessment in question is made.
+\end{enumerate}
+
+(3) A case shall not constitute a case under regulations 23 to 29 where the application is made—
+\begin{enumerate}\item[]
+($a$) by an absent parent to or in respect of whom income support or income-based jobseeker’s allowance is or was in payment at the date on which any departure direction given in response to that application would take effect;
+
+($b$) by an absent parent where, at the date on which any departure direction given in response to that application would take effect, income support, income-based jobseeker’s allowance, family credit or disability working allowance is or was in payment to or in respect of the person with care of the child or children in relation to whom the maintenance assessment in question is made;
+
+($c$) by a person with care where, at the date on which any departure direction given in response to that application would take effect, income support or income-based jobseeker’s allowance is or was in payment to or in respect of the absent parent of the child or children in relation to whom the maintenance assessment is made.
+\end{enumerate}
+
+
+\amendment{
+Reg. 9 substituted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 8.
+}
 
 \subsection[10. Departure directions and interim maintenance assessments]{Departure directions and interim maintenance assessments}
 
@@ -540,14 +528,36 @@ assessment).
 
 \subsection[11. Departure application and review under section 17 of the Act]{Departure application and review under section 17 of the Act}
 
-11. Where the
-effective date of any fresh assessment made on completion of a review under
-section 17 of the Act\footnote{\frenchspacing Section 17 of the Child Support Act 1991 was amended by section 12 of the Child Support Act 1995.} is later than the effective date of any departure
-direction given in response to an application for a direction, the provisions of
-regulations 20, 21 and 22 of the Maintenance Assessment Procedure Regulations
-shall apply to that review as if for references in those regulations to the
-original assessment there were substituted references to the fresh assessment
-made in consequence of the departure direction.
+11. Where the effective date of any fresh assessment made on completion of a review under section 17 
+%of the Act\footnote{\frenchspacing Section 17 of the Child Support Act 1991 was amended by section 12 of the Child Support Act 1995.} is 
+of the Act\footnote{\frenchspacing Section 17 of the Child Support Act 1991 was amended by section 12 of the Child Support Act 1995.} would be  % Words substituted (18.1.98) by SI 1998/58 reg 9
+later than the effective date of any departure direction given in response to an application for a direction, the provisions of regulations 20, 21 and 22 of the Maintenance Assessment Procedure Regulations shall apply to that review as if for references in those regulations to the original assessment there were substituted references to the fresh assessment made in consequence of the departure direction.
+
+\amendment{
+Words substituted in reg. 11 (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 9.
+}
+
+% Reg 11A inserted (18.1.98) by SI 1998/58 reg 10
+\subsection[11A. Meaning of “current assessment” for the purposes of the Act]{Meaning of “current assessment” for the purposes of the Act}
+
+11A.  Where—
+\begin{enumerate}\item[]
+($a$) an application under section 28A of the Act has been made in respect of a current assessment;
+
+($b$) after the making of that application that current assessment has been reviewed under section 16, 17, 18 or 19 of the Act, whether or not that review was initiated by a reference under section 28B(4) of the Act; and
+
+($c$) following that review, a fresh maintenance assessment has been made—
+\begin{enumerate}\item[]
+(i) the effective date of which is the same as the effective date of that current assessment; or
+
+(ii) which takes effect on the correct date applicable to that current assessment in circumstances where that current assessment has been reviewed on grounds which include the ground that its effective date was incorrect,
+\end{enumerate}
+\end{enumerate}
+references to the current assessment in sections 28B(3), 28C(2)($a$) and 28F(5) of, and in paragraph 8 of Schedule 4A and paragraphs 2, 3 and 4 of Schedule 4B to, the Act shall have effect as if they were references to that fresh maintenance assessment.
+
+\amendment{
+Reg. 11A inserted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 10.
+}
 
 \subsection[12. Meaning of “benefit” for the purposes of section 28E of the Act]{Meaning of “benefit” for the purposes of section 28E of the Act}
 
@@ -692,7 +702,9 @@ practitioner;
 (1) to be unreasonably high or to have been unreasonably incurred he may
 substitute such lower amount as he considers reasonable, including a nil amount.
 
-(3) Where—
+(3) 
+Subject to paragraph (4A),  % Words inserted (18.1.98) by SI 1998/58 reg 11(2)
+where—
 \begin{enumerate}\item[]
 ($a$) an applicant or his dependant has, at the date an application is made,
 received, or at that date is in receipt of, financial assistance from any source
@@ -707,11 +719,9 @@ sub-paragraph ($a$) and, where applicable, the allowance referred to in
 sub-paragraph ($b$) shall constitute special expenses for the purposes of
 paragraph 2(2) of Schedule 4B to the Act.
 
-(4) Where the Secretary of State considers that a person who has made an
-application in respect of special expenses falling within paragraph (1) or his
-dependant may be entitled to disability living allowance under section 71 of the
-Contributions and Benefits Act or attendance allowance under section 64 of that
-Act—
+(4) 
+Subject to paragraph (4A),  % Words inserted (18.1.98) by SI 1998/58 reg 11(2)
+where the Secretary of State considers that a person who has made an application in respect of special expenses falling within paragraph (1) or his dependant may be entitled to disability living allowance under section 71 of the Contributions and Benefits Act or attendance allowance under section 64 of that Act—
 \begin{enumerate}\item[]
 ($a$) if that applicant or his dependant has at the date of that application, or
 within a period of six weeks beginning with the giving or sending to him of
@@ -728,6 +738,9 @@ made by that applicant on the basis that that applicant has income equivalent to
 the highest rate prescribed in respect of that allowance by or under those
 sections.
 \end{enumerate}
+
+% Reg 15(4A) inserted (18.1.98) by SI 1998/58 reg 11(3)
+(4A) Paragraphs (3) and (4) shall not apply where the dependant of an applicant is adjudged eligible for either of the allowances referred to in paragraph (4) and in all the circumstances of the case the Secretary of State considers that the costs being met by the applicant in respect of the items listed in paragraph (1) shall constitute special expenses for the purposes of paragraph 2(2) of Schedule 4B to the Act without the deductions in paragraph (3) being made.
 
 (5) For the purposes of this regulation, a dependant of an applicant shall be—
 \begin{enumerate}\item[]
@@ -764,6 +777,10 @@ weeks, for the rest of the life of that applicant or his dependant;
 Health Service Act 1977\footnote{\frenchspacing 1977 c. 49.} or in section 108(1) of the National Health Service
 (Scotland) Act 1978\footnote{\frenchspacing 1978 c. 29.}.
 \end{enumerate}
+
+\amendment{
+Words inserted in reg. 15(3), (4) and reg. 15(4A) inserted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 11.
+}
 
 \subsection[16. Debts incurred before the absent parent became an absent parent]{Debts incurred before the absent parent became an absent parent}
 
@@ -888,51 +905,56 @@ the home.
 
 \subsection[17. Pre-1993 financial commitments]{Pre-1993 financial commitments}
 
-17.—(1) A financial commitment entered into by an
-absent parent before 5th April 1993, except any commitment of a kind listed in
-paragraph (2)($b$) to ($g$) and ($j$) of regulation 16 or which has been wholly or
-partly taken into account in the calculation of a maintenance assessment shall
-constitute expenses for the purposes of paragraph 2(2) of Schedule 4B to the Act
-where—
+17.—(1) A financial commitment entered into by an absent parent before 5th April 1993, except any commitment of a kind listed in paragraph (2)($b$) to ($g$) and ($j$) of regulation 16 or which has been wholly or partly taken into account in the calculation of a maintenance assessment shall constitute expenses for the purposes of paragraph 2(2) of Schedule 4B to the Act where—
 \begin{enumerate}\item[]
-($a$) there was in force on 5th April 1993 and at the date that commitment was
-entered into, a court order or maintenance agreement made before 5th April 1993
-in respect of that absent parent and every child in respect of whom, before that
-date, he was, or was found, or adjudged to be, the parent; and
+($a$) there was in force on 5th April 1993 and at the date that commitment was entered into, 
+%a court order or 
+a maintenance order or a written  % Words substituted (18.1.98) by SI 1998/58 reg 12(2)(a)
+maintenance agreement made before 5th April 1993 in respect of that absent parent and every child in respect of whom, before that date, he was, or was found, or adjudged to be, the parent; 
+%and  % Word omitted (18.1.98) by SI 1998/58 reg 12(2)(a)
+
+% Reg 17(1)(aa) inserted (18.1.98) by SI 1998/58 reg 12(2)(b)
+($aa$) at least one of the children referred to in sub-paragraph ($a$) is a child in respect of whom the current assessment was made; and
 
 ($b$) the Secretary of State is satisfied that it is impossible for the absent
 parent to withdraw from that commitment or unreasonable to expect him to do so.
 \end{enumerate}
 
-(2) For the purposes of paragraph (1)—
-\begin{enumerate}\item[]
-($a$) “court order” means an order made under the enactments listed in or
-prescribed under section 8(11) of the Act, for the making or securing the making
-of financial provision for the benefit of a child in respect of whom the current
-assessment was made;
+% Reg 17(2) omitted (18.1.98) by SI 1998/58 reg 12(3)
+%(2) For the purposes of paragraph (1)—
+%\begin{enumerate}\item[]
+%($a$) “court order” means an order made under the enactments listed in or prescribed under section 8(11) of the Act, for the making or securing the making of financial provision for the benefit of a child in respect of whom the current assessment was made;
+%
+%($b$) “maintenance agreement” means an agreement in writing for the making or securing the making of financial provision for the benefit of a child in respect of whom the current assessment was made.
+%\end{enumerate}
 
-($b$) “maintenance agreement” means an agreement in writing for the making or
-securing the making of financial provision for the benefit of a child in respect
-of whom the current assessment was made.
-\end{enumerate}
+\amendment{
+Words substituted and omitted in reg. 17(1)(a), reg. 17(1)(aa) inserted and reg. 17(2) omitted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 12.
+}
 
 \subsection[18. Costs incurred in supporting certain children]{Costs incurred in supporting certain children}
 
-18.—(1) The costs incurred by a
-parent in supporting a child who is not his child but who is part of his family
-(a “relevant child”) shall constitute special expenses for the purposes of
-paragraph 2(2) of Schedule 4B to the Act if the conditions set out in paragraph
-(2) are satisfied and shall, if those conditions are satisfied, equal the amount
-specified in paragraph (3).
+18.—(1) The costs incurred by a parent in supporting a child who is not his child but who is part of his family 
+and who was, at the date on which any departure direction given in response to an application under this regulation would take effect, living in the same household as that parent  % Words inserted (18.1.98) by SI 1998/58 reg 13(2)
+(a “relevant child”) shall constitute special expenses for the purposes of paragraph 2(2) of Schedule 4B to the Act if the conditions set out in paragraph (2) are satisfied and shall, if those conditions are satisfied, equal the amount specified in paragraph (3).
 
 (2) The conditions referred to in paragraph (1) are—
 \begin{enumerate}\item[]
-($a$) the child became a relevant child prior to 5th April 1993;
+%($a$) the child became a relevant child prior to 5th April 1993;
 
-($b$) subject to paragraph (7), the liability of the absent parent of a relevant
-child to pay maintenance to or for the benefit of that child under a court
-order, a written maintenance agreement or a maintenance assessment is less than
-the amount specified in paragraph (4), or there is no such liability; and
+% Reg 18(2)(a) substituted (18.1.98) by SI 1998/58 reg 13(3)(a)
+($a$) the child became a relevant child prior to 5th April 1993 and has remained a relevant child for the whole of the period from that date to the date on which any departure direction given in response to an application under this regulation would take effect;
+
+%($b$) subject to paragraph (7), the liability of the absent parent of a relevant child to pay maintenance to or for the benefit of that child under a court order, a written maintenance agreement or a maintenance assessment is less than the amount specified in paragraph (4), or there is no such liability; and
+
+% Reg 18(2)(b) substituted (18.1.98) by SI 1998/58 reg 13(3)(b)
+($b$) subject to paragraph (7)—
+\begin{enumerate}\item[]
+(i) the liability of the absent parent of a relevant child to pay maintenance to or for the benefit of that child under a maintenance order, a written maintenance agreement or a maintenance assessment; or
+
+(ii) any deduction from benefit under section 43 of the Act in place of payment of child support maintenance to or for the benefit of that child,
+\end{enumerate}
+is less than the amount specified in paragraph (4), or there is no such liability or deduction; and
 
 ($c$) the net income of the parent’s current partner where the relevant child is
 the child of that partner, calculated in accordance with paragraph (5), is less
@@ -940,32 +962,49 @@ than the amount calculated in accordance with paragraph (6) (“the partner’s
 outgoings”).
 \end{enumerate}
 
-(3) The amount referred to in paragraph (1) constituting special expenses for a
-case falling within this regulation is the difference between the amount
-specified in paragraph (4) and, subject to paragraph (7), the liability of the
-absent parent of a relevant child to pay maintenance of a kind mentioned in
-paragraph (2)($b$), and if there is no such liability is the amount specified in
-paragraph (4).
+(3) 
+Subject to paragraph (7A),  % Words inserted (18.1.98) by SI 1998/58 reg 13(4)(a)
+the amount referred to in paragraph (1) constituting special expenses for a case falling within this regulation is the difference between the amount specified in paragraph (4) and, subject to paragraph (7), the liability of the absent parent of a relevant child to pay maintenance of a kind mentioned in paragraph (2)($b$)%
+(i) or any deduction from benefit mentioned in paragraph (2)($b$)(ii)% Words inserted (18.1.98) by SI 1998/58 reg 13(4)(b)
+, and if there is no such liability 
+or deduction  % Words inserted (18.1.98) by SI 1998/58 reg 13(4)(c)
+is the amount specified in paragraph (4).
 
-(4) The amount referred to in paragraphs (2)($b$) and (3) is the aggregate of—
+(4) 
+Subject to paragraphs (4A) and (4B),  % Words inserted (18.1.98) by SI 1998/58 reg 13(5)(a)
+the amount referred to in paragraphs (2)($b$) and (3) is the aggregate of—
 \begin{enumerate}\item[]
 ($a$) an amount in respect of each relevant child equal to the personal allowance
 for that child specified in column (2) of paragraph 2 of the relevant Schedule
 (income support personal allowance);
 
-($b$) if the conditions set out in paragraph 14($b$) and ($c$) that Schedule (income
-support disabled child premium) are satisfied in respect of a relevant child, an
-amount equal to the amount specified in column (2) of paragraph 15(6) of that
-Schedule in respect of each such child;
+($b$) if the conditions set out in paragraph 14($b$) and ($c$) 
+of  % Word inserted (18.1.98) by SI 1998/58 reg 13(5)(b)
+that Schedule (income support disabled child premium) are satisfied in respect of a relevant child, an amount equal to the amount specified in column (2) of paragraph 15(6) of that Schedule in respect of each such child;
+and  % Word inserted (18.1.98) by SI 1998/58 reg 13(5)(b)
 
-($c$) an amount equal to the income support family premium specified in paragraph 3
-of that Schedule that would be payable if the parent were a claimant, except
-where the family includes other children of the parent; and
+%($c$) an amount equal to the income support family premium specified in paragraph 3 of that Schedule that would be payable if the parent were a claimant, except where the family includes other children of the parent; and
 
-($d$) an amount equal to the income support lone parent premium specified in column
-(2) of paragraph 15(1) of that Schedule that would be payable, if the parent
-were a claimant, except where the family includes children of the parent.
+% Reg 18(4)(c) substituted (18.1.98) by SI 1998/58 reg 13(5)(c)
+%($c$) except where the family includes other children of the parent, an amount equal to the income support family premium—
+%\begin{enumerate}\item[]
+%(i) specified in sub-paragraph ($a$) of paragraph 3 of that Schedule where, if the applicant were a claimant, the rate of income support family premium specified in that sub-paragraph would be applicable to him; or
+%
+%(ii) specified in paragraph 3($b$) in all other cases.
+%\end{enumerate}
+
+% Reg 18(4)(c) substituted (6.4.98) by SI 1998/58 reg 14
+($c$) except where the family includes other children of the parent, an amount equal to the income support family premium specified in paragraph 3(1)($b$) of that Schedule that would be payable if the parent were a claimant.
+
+% Reg 18(4)(d) omitted (18.1.98) by SI 1998/58 reg 13(5)(d)
+
+%($d$) an amount equal to the income support lone parent premium specified in column (2) of paragraph 15(1) of that Schedule that would be payable, if the parent were a claimant, except where the family includes children of the parent.
 \end{enumerate}
+
+% Reg 18(4A), (4B) inserted (18.1.98) by SI 1998/58 reg 13(6)
+(4A) Where day to day care of the relevant child is shared between the current partner of the person making an application under this regulation and the other parent of that child, the amounts referred to in paragraph (4) shall be reduced by the proportion of those amounts which is the same as the proportion of the week in respect of which the child is not living in the same household as the applicant.
+
+(4B) Where an application under paragraph (1) is made in respect of more than one relevant child and the family does not include any other children of the parent, the amount applicable under sub-paragraph ($c$) of paragraph (4) in respect of each relevant child shall be calculated by dividing the amount referred to in that sub-paragraph by the number of relevant children in respect of whom that application is made.
 
 (5) For the purposes of paragraph (2)($c$), the net income of the parent’s partner
 shall be the aggregate of—
@@ -981,40 +1020,56 @@ were an absent parent to whom that regulation applied;
 each relevant child.
 \end{enumerate}
 
-(6) For the purposes of paragraph (2)($c$), a current partner’s outgoings shall be
-the aggregate of—
+(6) For the purposes of paragraph (2)($c$), a current partner’s outgoings shall be the aggregate of—
 \begin{enumerate}\item[]
-($a$) an amount equal to the amount specified in column (2) of paragraph 1(1)($e$) of
-the relevant Schedule (income support personal allowance for a single claimant
-aged not less than 25);
+($a$) an amount equal to the amount specified in column (2) of paragraph 1(1)($e$) of the relevant Schedule (income support personal allowance for a single claimant aged not less than 25);
 
+\begin{sloppypar}
 ($b$) where a departure direction has already been given in a case falling within
 regulation 27 in respect of the housing costs attributable to the partner, the
 amount determined in accordance with regulation 40(7) as the housing costs the
 partner is able to contribute;
+\end{sloppypar}
 
 ($c$) the amount of any reduction in the parent’s exempt income, calculated under
 paragraph (1) of regulation 9 of the Maintenance Assessments and Special Cases
 Regulations\footnote{\frenchspacing Paragraph (1) of regulation 9 was amended by regulation 44(2) of S.I. 1995/1045. Paragraph (2) was amended by regulation 9(2)($c$) of S.I. 1993/913 and regulation 44(3) of S.I. 1995/1045.}, in consequence of the application of paragraph (2) of that
 regulation; and
 
-($d$) the amount specified in paragraph (3).
+($d$) the amount specified in paragraph (3)
+or the aggregate of those amounts where paragraph (7A) applies to that partner.  % Words inserted (18.1.98) by SI 1998/58 reg 13(7)
 \end{enumerate}
 
-(7) The Secretary of State may, if he is satisfied that it is appropriate in the
-particular circumstances of the case, treat a liability of a kind mentioned in
-paragraph (2)($b$) as not constituting a liability for the purposes of that
-paragraph and of paragraph (3).
+(7) The Secretary of State may, if he is satisfied that it is appropriate in the particular circumstances of the case, treat a liability of a kind mentioned in paragraph (2)($b$)%
+(i)  % Word inserted (18.1.98) by SI 1998/58 reg 13(8)
+as not constituting a liability for the purposes of that paragraph and of paragraph (3).
+
+% Reg 18(7A) inserted (18.1.98) by SI 1998/58 reg 13(9)
+(7A) Where an application is made in respect of relevant children of different parents, a separate calculation shall be made in accordance with paragraphs (3) and (4) in respect of each relevant child or group of relevant children who have the same parents and the amount constituting special expenses referred to in paragraph (1) shall be the aggregate of the amounts calculated in accordance with paragraph (3) in respect of each such relevant child or group of relevant children.
 
 (8) For the purposes of this regulation—
 \begin{enumerate}\item[]
-($a$) a child who is not the child of a particular person is a part of that
-person’s family where that child is the child of a current or former partner of
-that person;
+%($a$) a child who is not the child of a particular person is a part of that person’s family where that child is the child of a current or former partner of that person;
+
+% Reg 18(8)(a) substituted (18.1.98) by SI 1998/58 reg 13(10)
+($a$) a child who is not the child of a particular person is a part of that person’s family where—
+\begin{enumerate}\item[]
+(i) that child is the child of a current partner of that person; or
+
+(ii) that child is the child of a former partner of that person and lives in the same household as the applicant for every night of each week;
+\end{enumerate}
 
 ($b$) “relevant Schedule” means Schedule 2 to the Income Support (General)
 Regulations 1987\footnote{\frenchspacing S.I. 1987/1967. Paragraphs 1 and 2 of Schedule 2 were substituted by Schedule 4 to S.I. 1995/559; paragraph 15 was substituted by Schedule 5 to that instrument.}.
 \end{enumerate}
+
+\amendment{
+Words inserted in reg. 18(1), (3), (4), (4)(b), (6)(d), (7), reg. 18(4A), (4B), (7A) inserted, reg. 18(2)(a), (b), 
+%(4)(c), 
+(8)(a) substituted and reg. 18(4)(d) omitted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 13.
+
+Reg. 18(4)(c) substituted (6.4.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 14.
+}
 
 \subsection[19. Special expenses for a case falling within regulation 13, 14, 16 or 17]{Special expenses for a case falling within regulation 13, 14, 16 or 17}
 
@@ -1112,12 +1167,9 @@ would otherwise have been given.
 falling within paragraph 3 of Schedule 4B to the Act]{Value of a transfer of property and its equivalent weekly value for a case
 falling within paragraph 3 of Schedule 4B to the Act}
 
-22.—(1) Where the conditions
-specified in paragraph 3(1) of Schedule 4B to the Act are satisfied, the value
-of a transfer of property for the purposes of that paragraph shall be that part
-of the transfer made by the absent parent (making allowance for any transfer by
-the person with care to the absent parent) which the Secretary of State is
-satisfied is in lieu of maintenance.
+22.—(1) Where the conditions specified in paragraph 3(1) of Schedule 4B to the Act are satisfied, the value of a transfer of property for the purposes of that paragraph shall be that part of the transfer made by the absent parent (making allowance for any transfer by the person with care to the absent parent) which the Secretary of State is satisfied is in lieu of 
+periodical payments of  % Words inserted (18.1.98) by SI 1998/58 reg 15
+maintenance.
 
 (2) The Secretary of State shall, in determining the value of a transfer of
 property in accordance with paragraph (1), assume that, unless evidence to the
@@ -1141,6 +1193,10 @@ accordance with the provisions of the Schedule.
 (4) For the purposes of regulation 21 and this regulation, the term
 “maintenance” means the normal day-to-day living expenses of the child with
 respect to whom the current assessment was made.
+
+\amendment{
+Words inserted in reg. 22(1) (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 15.
+}
 
 \section[Part V --- Additional cases]{Part V\\*Additional cases}
 
@@ -1191,9 +1247,9 @@ the Secretary of State considers reasonable in all the circumstances of the
 case.
 \end{enumerate}
 
-(3) No application may be made under this regulation where income support or
-income-based jobseeker’s allowance is paid to or in respect of the
-non-applicant.
+% Reg 23(3) omitted (18.1.98) by SI 1998/58 reg 16
+
+%(3) No application may be made under this regulation where income support or income-based jobseeker’s allowance is paid to or in respect of the non-applicant.
 
 (4) For the purposes of this regulation the term “asset” means—
 \begin{enumerate}\item[]
@@ -1209,6 +1265,10 @@ Tax Act 1979\footnote{\frenchspacing 1979 c. 14.}, and other similar financial i
 
 (5) For the purposes of paragraph (4) the term “asset” includes any asset
 falling within that paragraph which is located outside Great Britain.
+
+\amendment{
+Reg. 23(3) omitted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 16.
+}
 
 \subsection[24. Diversion of income]{Diversion of income}
 
@@ -1229,32 +1289,38 @@ provision of such income for himself.
 
 \subsection[25. Life-style inconsistent with declared income]{Life-style inconsistent with declared income}
 
-25.—(1) Subject to paragraph (2), a
-case shall constitute a case for the purposes of paragraph 5(1) of Schedule 4B
-to the Act where the Secretary of State is satisfied that the current
-maintenance assessment is based upon a level of income of the non-applicant
-which is substantially lower than the level of income required to support the
-overall life-style of that non-applicant.
+25.—(1) Subject to paragraph (2), a case shall constitute a case for the purposes of paragraph 5(1) of Schedule 4B to the Act where the Secretary of State is satisfied that the current 
+%maintenance  % Word omitted (18.1.98) by SI 1998/58 reg 17(2)
+assessment is based upon a level of income of the non-applicant which is substantially lower than the level of income required to support the overall life-style of that non-applicant.
 
-(2) Paragraph (1) shall not apply where—
+%(2) Paragraph (1) shall not apply where—
+%\begin{enumerate}\item[]
+%($a$) income support or income-based jobseeker’s allowance is paid to or in respect of the non-applicant;
+%
+%($b$) the Secretary of State is satisfied that the life-style of the non-applicant is paid for—
+%\begin{enumerate}\item[]
+%(i) out of capital belonging to him; or
+%
+%(ii) by his partner unless the non-applicant is able to influence or control the amount of income received by that partner.
+%\end{enumerate}
+%\end{enumerate}
+
+% Reg 25(2) substituted (18.1.98) by SI 1998/58 reg 17(3)
+(2) Paragraph (1) shall not apply where the Secretary of State is satisfied that the life-style of the non-applicant is paid for—
 \begin{enumerate}\item[]
-($a$) income support or income-based jobseeker’s allowance is paid to or in respect
-of the non-applicant;
+($a$) out of capital belonging to him; or
 
-($b$) the Secretary of State is satisfied that the life-style of the non-applicant
-is paid for—
-\begin{enumerate}\item[]
-(i) out of capital belonging to him; or
-
-(ii) by his partner unless the non-applicant is able to influence or control the
-amount of income received by that partner.
-\end{enumerate}
+($b$) by his partner, unless the non-applicant is able to influence or control the amount of income received by that partner.
 \end{enumerate}
 
-(3) Where the Secretary of State is satisfied in a particular case that the
-provisions of paragraph (1) would apply but for the provisions of paragraph
-(2)($b$)(ii), he may, whether or not any application on that ground has been made,
-consider whether the case falls within regulation 27.
+(3) Where the Secretary of State is satisfied in a particular case that the provisions of paragraph (1) would apply but for the provisions of paragraph 
+%(2)($b$)(ii), 
+(2)($b$)  % Words substituted (18.1.98) by SI 1998/58 reg 17(4)
+he may, whether or not any application on that ground has been made, consider whether the case falls within regulation 27.
+
+\amendment{
+Word substituted in reg. 25(3), word omitted in reg. 25(1) and reg. 25(2) substituted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 17.
+}
 
 \subsection[26. Unreasonably high housing costs]{Unreasonably high housing costs}
 
@@ -1422,8 +1488,18 @@ takes effect, treat the application as if it were given or sent within 28 days
 of the date of notification of the current assessment.
 \end{enumerate}
 
-(3) The provisions of paragraphs (1) and (2) are subject to the provisions of
-paragraph (6) and of regulations 47 to 50.
+(3) The provisions of paragraphs (1) and (2) are subject to the provisions of 
+%paragraph (6) 
+paragraphs (3A) and (6)  % Words substituted (18.1.98) by SI 1998/58 reg 18(2)
+and of regulations 47 to 50.
+
+% Reg 32(3A) inserted (18.1.98) by SI 1998/58 reg 18(3)
+(3A) Where an application is determined in accordance with regulation 14 and is one to which paragraph (7) of that regulation applies, a departure direction given in response to that application shall take effect—
+\begin{enumerate}\item[]
+($a$) from the first day of the maintenance period immediately following the date on which the absent parent and the parent with care have agreed the pattern of contact for the future is to commence; or
+
+($b$) where no such date has been so agreed, from the first day of the maintenance period immediately following the date upon which the departure direction is given.
+\end{enumerate}
 
 (4) Subject to paragraph (6), where an application for a departure direction is
 made on the grounds set out in section 28A(2)($b$) of the Act (a material change
@@ -1470,6 +1546,10 @@ application for the earlier direction was made no longer applies, and the
 earlier direction shall cease to have effect immediately before the direction
 that is given takes effect.
 
+\amendment{
+Words substituted in reg. 32(3) and reg. 32(3A) inserted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 18.
+}
+
 \subsection[33. Cancellation of a departure direction following a review under section 16, 17,
 18 or 19 of the Act or on a change of circumstances]{Cancellation of a departure direction following a review under section 16, 17,
 18 or 19 of the Act or on a change of circumstances}
@@ -1501,6 +1581,21 @@ error, he shall cancel that direction.
 
 (2) The cancellation of a departure direction under paragraph (1) shall take
 effect from the date on which that direction took effect.
+
+% Reg 34A inserted (18.1.98) by SI 1998/58 reg 19
+\subsection[34A. Correction of accidental errors in departure directions]{Correction of accidental errors in departure directions}
+
+34A.—(1) Subject to paragraphs (3) and (4), accidental errors in any departure direction made by the Secretary of State or record of such a departure direction may, at any time, be corrected by the Secretary of State and a correction made to, or to the record of, that departure direction shall be deemed to be part of that direction or of that record.
+
+(2) Where the Secretary of State has made a correction under the provisions of paragraph (1), he shall immediately notify the persons who were notified of the departure direction that has been corrected, so far as that is reasonably practicable.
+
+(3) In determining whether the time limit specified in section 28H(3) of the Act has been complied with, there shall be disregarded any day falling before the day on which notification was given or sent under paragraph (2).
+
+(4) The power to correct errors under this regulation shall not be taken to limit any other powers to correct errors that are exercisable apart from these Regulations.
+
+\amendment{
+Reg. 34A inserted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 19.
+}
 
 \subsection[35. Termination and suspension of departure directions]{Termination and suspension of departure directions}
 
@@ -1554,7 +1649,7 @@ to in sub-paragraph ($c$).
 (5) For the purposes of paragraph (4), a departure direction which is in force
 shall include a departure direction which is suspended.
 
-\section[Part VIII --- Maintenance assessment following a departure direction]{Part VIII\\*Maintenance assessment following a departure direction}
+\section[Part VIII --- Maintenance assessment following a departure direction]{\sloppy Part VIII\\*Maintenance assessment following a departure direction}
 
 \renewcommand\parthead{--- Part VIII}
 
@@ -1578,14 +1673,12 @@ the Act, but with the substitution of the amounts changed in consequence of the
 direction for the amounts determined in accordance with those provisions.
 
 \subsection[37. Effect of a departure direction in respect of special expenses—\hspace{0pt}exempt
-income]{Effect of a departure direction in respect of special expenses—\hspace{0pt}exempt
+income]{\sloppy Effect of a departure direction in respect of special expenses—\hspace{0pt}exempt
 income}
 
-37.—(1) Subject to paragraph (2), where a departure direction is given in
-respect of special expenses, the exempt income of the absent parent or, as the
-case may be, the parent with care shall be increased by the amount constituting
-the special expenses or the aggregate of the special expenses determined in
-accordance with regulations 13 to 20.
+37.—(1) Subject to paragraph (2), where a departure direction is given in respect of special expenses, the exempt income of the absent parent or, as the case may be, the parent with care shall be increased by 
+the amount specified in that departure direction being the whole or part of  % Words inserted (18.1.98) by SI 1998/58 reg 20(2)
+the amount constituting the special expenses or the aggregate of the special expenses determined in accordance with regulations 13 to 20.
 
 (2) Where a departure direction is given with respect to costs incurred in
 travelling to work or expenses which include such costs, and a component of
@@ -1611,14 +1704,17 @@ direction may be given for such repayment period as the Secretary of State
 considers is reasonable.
 \end{enumerate}
 
-(4) Where paragraph (4) of regulation 16 applies, a departure direction may be
-given in respect only of repayment of that part of the debt incurred which is
-referable to the debt, repayment of which would have fallen within paragraph (1)
-of that regulation, based upon the amount, rate of repayment and repayment
-period agreed in respect of that part at the time it was taken out.
+(4) Where paragraph (4) of regulation 16 applies, a departure direction may be given in respect only of 
+%repayment of 
+the whole or part of the amount required to repay  % Words substituted (18.1.98) by SI 1998/58 reg 20(3)
+that part of the debt incurred which is referable to the debt, repayment of which would have fallen within paragraph (1) of that regulation, based upon the amount, rate of repayment and repayment period agreed in respect of that part at the time it was taken out.
+
+\amendment{
+Words inserted in reg. 37(1) and substituted in reg. 37(4) (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 20.
+}
 
 \subsection[38. Effect of a departure direction in respect of special expenses—\hspace{0pt}protected
-income]{Effect of a departure direction in respect of special expenses—\hspace{0pt}protected
+income]{\sloppy Effect of a departure direction in respect of special expenses—\hspace{0pt}protected
 income}
 
 38.—(1) Subject to paragraphs (2) and (3), where a departure direction is
@@ -1652,13 +1748,15 @@ income determined in accordance with regulation 9(1)($bb$) of the Maintenance
 Assessments and Special Cases Regulations\footnote{\frenchspacing Sub-paragraph ($bb$) was added to paragraph (1) of regulation 9 by regulation 44(2)($a$) of 1995/1045.}, the exempt income of the absent
 parent shall be reduced by that component of exempt income;
 
-($b$) subject to sub-paragraph ($c$) and paragraphs (2) and (3), the fresh
-maintenance assessment made in consequence of the direction shall be the
-maintenance assessment calculated in accordance with the provisions of
-paragraphs 1 to 5 and 7 to 10 of Part I of Schedule 1 to the Act, as modified by
-sub-paragraph ($a$) where that sub-paragraph is applicable to the case in
-question, reduced by the equivalent weekly value of the property transferred as
-determined in accordance with regulation 22;
+%($b$) subject to sub-paragraph ($c$) and paragraphs (2) and (3), the fresh maintenance assessment made in consequence of the direction shall be the maintenance assessment calculated in accordance with the provisions of paragraphs 1 to 5 and 7 to 10 of Part I of Schedule 1 to the Act, as modified by sub-paragraph ($a$) where that sub-paragraph is applicable to the case in question, reduced by the equivalent weekly value of the property transferred as determined in accordance with regulation 22;
+
+% Reg 39(1)(b) substituted (18.1.98) by SI 1998/58 reg 21
+($b$) subject to sub-paragraph ($c$) and paragraphs (2) and (3), the fresh maintenance assessment made in consequence of the direction shall be the lower of—
+\begin{enumerate}\item[]
+(i) the amount, calculated in accordance with the provisions of paragraphs 1 to 5 and 7 to 10 of Part I of Schedule 1 to the Act, as modified in a case to which it applies by sub-paragraph ($a$) where that sub-paragraph is applicable to the case in question, reduced by the amount specified in that departure direction being the whole or part of the equivalent weekly value of the property transferred as determined in accordance with regulation 22; or
+
+(ii) where the provisions of paragraph 6 of Schedule 1 to the Act (protected income) apply, the amount, calculated in accordance with the provisions of Part I of Schedule 1 to the Act, as modified in a case to which it applies by sub-paragraph ($a$) where that sub-paragraph is applicable to the case in question;
+\end{enumerate}
 
 ($c$) where the equivalent weekly value is nil, the fresh maintenance assessment
 made in consequence of the direction shall be the maintenance assessment
@@ -1696,47 +1794,37 @@ and Special Cases Regulations.
 
 (7) This regulation is subject to regulation 42.
 
+\amendment{
+Reg. 39(1)(b) substituted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 21.
+}
+
 \subsection[40. Effect of a departure direction in respect of additional cases]{Effect of a departure direction in respect of additional cases}
 
 40.—(1) This
 regulation applies where a departure direction is given for an additional case
 falling within paragraph 5 of Schedule 4B to the Act.
 
-(2) In a case falling within paragraph (1)($a$) of regulation 23 (assets capable
-of producing income or higher income), subject to paragraph (4), the net income
-of the non-applicant shall be increased by an amount calculated by applying
-interest at the statutory rate prescribed for a judgment debt\footnote{\frenchspacing See Order 42, rule 1 of the Rules of the Supreme Court, S.I. 1965/1776.} or, in
-Scotland, at the statutory rate in respect of interest included in or payable
-under a decree in the Court of Session\footnote{\frenchspacing See Act of Sederunt (Rules of the Court of Session 1994) 1994.} at the date on which the departure
-direction is given to—
+(2) In a case falling within paragraph (1)($a$) of regulation 23 (assets capable of producing income or higher income), subject to paragraph (4), the net income of the non-applicant shall be increased by 
+the amount specified in that departure direction, being the whole or part of  % Words inserted (18.1.98) by SI 1998/58 reg 22
+an amount calculated by applying interest at the statutory rate prescribed for a judgment debt\footnote{\frenchspacing See Order 42, rule 1 of the Rules of the Supreme Court, S.I. 1965/1776.} or, in Scotland, at the statutory rate in respect of interest included in or payable under a decree in the Court of Session\footnote{\frenchspacing See Act of Sederunt (Rules of the Court of Session 1994) 1994.} at the date on which the departure direction is given to—
 \begin{enumerate}\item[]
-($a$)any monies falling within that paragraph;
+($a$) any monies falling within that paragraph;
 
-($b$)the net value of any asset, other than monies, falling within that paragraph,
-after deduction of the amount owing on any mortgage or charge on that asset,
+($b$) the net value of any asset, other than monies, falling within that paragraph, after deduction of the amount owing on any mortgage or charge on that asset,
 \end{enumerate}
-less any income received in respect of that asset which has been taken into
-account in the calculation of the current assessment.
+less any income received in respect of that asset which has been taken into account in the calculation of the current assessment.
 
-(3) In a case falling within paragraph (1)($b$) or ($c$) of regulation 23, subject
-to paragraph (4), the net income of the non-applicant shall be increased by an
-amount calculated by applying interest at the statutory rate prescribed for a
-judgment debt, or, in Scotland, at the statutory rate in respect of interest
-included in or payable under a decree in the Court of Session at the date of the
-application to the value of the asset subject to the trust less any income
-received from the trust which has been taken into account in the calculation of
-the current assessment.
+(3) In a case falling within paragraph (1)($b$) or ($c$) of regulation 23, subject to paragraph (4), the net income of the non-applicant shall be increased by 
+the amount specified in that departure direction, being the whole or part of  % Words inserted (18.1.98) by SI 1998/58 reg 22
+an amount calculated by applying interest at the statutory rate prescribed for a judgment debt, or, in Scotland, at the statutory rate in respect of interest included in or payable under a decree in the Court of Session at the date of the application to the value of the asset subject to the trust less any income received from the trust which has been taken into account in the calculation of the current assessment.
 
-(4) In a case to which regulation 24 (diversion of income) applies, the net
-income of the non-applicant who is a parent of a child in respect of whom the
-current assessment is made shall be increased by the amount by which the
-Secretary of State is satisfied that that parent has reduced his income.
+(4) In a case to which regulation 24 (diversion of income) applies, the net income of the non-applicant who is a parent of a child in respect of whom the current assessment is made shall be increased by 
+the amount specified in that departure direction, being the whole or part of  % Words inserted (18.1.98) by SI 1998/58 reg 22
+the amount by which the Secretary of State is satisfied that that parent has reduced his income.
 
-(5) In a case to which regulation 25 (life-style inconsistent with declared
-income) applies, the net income of the non-applicant who is a parent of a child
-in respect of whom the current assessment is made shall be increased by the
-difference between the two levels of income referred to in paragraph (1) of that
-regulation.
+(5) In a case to which regulation 25 (life-style inconsistent with declared income) applies, the net income of the non-applicant who is a parent of a child in respect of whom the current assessment is made shall be increased by 
+the amount specified in that departure direction, being the whole or part of  % Words inserted (18.1.98) by SI 1998/58 reg 22
+the difference between the two levels of income referred to in paragraph (1) of that regulation.
 
 (6) In a case to which regulation 26 applies (unreasonably high housing costs)
 the amount of housing costs included in exempt income and the amount referred to
@@ -1772,7 +1860,11 @@ an absent parent, for the amount determined in accordance with regulation
 including a nil amount, as the Secretary of State considers to be appropriate in
 all the circumstances of the case.
 
-\section[Part IX --- Maintenance assessment following a departure direction: particular cases]{Part IX\\*Maintenance assessment following a departure direction: particular cases}
+\amendment{
+Words inserted in reg. 40(2)--(5) (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 22.
+}
+
+\section[Part IX --- Maintenance assessment following a departure direction: particular cases]{\sloppy Part IX\\*Maintenance assessment following a departure direction: particular cases}
 
 \renewcommand\parthead{--- Part IX}
 
@@ -1797,23 +1889,27 @@ direction referred to in paragraph (1) had been given and P has the value
 prescribed in regulation 5 of the Maintenance Assessments and Special Cases
 Regulations.
 
-(3) There shall be determined the amount that would be payable under a
-maintenance assessment calculated by reference to the circumstances at the time
-the application is made, in accordance with the provisions of Part I of Schedule
-1 to the Act.
+%(3) There shall be determined the amount that would be payable under a maintenance assessment calculated by reference to the circumstances at the time the application is made, in accordance with the provisions of Part I of Schedule 1 to the Act.
 
-(4) The lower of the amounts calculated in accordance with paragraph (2) and
-determined in accordance with paragraph (3) shall constitute the revised amount
-for the purposes of regulation 7 (rejection of application on completion of a
-preliminary consideration) and regulation 31 (refusal to give a departure
-direction under section 28F(4) of the Act), and the Secretary of State may apply
-regulation 7 and shall apply regulation 31 in relation to the current amount and
-the revised amount as so construed.
+% Reg 41(3) substituted (18.1.98) by SI 1998/58 reg 23(2)
+(3) There shall be determined the amount that would be payable under a maintenance assessment made in accordance with the provisions of Part I of Schedule 1 to the Act which would be in force at the date any departure direction referred to in paragraph (1) would take effect if it were to be given.
 
-(5) Subject to paragraph (7), where the application of the provisions of
-paragraph (4) results in a departure direction being given, the amount of child
-support maintenance payable following that direction shall be determined by the
-child support officer as being the revised amount as defined in paragraph (4).
+%(4) The lower of the amounts calculated in accordance with paragraph (2) and determined in accordance with paragraph (3) shall constitute the revised amount for the purposes of regulation 7 (rejection of application on completion of a preliminary consideration) and regulation 31 (refusal to give a departure direction under section 28F(4) of the Act), and the Secretary of State may apply regulation 7 and shall apply regulation 31 in relation to the current amount and the revised amount as so construed.
+
+% Reg 41(4) substituted (18.1.98) by SI 1998/58 reg 23(3)
+(4) The revised amount for the purposes of regulation 7 (rejection of application on completion of a preliminary consideration) and regulation 31 (refusal to give a departure direction under section 28F(4) of the Act) shall be the lowest of the following amounts—
+\begin{enumerate}\item[]
+($a$) the amount calculated in accordance with paragraph (2);
+
+($b$) the amount determined in accordance with paragraph (3);
+
+($c$) where the provisions of paragraph 6 of Schedule 1 to the Act (protected income) as modified in a case to which they apply by the provisions of regulation 38 (effect of a departure direction in respect of special expenses—protected income) would apply if a departure direction were given, the amount payable under those provisions,
+\end{enumerate}
+and the Secretary of State may apply regulation 7 and shall apply regulation 31 in relation to the current amount and the revised amount as so construed.
+
+(5) 
+%Subject to paragraph (7),  % Words omitted (18.1.98) by SI 1998/58 reg 23(4)
+Where the application of the provisions of paragraph (4) results in a departure direction being given, the amount of child support maintenance payable following that direction shall be determined by the child support officer as being the revised amount as defined in paragraph (4).
 
 (6) Where the assessable income of an absent parent changes following a review
 under section 16, 17, 18 or 19 of the Act, the provisions of paragraphs (2) to
@@ -1827,15 +1923,14 @@ in accordance with the provisions of Part I of Schedule 1 to the Act which takes
 account of that change in assessable income.
 \end{enumerate}
 
-(7) Where the provisions of paragraph 6 of Schedule 1 to the Act (protected
-income) as modified by the provisions of regulation 38 apply following a
-departure direction, and the amount of child support maintenance payable under
-those provisions is lower than that payable under paragraph (5), the amount of
-child support maintenance payable shall be that payable under those provisions.
+% Reg 41(7) omitted (18.1.98) by SI 1998/58 reg 23(5)
 
-(8) Where a departure direction given in accordance with the provisions of
-paragraphs (1) to (7) has effect, those provisions shall apply, subject to the
-modifications set out in paragraph (9), where—
+%(7) Where the provisions of paragraph 6 of Schedule 1 to the Act (protected income) as modified by the provisions of regulation 38 apply following a departure direction, and the amount of child support maintenance payable under those provisions is lower than that payable under paragraph (5), the amount of child support maintenance payable shall be that payable under those provisions.
+
+(8) Where a departure direction given in accordance with the provisions of 
+%paragraphs (1) to (7) 
+paragraphs (1) to (6)  % Words substituted (18.1.98) by SI 1998/58 reg 23(5)
+has effect, those provisions shall apply, subject to the modifications set out in paragraph (9), where—
 \begin{enumerate}\item[]
 ($a$) the effect of a later direction would, but for the provisions of paragraphs
 (2) to (5), be to change the absent parent’s assessable income and his
@@ -1857,15 +1952,20 @@ the later direction but for the provisions of paragraphs (3) to (5);
 ($b$) the references to regulation 7 in paragraph (4) are omitted.
 \end{enumerate}
 
+\amendment{
+Words substituted in reg. 41(8), words omitted in reg. 41(5), reg. 41(3), (4) substituted and reg. 41(7) omitted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 23.
+}
+
 \subsection[42. Application of regulation 41 where there is a transfer of property falling
 within paragraph 3 of Schedule 4B to the Act]{Application of regulation 41 where there is a transfer of property falling
 within paragraph 3 of Schedule 4B to the Act}
 
-42.—(1) Where the application of
-regulation 41 to a case would result in a change in the amount of child support
-maintenance payable and a direction is given in respect of a transfer of
-property falling within paragraph 3 of Schedule 4B to the Act, regulation 41
-shall be applied subject to the modifications set out in paragraphs (2) and (3).
+42.—%(1) Where the application of regulation 41 to a case would result in a change in the amount of child support maintenance payable and a direction is given in respect of a transfer of property falling within paragraph 3 of Schedule 4B to the Act, regulation 41 shall be applied subject to the modifications set out in paragraphs (2) and (3).
+%
+% Reg 42(1), (1A) substituted for reg 42(1) (18.1.98) by SI 1998/58 reg 24(2)
+(1) Where an absent parent applies for a departure direction on the grounds that the case falls within both paragraph 2 of Schedule 4B to the Act (special expenses) and paragraph 3 of that Schedule (property or capital transfers), regulation 41 shall be applied subject to the modifications set out in paragraphs (1A) to (3).
+
+(1A) In paragraph (1) of regulation 41, the reference to a departure direction shall be construed as a reference to any departure direction that would be given if the application had been made solely on the grounds that the case falls within paragraph 2 of Schedule 4B to the Act, and the reference to the absent parent’s assessable income shall be construed as a reference to the assessable income calculated in consequence of such a direction.
 
 (2) Where the exempt income of an absent parent includes a component of exempt
 income determined in accordance with regulation 9(1)($bb$) of the Maintenance
@@ -1877,17 +1977,55 @@ Assessments and Special Cases Regulations, that amount shall be excluded—
 regulation 41.
 \end{enumerate}
 
-(3) For the purposes of this regulation, the revised amount for the purposes of
-regulations 7 and 31 shall be the amount as defined in paragraph (4) of
-regulation 41, subject to paragraph (2) of this regulation, less the amount
-determined in accordance with regulation 22 (the value of a transfer of property
-and its equivalent weekly value for a case falling within paragraph 3 of
-Schedule 4B to the Act).
+%(3) For the purposes of this regulation, the revised amount for the purposes of regulations 7 and 31 shall be the amount as defined in paragraph (4) of regulation 41, subject to paragraph (2) of this regulation, less the amount determined in accordance with regulation 22 (the value of a transfer of property and its equivalent weekly value for a case falling within paragraph 3 of Schedule 4B to the Act).
 
-(4) Where the application of the provisions of paragraph (3) results in a
-departure direction being given, the amount of child support maintenance payable
-following that direction shall be the revised amount as defined in paragraph
-(3).
+% Reg 42(3) substituted (18.1.98) by SI 1998/58 reg 24(3)
+(3) For the purposes of this regulation, the revised amount for the purposes of regulations 7 and 31 shall be—
+\begin{enumerate}\item[]
+($a$) subject to sub-paragraph ($b$), the lower of the amounts specified in sub-paragraphs ($a$) and ($b$) of paragraph (4) of regulation 41, subject to paragraph (2) of this regulation, less the amount determined in accordance with regulation 22 (value of a transfer of property and its equivalent weekly value for a case falling within paragraph 3 of Schedule 4B to the Act);
+
+($b$) where the amount specified in sub-paragraph ($c$) of paragraph (4) of regulation 41 is lower than the amount determined in accordance with sub-paragraph ($a$), that amount.
+\end{enumerate}
+
+(4) Where the application of the provisions of paragraph (3) results in a departure direction being given, the amount of child support maintenance payable following that direction shall be 
+determined by the child support officer as being  % Words inserted (18.1.98) by SI 1998/58 reg 24(4)
+the revised amount as defined in paragraph (3).
+
+\amendment{
+Words inserted in reg. 42(4), reg. 42(1), (1A) substituted for reg. 42(1) and reg. 42(3) substituted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 24.
+}
+
+% Reg 42A inserted (18.1.98) by SI 1998/58 reg 25
+\subsection[42A. Application of regulation 41 where the case falls within paragraph 2 and paragraph 5 of Schedule 4B to the Act]{Application of regulation 41 where the case falls within paragraph 2 and paragraph 5 of Schedule 4B to the Act}
+
+42A.—(1) Where an absent parent applies for a departure direction on the grounds that the case falls within both paragraph 5 of Schedule 4B to the Act (additional cases) and paragraph 2 of that Schedule (special expenses), and the conditions set out in paragraph (1) of regulation 41 are satisfied, the amount of child support maintenance payable shall be determined in accordance with paragraphs (2) to (6).
+
+(2) The application shall in the first instance be treated as an application (an “additional cases application”) made solely on the grounds that the case falls within paragraph 5 of Schedule 4B to the Act, and a determination shall be made as to whether a departure direction would be given in response to that application.
+
+(3) Following the determination mentioned in paragraph (2), the application shall be treated as an application (a “special expenses application”) made solely on the grounds that the case falls within paragraph 2 of Schedule 4B to the Act, and the provisions of regulation 41 shall be applied to the special expenses application, subject to the provisions of paragraphs (4) to (6).
+
+(4) Where no departure direction would be given in response to the additional cases application, the provisions of regulation 41 shall be applied to determine the amount of child support maintenance payable.
+
+(5) Where a departure direction would be given in response to the additional cases application, the provisions of regulation 41 shall be applied to determine the amount of child support maintenance payable, subject to the modification set out in paragraph (6).
+
+(6) For paragraph (3) of regulation 41 there shall be substituted the following paragraph—
+\begin{quotation}
+“(3) There shall be determined the amount that would be payable under the maintenance assessment made in consequence of the direction that would be given in response to the additional cases application mentioned in paragraph (2) of regulation 42A which would be in force at the date any departure direction referred to in paragraph (1) would take effect if it were to be given.”.
+\end{quotation}
+
+(7) Where—
+\begin{enumerate}\item[]
+($a$) a departure direction has been given in a case where regulation 41 has been applied and an application is then made on the grounds that the case falls within paragraph 5 of Schedule 4B to the Act; or
+
+($b$) a departure direction has been given on the grounds that the case falls within paragraph 5 of Schedule 4B to the Act, an application is then made on the grounds that the case falls within paragraph 2 of that Schedule, and the conditions set out in paragraph (1) of regulation 41 are satisfied,
+\end{enumerate}
+the case shall be treated as a case which falls within paragraph (1), and the date of the later application treated as the date on which both applications were made.
+
+(8) Where a departure direction is given in accordance with the provisions of paragraph (7), the earlier direction shall cease to have effect from the date the later direction has effect.
+
+\amendment{
+Reg. 42A inserted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 25.
+}
 
 \subsection[43. Maintenance assessment following a departure direction for certain cases falling
 within regulation 22 of the Maintenance Assessments and Special Cases
@@ -1901,9 +2039,10 @@ Cases Regulations\footnote{\frenchspacing Regulation 22 was amended by regulatio
 those provisions shall apply for the purposes of determining the total
 maintenance payable in consequence of a departure direction.
 
-(2) In a case falling within paragraph (1), the amount of child support
-maintenance payable in respect of each application for child support maintenance
-following the direction shall be the lower of—
+(2) In a case falling within paragraph (1), the amount of child support maintenance payable in respect of each application for child support maintenance following the direction shall be the 
+%lower 
+lowest  % Word substituted (18.1.98) by SI 1998/58 reg 26(a)
+of—
 \begin{enumerate}\item[]
 ($a$) the amount as determined in accordance with paragraph (3) of regulation 41,
 subject to the modification that regulation 22 of the Maintenance Assessments
@@ -1913,7 +2052,10 @@ payable (“Y”);
 ($b$) the amount calculated by the formula—
 \[A \times P \times \frac{Y}{Q}\]
 where A and P have the same meanings as in regulation 41(2) and Q is the sum of
-the amounts calculated in accordance with sub-paragraph ($a$) for each assessment.
+the amounts calculated in accordance with sub-paragraph ($a$) for each assessment;
+
+% Reg 43(2)(c) inserted (18.1.98) by SI 1998/58 reg 26(b)
+($c$) where the provisions of paragraph 6 of Schedule 1 to the Act (protected income) apply, as modified in a case to which they apply by the provisions of regulation 38 (effect of a departure direction in respect of special expenses—protected income) or, as the case may be, regulation 40(6), (8) or (10) (effect of a departure direction in respect of additional cases), the amount calculated as payable under those provisions.
 \end{enumerate}
 
 (3) Where, in a case falling within regulation 22 of the Maintenance Assessments
@@ -1924,6 +2066,10 @@ of property as calculated in accordance with regulation 22 of these Regulations
 shall be deducted from the amount of the maintenance assessment in respect of
 the person with care or child to or in respect of whom the property transfer was
 made.
+
+\amendment{
+Word substituted in reg. 43(2) and reg. 43(2)(c) inserted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 26.
+}
 
 \subsection[44. Maintenance assessment following a departure direction where there is a phased
 maintenance assessment]{\sloppy Maintenance assessment following a departure direction where there is a phased
@@ -1962,11 +2108,10 @@ assessment that would be in force when the departure direction is given but for
 the provisions of the relevant enactment and “revised amount” referred to the
 unadjusted departure amount.
 
-(5) Where a child support officer determines that, were a fresh maintenance
-assessment to be made as a result of a review under section 17, 18 or 19 of the
-Act in relation to a case to which the provisions of paragraphs (1) to (3) have
-been applied, and the amount payable under it (“the reviewed unadjusted
-departure amount”) would be—
+(5) Where a child support officer determines that, were a fresh maintenance assessment to be made as a result of a review under section 17, 18 or 19 of the Act in relation to a case to which the provisions of 
+%paragraphs (1) to (3) 
+paragraphs (1) and (3)  % Words substituted (18.1.98) by SI 1998/58 reg 27
+have been applied, and the amount payable under it (“the reviewed unadjusted departure amount”) would be—
 \begin{enumerate}\item[]
 ($a$) more than the unadjusted departure amount, the amount of child support
 maintenance payable shall be the amount determined in accordance with paragraph
@@ -2008,6 +2153,10 @@ transitional amount as defined in regulation 6(1) of that enactment;
 ($b$) the 1994 enactment where that enactment is applicable to the particular case.
 \end{enumerate}
 \end{enumerate}
+
+\amendment{
+Words substituted in reg. 44(5) (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 27.
+}
 
 \section[Part X --- Miscellaneous]{Part X\\*Miscellaneous}
 
@@ -2060,9 +2209,8 @@ satisfied.
 effective date of the maintenance assessment in force (“the current
 assessment”);
 
-($b$) an application is made or treated as made in relation to the current
-assessment which results in a departure direction being given in respect of that
-assessment;
+($b$) an application is made or treated as made in relation to the current assessment which results in a departure direction being given in respect of that assessment
+or, where regulation 11A (meaning of “current assessment” for the purposes of the Act) applies, in respect of the fresh maintenance assessment referred to in that regulation;  % Words inserted (18.1.98) by SI 1998/58 reg 28
 
 ($c$) the applicant was unable to make an application on a date falling within a
 period in respect of which an earlier assessment had effect because he had not
@@ -2078,6 +2226,23 @@ assessment” and “the current amount” in these Regulations shall be constru
 including references to an earlier assessment falling within paragraph (2)($c$)
 and to the amount of child support maintenance fixed by it, and these
 Regulations shall be applied to such an earlier assessment accordingly.
+
+\amendment{
+Words inserted in reg. 46(b) (sic.) (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 28.
+}
+
+% Reg 46A inserted (18.1.98) by SI 1998/58 reg 29
+\subsection[46A. Cases to which regulation 11A applies]{Cases to which regulation 11A applies}
+
+46A.—(1) A case where the conditions set out in paragraphs ($a$) to ($c$) of regulation 11A (meaning of “current assessment” for the purposes of the Act) are satisfied shall be treated as a special case for the purposes of the Act.
+
+(2) Where a case falls within paragraph (1), references to “the current assessment” and “the current amount” in these Regulations shall, subject to paragraph (3), be construed as including reference to the fresh maintenance assessment referred to in regulation 11A.
+
+(3) Paragraph (2) shall not apply to references to “the current assessment” in regulation 32, with the exception of the reference in paragraph (1)($a$) of that regulation, and in regulations 46, 49 and 50.
+
+\amendment{
+Reg. 46A inserted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 29.
+}
 
 \section[Part XI --- Transitional provisions]{Part XI\\*Transitional provisions}
 
@@ -2173,7 +2338,7 @@ the application, taking those changes and representations into account, in
 accordance with these Regulations.
 
 \subsection[48. Effective date of departure direction for a case falling within regulation
-47]{Effective date of departure direction for a case falling within regulation
+47]{\sloppy Effective date of departure direction for a case falling within regulation
 47}
 
 48.—(1) Where the determination made by the Secretary of State by application
@@ -2511,7 +2676,7 @@ in force” there shall be substituted the words “, an assessment which is or 
 been in force or in connection with a departure direction.”.
 
 \subsection[66. Amendment of regulation 10A of the Information, Evidence and Disclosure
-Regulations]{Amendment of regulation 10A of the Information, Evidence and Disclosure
+Regulations]{\sloppy Amendment of regulation 10A of the Information, Evidence and Disclosure
 Regulations}
 
 66. In paragraph (2) of regulation 10A of the Information, Evidence
@@ -2597,12 +2762,12 @@ Act.”.
 The Maintenance Assessments and Special Cases Regulations shall be amended in
 accordance with the following provisions of this regulation.
 
-(2) In paragraph (1) of regulation 1, after the definition of “day to day care”
-there shall be inserted the following definition—
-\begin{quotation}
-““Departure Direction and Consequential Amendments Regulations” means the Child
-Support Departure Direction and Consequential Amendments Regulations 1996\footnote{\frenchspacing S.I. 1996/2907.};”.
-\end{quotation}
+% Reg 68(2) revoked (18.1.98) by SI 1998/58 reg 30
+
+%(2) In paragraph (1) of regulation 1, after the definition of “day to day care” there shall be inserted the following definition—
+%\begin{quotation}
+%““Departure Direction and Consequential Amendments Regulations” means the Child Support Departure Direction and Consequential Amendments Regulations 1996\footnote{\frenchspacing S.I. 1996/2907.};”.
+%\end{quotation}
 
 (3) In paragraph (4) of regulation 1, there shall be inserted at the beginning
 the words “These Regulations are subject to the provisions of Parts VIII and IX
@@ -2637,6 +2802,10 @@ where A, T, B and D have the same meanings as in paragraph (2).”.
 \end{quotation}
 \end{enumerate}
 
+\amendment{
+Reg. 68(2) revoked (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 30.
+}
+
 \bigskip
 
 Signed by authority of the Secretary of State for Social Security.
@@ -2649,7 +2818,7 @@ State,\\*Department of Social Security
 
 20th November 1996
 
-\clearpage
+\small
 
 \part[Schedule --- Equivalent weekly value of a transfer of a property]{S C H E D U L E\\*Equivalent weekly value of a transfer of a property}
 
@@ -2693,35 +2862,45 @@ and shall otherwise be disregarded.
 
 2.  The Table referred to in paragraph 1(1) is set out below—
 
+% Table amended by SI 1998/58 reg 31(2)
+
+{\footnotesize
 \noindent
-\begin{longtable}{p{74.30011pt} lll lll}
+\begin{longtable}{p{62pt} llll llll}
+%\begin{tabulary}{\linewidth}{Jllllllll}
 \hline
-Number of years of liability&\multicolumn{6}{l}{Statutory rate}\\
-& 8.0\%&10.0\%&12.0\%&12.5\%&14.0\%&15.0\%\\
+\itshape Number of years of liability&\multicolumn{7}{l}{\itshape Statutory rate}\\
+&7.0\%& 8.0\%&10.0\%&11.0\%&12.0\%&12.5\%&14.0\%&15.0\%\\
 \hline
 \endhead
 \hline
 \endlastfoot
-1&.02077&.02115&.02154&.02163&.02192&.02212\\
-2&.01078&.01108&.01138&.01145&.01168&.01183\\
-3&.00746&.00773&.00801&.00808&.00828&.00842\\
-4&.00581&.00607&.00633&.00640&.00660&.00674\\
-5&.00482&.00507&.00533&.00540&.00560&.00574\\
-6&.00416&.00442&.00468&.00474&.00495&.00508\\
-7&.00369&.00395&.00421&.00428&.00448&.00462\\
-8&.00335&.00360&.00387&.00394&.00415&.00429\\
-9&.00308&.00334&.00361&.00368&.00389&.00403\\
-10&.00287&.00313&.00340&.00347&.00369&.00383\\
-11&.00269&.00296&.00324&.00331&.00353&.00367\\
-12&.00255&.00282&.00310&.00318&.00340&.00355\\
-13&.00243&.00271&.00299&.00307&.00329&.00344\\
-14&.00233&.00261&.00290&.00298&.00320&.00336\\
-15&.00225&.00253&.00282&.00290&.00313&.00329\\
-16&.00217&.00246&.00276&.00283&.00307&.00323\\
-17&.00211&.00240&.00270&.00278&.00302&.00318\\
-18&.00205&.00234&.00265&.00273&.00297&.00314\\
+1&.02058&.02077&.02115&.02135&.02154&.02163&.02192&.02212\\
+2&.01064&.01078&.01108&.01123&.01138&.01145&.01168&.01183\\
+3&.00733&.00746&.00773&.00787&.00801&.00808&.00828&.00842\\
+4&.00568&.00581&.00607&.00620&.00633&.00640&.00660&.00674\\
+5&.00469&.00482&.00507&.00520&.00533&.00540&.00560&.00574\\
+6&.00403&.00416&.00442&.00455&.00468&.00474&.00495&.00508\\
+7&.00357&.00369&.00395&.00408&.00421&.00428&.00448&.00462\\
+8&.00322&.00335&.00360&.00374&.00387&.00394&.00415&.00429\\
+9&.00295&.00308&.00334&.00347&.00361&.00368&.00389&.00403\\
+10&.00274&.00287&.00313&.00327&.00340&.00347&.00369&.00383\\
+11&.00256&.00269&.00296&.00310&.00324&.00331&.00353&.00367\\
+12&.00242&.00255&.00282&.00296&.00310&.00318&.00340&.00355\\
+13&.00230&.00243&.00271&.00285&.00299&.00307&.00329&.00344\\
+14&.00220&.00233&.00261&.00275&.00290&.00298&.00320&.00336\\
+15&.00211&.00225&.00253&.00267&.00282&.00290&.00313&.00329\\
+16&.00204&.00217&.00246&.00261&.00276&.00283&.00307&.00323\\
+17&.00197&.00211&.00240&.00255&.00270&.00278&.00302&.00318\\
+18&.00191&.00205&.00234&.00250&.00265&.00273&.00297&.00314\\
 \end{longtable}
+%\end{tabulary}
 
+}
+
+\amendment{
+Columns headed ``7.0\%'' and ``11.0\%'' inserted in the Table (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 31(2).
+}
 
 \medskip
 
@@ -2731,16 +2910,23 @@ value of the transfer of the property is less than £5,000.
 
 \medskip
 
-4. The Secretary of State may determine a lower equivalent weekly value than
-that determined in accordance with paragraphs 1 and 2 where the amount of child
-support maintenance that would be payable in consequence of a departure
-direction specifying that value is lower than the amount of maintenance that was
+4. The Secretary of State may determine a lower equivalent weekly value than that determined in accordance with paragraphs 1 and 2 where the amount of child support maintenance that would be payable in consequence of a departure direction specifying that value is lower than the amount of 
+%maintenance that was 
+the periodical payments of maintenance which were  % Words substituted (18.1.98) by SI 1998/58 reg 31(3)
 payable under the court order or written agreement referred to in regulation 21.
 
-\medskip
+\amendment{
+Words substituted in para. 4 (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 31(3).
 
-5. In this Schedule, “maintenance” has the same meaning as in paragraph 3(2) of
-Schedule 4B to the Act.
+Para. 5 omitted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 31(4).
+}
+
+%\medskip
+%
+% Para 5 omitted (18.1.98) by SI 1998/58 reg 31(4)
+
+%5. In this Schedule, “maintenance” has the same meaning as in paragraph 3(2) of
+%Schedule 4B to the Act.
 
 
 \part{Explanatory Note}

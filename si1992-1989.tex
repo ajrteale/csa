@@ -1,25 +1,11 @@
-\documentclass[a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 
-\usepackage[welsh,english]{babel}
+\newcommand\regstitle{The Child Support (Collection and Enforcement) Regulations 1992}
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-
-\usepackage{textcomp}
-
-%\usepackage[2012rules]{optional}
-
-\usepackage[osf]{mathpazo}
-\usepackage{cfr-lm}
-
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-
-\usepackage[perpage,para,symbol]{footmisc}
+\newcommand\regsnumber{1992/1989}
 
 %\opt{newrules}{
-\title{The Child Support (Collection and Enforcement) Regulations 1992}
+\title{\regstitle}
 %}
 
 %\opt{2012rules}{
@@ -34,40 +20,9 @@
 %\opt{newrules}{\newcommand\versionyear{2003}}
 %\opt{2012rules}{\newcommand\versionyear{2012}}
 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhead[L]{}
-\fancyhead[C]{\itshape The Child Support (Collection and Enforcement) Regulations 1992 (S.I.~1992/1989) \parthead%\phantom{...}% (\versionyear{} scheme version)
-}
-\fancyhead[R]{}
-\fancyfoot[C]{\thepage}
-\newcommand{\parthead}{}
+\usepackage{csa-regs}
 
-\usepackage{array}
-\usepackage{multirow}
-\usepackage[debugshow]{tabulary}
-\usepackage{longtable}
-\usepackage{multicol}
-\usepackage{lettrine}
-
-\usepackage[colorlinks=true]{hyperref}
-\usepackage{microtype}
-
-\hyphenation{Aw-dur-dod}
-\hyphenation{bank-rupt-cy}
-\hyphenation{Ec-cles-ton}
-\hyphenation{Eux-ton}
-\hyphenation{Hogh-ton}
-\hyphenation{Pres-ton}
-\hyphenation{Pru-den-tial}
-\hyphenation{Riv-ing-ton}
-
-\newcolumntype{x}[1]
-	{>{\raggedright}p{#1}}
-\newcommand{\tn}{\tabularnewline}
-\setlength\tymin{50pt}
-
-\newcommand\amendment[1]{\subsubsection*{Notes}{\itshape\frenchspacing\footnotesize #1 \par}}
+\setlength\headheight{27.57402pt}
 
 \begin{document}
 
@@ -409,7 +364,7 @@ is in force the protected earnings rate shall be—
 (iv) £30;
 \end{enumerate}
 
-($b$) in any other case the personal allowance specified in paragraph 1(1)($e$) of the relevant Schedule at the date mentioned in sub-paragraph ($a$), plus £30.
+($b$) in any other case the personal allowance specified in paragraph 1(1)($e$) of the relevant Schedule at the date mentioned in sub-\hspace{0pt}paragraph ($a$), plus £30.
 \end{enumerate}
 
 (4) Where there is a liability to make payments of child support maintenance but no maintenance assessment is in force, the protected earnings rate shall be—
@@ -438,11 +393,18 @@ Words inserted in reg. 11(3) (5.8.96) by the Child Support (Miscellaneous Amendm
 
 (3) Where the liable person receives a payment of earnings at an interval greater or lesser than the interval specified in relation to the normal deduction rate and the protected earnings rate (“the specified interval”) the employer shall, for the purpose of such payments, take as the normal deduction rate and the protected earnings rate such amounts (to the nearest whole penny) as are in the same proportion to the interval since the last pay-day as the normal deduction rate and the protected earnings rate bear to the specified interval.
 
+%  Reg 12(3A) inserted (18.1.98) by SI 1998/58 reg 6
+(3A) Where on any pay-day the liable person receives a payment of earnings covering a period longer than the period by reference to which the normal deduction rate is set, the employer shall, subject to paragraph (2), make a deduction from the net earnings paid to that liable person on that pay-day of an amount which is in the same proportion to the normal deduction rate as that longer period is to the period by reference to which that normal deduction rate is set.
+
 (4) Where, on any pay-day, the employer fails to deduct an amount due under the deduction from earnings order or deducts an amount less than the amount of the normal deduction rate the shortfall shall, subject to the operation of paragraph (2), be deducted in addition to the normal deduction rate at the next available pay-day or days.
 
 (5) Where, on any pay-day, the liable person’s net earnings are less than his protected earnings rate the amount of the difference shall be carried forward to his next pay-day and treated as part of his protected earnings in respect of that pay-day.
 
 (6) Where, on any pay-day, an employer makes a deduction from the earnings of a liable person in accordance with the deduction from earnings order he may also deduct an amount not exceeding £1 in respect of his administrative costs and such deduction for administrative costs may be made notwithstanding that it may reduce the liable person’s net earnings below the protected earnings rate.
+
+\amendment{
+Reg. 12(3A) inserted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 6.
+}
 
 \subsection[13. Employer to notify liable person of deduction]{Employer to notify liable person of deduction}
 
@@ -767,7 +729,7 @@ Signed by authority of the Secretary of State for Social Security.
 
 17th August 1992
 
-\clearpage
+\small
 
 \part*{S C H E D U L E S}
 
@@ -830,8 +792,9 @@ Aggregate amount in respect of which the liability order is made:
 
 1.  The sum in respect of charges connected with the distress which may be aggregated under section 35(2)($b$) of the Act shall be set out in the following Table—
 
-\noindent
-\begin{longtable}{p{135.43257pt}p{185.55615pt}}
+{\noindent\footnotesize
+\begin{longtable}{p{183pt}p{183pt}}
+%\begin{tabulary}{\linewidth}{JJ}
 \hline
 (1)&(2)\\
 \itshape Matter connected with distress&\itshape Charge\\
@@ -863,6 +826,9 @@ The auctioneer’s commission fee (but not exceeding 7\textonehalf{} per cent.\ 
 G {} For other expenses incurred in connection with a proposed sale where there is no buyer in relation to it:&
 Reasonable costs and fees incurred.\\
 \end{longtable}
+%\end{tabulary}
+
+}
 
 \amendment{
 Words substituted in Head D(ii) of the Table and Head BB inserted into the Table in para. 1 (7.2.94) by the Child Support (Miscellaneous Amendments and Transitional Provisions) Regulations 1994 reg. 3(2) (subject to transitional provisions in reg. 12).
