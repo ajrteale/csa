@@ -60,7 +60,6 @@ S.I.
 1999/977	The Child Support (Miscellaneous Amendments) Regulations 1999
 1999/991	The Social Security and Child Support (Decisions and Appeals) Regulations 1999
 1999/1047	The Child Support (Miscellaneous Amendments) (No 2) Regulations 1999
-
 1999/1305	The Child Support Commissioners (Procedure) Regulations 1999
 1999/1466	The Social Security and Child Support (Decisions and Appeals) (Amendment) Regulations 1999
 1999/1510	The Social Security Act 1998 (Commencement No 7 and Consequential and Transitional Provisions) Order 1999
@@ -68,6 +67,7 @@ S.I.
 1999/1670	The Social Security and Child Support (Decisions and Appeals) Amendment (No 3) Regulations 1999
 1999/2677	The Social Security and Child Support (Decisions and Appeals), Vaccine Damage Payments and Jobseeker's Allowance (Amendment) Regulations 1999
 2000/119	The Social Security and Child Support (Decisions and Appeals) Amendment Regulations 2000
+
 2000/1596	The Social Security and Child Support (Miscellaneous Amendments) Regulations 2000
 2000/2666	The Child Support, Pensions and Social Security Act 2000 (Commencement No 1) Order 2000
 2000/2950	The Child Support, Pensions and Social Security Act 2000 (Commencement No 2) Order 2000

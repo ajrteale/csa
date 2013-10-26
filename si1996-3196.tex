@@ -1,25 +1,11 @@
-\documentclass[a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 
-\usepackage[welsh,english]{babel}
+\newcommand\regstitle{The Child Support (Miscellaneous Amendments) (No.\ 2) Regulations 1996}
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-
-\usepackage{textcomp}
-
-%\usepackage[2012rules]{optional}
-
-\usepackage{lmodern}
-\usepackage[osf]{mathpazo}
-
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-
-\usepackage[perpage,para,symbol]{footmisc}
+\newcommand\regsnumber{1996/3196}
 
 %\opt{newrules}{
-\title{The Child Support (Miscellaneous Amendments) (No.\ 2) Regulations 1996}
+\title{\regstitle}
 %}
 
 %\opt{2012rules}{
@@ -28,52 +14,15 @@
 
 \author{S.I. 1996 No. 3196}
 
-\date{Made 18th December 1996\\Coming into force 13th January 1997
-}
+\date{Made 18th December 1996\\Coming into force 13th January 1997}
 
 %\opt{oldrules}{\newcommand\versionyear{1993}}
 %\opt{newrules}{\newcommand\versionyear{2003}}
 %\opt{2012rules}{\newcommand\versionyear{2012}}
 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhead[L]{}
-\fancyhead[C]{\itshape The Child Support (Miscellaneous Amendments) (No.\ 2) Regulations 1996 (S.I.~1996/3196) \parthead%\phantom{...}%(\versionyear{} scheme version)
-}
-\fancyhead[R]{}
-\fancyfoot[C]{\thepage}
-\newcommand{\parthead}{}
+\usepackage{csa-regs}
 
-\usepackage{array}
-\usepackage{multirow}
-\usepackage[debugshow]{tabulary}
-\usepackage{longtable}
-\usepackage{multicol}
-\usepackage{lettrine}
-
-\usepackage[colorlinks=true]{hyperref}
-\usepackage{microtype}
-
-\hyphenation{Aw-dur-dod}
-\hyphenation{bank-rupt-cy}
-\hyphenation{Ec-cles-ton}
-\hyphenation{Eux-ton}
-\hyphenation{Hogh-ton}
-\hyphenation{Pres-ton}
-\hyphenation{Pru-den-tial}
-\hyphenation{Riv-ing-ton}
-
-\newcolumntype{x}[1]
-	{>{\raggedright}p{#1}}
-\newcommand{\tn}{\tabularnewline}
-\setlength\tymin{50pt}
-
-\newcommand\amendment[1]{\subsubsection*{Notes}{\itshape\frenchspacing\footnotesize
-#1 \par}}
-
-%\setlength\headheight{22.91502pt}
-
-\newcommand\fnote[1]{\footnote{\frenchspacing #1}}
+\setlength\headheight{27.57402pt}
 
 \begin{document}
 
@@ -149,7 +98,7 @@ that notice or document shall, if sent by post to that person’s last known add
 
 4.  In paragraph (3A) of regulation 3 of the Fees Regulations (liability to pay fees)\footnote{\frenchspacing Paragraph (3A) was inserted into regulation 3 by S.I. 1995/1045.} for “1997” there shall be substituted “1999”.
 
-\subsection[5. Amendment of regulation 1 of the Maintenance Assessment Procedure Regulations]{Amendment of regulation 1 of the Maintenance Assessment Procedure Regulations}
+\subsection[5. Amendment of regulation 1 of the Maintenance Assessment Procedure Regulations]{\sloppy Amendment of regulation 1 of the Maintenance Assessment Procedure Regulations}
 
 5.  In paragraph (6)($b$) of regulation 1 of the Maintenance Assessment Procedure Regulations (citation, commencement and interpretation), after the words “to any” there shall be inserted the word “other”.
 
@@ -184,7 +133,9 @@ that notice or document shall, if sent by post to that person’s last known add
 \begin{quotation}
 “(3) The effective date of a new maintenance assessment made in respect of a person with care and an absent parent shall, where the circumstances set out in paragraph (4) apply, be the first day of the first maintenance period after the child support officer has received the information or evidence referred to in paragraph (4)($c$) or 13th January 1997, whichever is the later.
 
+\begin{sloppypar}
 (4) The circumstances referred to in paragraph (3) are where—
+\end{sloppypar}
 \begin{enumerate}\item[]
 ($a$) paragraphs (1) and (2) do not apply to that person with care and that absent parent;
 
@@ -206,7 +157,9 @@ that notice or document shall, if sent by post to that person’s last known add
 
 \subsection[10. Amendment of regulation 1 of the Maintenance Assessments and Special Cases Regulations]{\sloppy Amendment of regulation 1 of the Maintenance Assessments and Special Cases Regulations}
 
+\begin{sloppypar}
 10.—(1) Regulation 1 of the Maintenance Assessments and Special Cases Regulations (citation, commencement and interpretation)\footnote{\frenchspacing Regulation 1 of the Maintenance Assessments and Special Cases Regulations has been amended by S.I. 1993/913, 1995/1045 and 3261, and 1996/1345 and 1945.} shall be amended in accordance with the following provisions of this regulation.
+\end{sloppypar}
 
 (2) In paragraph (2)—
 \begin{enumerate}\item[]
@@ -335,7 +288,9 @@ the amount of that bonus, commission or profit-related payment shall be determin
 
 (5) In paragraph 5, after sub-paragraph (4) there shall be added the following sub-paragraph—
 \begin{quotation}
+\begin{sloppypar}
 “(5) Subject to sub-paragraph (3), where a person has claimed, or has been paid, family credit or disability working allowance on any day during the period beginning not earlier than eight weeks before the relevant week and ending not later than the date on which the assessment is made, the child support officer may have regard to the amount of earnings taken into account in determining entitlement to those benefits in order to calculate or estimate the amount of earnings to be taken into account for the purposes of calculating N and M, notwithstanding the fact that entitlement to those benefits may have been determined by reference to earnings attributable to a period other than that specified in sub-paragraph (1).”.
+\end{sloppypar}
 \end{quotation}
 
 \subsection[14. Amendment of Schedule 2 to the Maintenance Assessments and Special Cases Regulations]{Amendment of Schedule 2 to the Maintenance Assessments and Special Cases Regulations}
@@ -389,11 +344,21 @@ the amount of the premiums payable under that policy shall be eligible to be tak
 
 \subsection[16. Transitional provision]{Transitional provision}
 
-16.—(1) A maintenance assessment in force on 13th January 1997 shall not be reviewed solely to give effect to these Regulations, but the provisions of these Regulations shall be applied in conducting a review of such an assessment under section 16, 17, 18, or 19 of the Act.
+16.—%
+%(1) A maintenance assessment in force on 13th January 1997 shall not be reviewed solely to give effect to these Regulations, but the provisions of these Regulations shall be applied in conducting a review of such an assessment under section 16, 17, 18, or 19 of the Act.
+%
+% Reg 16(1) substituted (1.6.99) by SI 1999/1510 reg 44(a)
+(1) A decision with respect to a maintenance assessment in force on 13th January 1997 shall not be superseded by a decision under section 17 of the Act solely to give effect to these Regulations.
 
-(2) Where the amount of child support maintenance fixed by any fresh assessment made following a review mentioned in paragraph (1) is affected by the provisions of these Regulations, the effective date of that assessment shall not be earlier than the first day of the first maintenance period which commences on or after 13th January 1997.
+(2) Where the amount of child support maintenance fixed by any fresh assessment 
+%made following a review mentioned in paragraph (1)  % Words omitted (1.6.99) by SI 1999/1510 reg 44(b)
+is affected by the provisions of these Regulations, the effective date of that assessment shall not be earlier than the first day of the first maintenance period which commences on or after 13th January 1997.
 
 (3) The provisions of regulations 40A and 49A of the Maintenance Assessment Procedure Regulations in force prior to 13th January 1997 shall continue to apply to a reduced benefit direction which at that date is suspended under the provisions of regulation 40A.
+
+\amendment{
+Reg. 16(1) substituted and words omitted in reg. 16(2) (1.6.99) by the Social Security Act 1998 (Commencement No. 7 and Consequential and Transitional Provisions) Order 1999 reg. 44.
+}
 
 \bigskip
 
@@ -406,6 +371,8 @@ State,\\*Department of Social Security
 }
 
 18th December 1996
+
+\small
 
 \part{Explanatory Note}
 

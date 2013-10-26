@@ -1,25 +1,11 @@
-\documentclass[a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 
-\usepackage[welsh,english]{babel}
+\newcommand\regstitle{The Child Support Act 1991 (Commencement No.\ 3 and Transitional Provisions) Order 1992}
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-
-\usepackage{textcomp}
-
-%\usepackage[2012rules]{optional}
-
-\usepackage[osf]{mathpazo}
-\usepackage{cfr-lm}
-
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-
-\usepackage[perpage,para,symbol]{footmisc}
+\newcommand\regsnumber{1992/2644}
 
 %\opt{newrules}{
-\title{The Child Support Act 1991 (Commencement No.\ 3 and Transitional Provisions) Order 1992}
+\title{\regstitle}
 %}
 
 %\opt{2012rules}{
@@ -34,42 +20,9 @@
 %\opt{newrules}{\newcommand\versionyear{2003}}
 %\opt{2012rules}{\newcommand\versionyear{2012}}
 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhead[L]{}
-\fancyhead[C]{\itshape The Child Support Act 1991 (Commencement No.\ 3 and Transitional Provisions) Order 1992 (S.I.~1992/2644) \parthead%\phantom{...}% (\versionyear{} scheme version)
-}
-\fancyhead[R]{}
-\fancyfoot[C]{\thepage}
-\newcommand{\parthead}{}
+\usepackage{csa-regs}
 
-\usepackage{array}
-\usepackage{multirow}
-\usepackage[debugshow]{tabulary}
-\usepackage{longtable}
-\usepackage{multicol}
-\usepackage{lettrine}
-
-\usepackage[colorlinks=true]{hyperref}
-\usepackage{microtype}
-
-\hyphenation{Aw-dur-dod}
-\hyphenation{bank-rupt-cy}
-\hyphenation{Ec-cles-ton}
-\hyphenation{Eux-ton}
-\hyphenation{Hogh-ton}
-\hyphenation{Pres-ton}
-\hyphenation{Pru-den-tial}
-\hyphenation{Riv-ing-ton}
-
-\newcolumntype{x}[1]
-	{>{\raggedright}p{#1}}
-\newcommand{\tn}{\tabularnewline}
-\setlength\tymin{50pt}
-
-\newcommand\amendment[1]{\subsubsection*{Notes}{\itshape\frenchspacing\footnotesize #1 \par}}
-
-\setlength\headheight{22.91502pt}
+\setlength\headheight{27.57402pt}
 
 \begin{document}
 
@@ -110,6 +63,8 @@ Signed by authority of the Secretary of State for Social Security.
 26th October 1992
 
 \clearpage
+
+\small
 
 \part[Schedule]{S C H E D U L E}
 
@@ -236,7 +191,9 @@ Pt. I revoked (4.9.95) by the Child Support Act 1995 s. 18(8).
 \begin{enumerate}\item[]
 “the Act” means the Child Support Act 1991;
 
-“formula amount” means the amount of child support maintenance that would, but for the provisions of this Part of this Schedule, be payable under an original assessment, or any fresh assessment made during the period specified in paragraph 8 consequent on a review under section 17, 18 or 19 of the Act;
+“formula amount” means the amount of child support maintenance that would, but for the provisions of this Part of this Schedule, be payable under an original assessment, or any fresh assessment made during the period specified in paragraph 8 
+%consequent on a review under section 17, 18 or 19 of the Act;
+by virtue of a revision under section 16 of the Act or a decision under section 17 of the Act superseding an earlier decision;  % Words substituted (1.6.99) by SI 1999/1510 reg 30(a)
 
 “the Maintenance Assessment Procedure Regulations” means the Child Support (Maintenance Assessment Procedure) Regulations 1992\footnote{\frenchspacing S.I. 1992/1813.};
 
@@ -244,6 +201,10 @@ Pt. I revoked (4.9.95) by the Child Support Act 1995 s. 18(8).
 
 “original assessment” means a maintenance assessment made in respect of a qualifying child where no previous such assessment has been made or, where the assessment is made in respect of more than one child, where no previous such assessment has been made in respect of any of those children.
 \end{enumerate}
+
+\amendment{
+Words substituted in definition of ``formula amount'' in para. 6 (1.6.99) by the Social Security Act 1998 (Commencement No. 7 and Consequential and Transitional Provisions) Order 1999 reg. 30(a).
+}
 
 \medskip
 
@@ -280,7 +241,14 @@ Words substituted in para. 7(2) (31.3.93) by the Child Support Act 1991 (Commenc
 
 \medskip
 
-8.  In a case to which this Part of this Schedule applies, the amount payable under an original assessment, or any fresh assessment made consequent on a review under section 17, 18 or 19 of the Act, during the period of one year beginning with the date on which the original assessment takes effect or, if shorter, until any of the conditions specified in paragraph 7(1) is no longer satisfied, shall, instead of being the formula amount, be the modified amount.
+8.  In a case to which this Part of this Schedule applies, the amount payable under an original assessment, or any fresh assessment made  
+%consequent on a review under section 17, 18 or 19 of the Act,
+by virtue of a revision under section 16 of the Act or a decision under section 17 of the Act superseding an earlier decision,  % Words substituted (1.6.99) by SI 1999/1510 reg 30(a)
+during the period of one year beginning with the date on which the original assessment takes effect or, if shorter, until any of the conditions specified in paragraph 7(1) is no longer satisfied, shall, instead of being the formula amount, be the modified amount.
+
+\amendment{
+Words substituted in para. 8 (1.6.99) by the Social Security Act 1998 (Commencement No. 7 and Consequential and Transitional Provisions) Order 1999 reg. 30(a).
+}
 
 \medskip
 
@@ -288,10 +256,17 @@ Words substituted in para. 7(2) (31.3.93) by the Child Support Act 1991 (Commenc
 
 \medskip
 
-10.  If, in making a maintenance assessment, a child support officer has applied the provisions of this Part of this Schedule, regulation 10(2) of the Maintenance Assessment Procedure Regulations shall have effect as if there was added at the end—
+10.  If, in making a maintenance assessment, 
+%a child support officer 
+the Secretary of State  % Words substituted (1.6.99) by SI 1999/1510 reg 30(b)
+has applied the provisions of this Part of this Schedule, regulation 10(2) of the Maintenance Assessment Procedure Regulations shall have effect as if there was added at the end—
 \begin{quotation}
 “($g$) the aggregate weekly amount which was payable under the orders, agreements or arrangements specified in paragraph 7(1)($a$) of the Schedule to the Child Support Act 1991 (Commencement No.\ 3 and Transitional Provisions) Order 1992 (modification of maintenance assessment in certain cases).”.
 \end{quotation}
+
+\amendment{
+Words substituted in para. 10 (1.6.99) by the Social Security Act 1998 (Commencement No. 7 and Consequential and Transitional Provisions) Order 1999 reg. 30(b).
+}
 
 \medskip
 
@@ -299,9 +274,15 @@ Words substituted in para. 7(2) (31.3.93) by the Child Support Act 1991 (Commenc
 
 \medskip
 
-12.—(1) The provisions of the following sub-paragraphs shall apply where there is a review of a previous assessment under section 17 of the Act (reviews on change of circumstances) at any time when the amount payable under that assessment is the modified amount.
+12.—(1) The provisions of the following sub-paragraphs shall apply where 
+%there is a review of a previous assessment under section 17 of the Act (reviews on change of circumstances) 
+a decision is made under section 17 of the Act which supersedes an earlier decision on the ground that there has been a material change of circumstances since the decision took effect  % Words substituted (1.6.99) by SI 1999/1510 reg 30(c)(i)
+at any time when the amount payable under that assessment is the modified amount.
 
-(2) Where the child support officer determines that, were a fresh assessment to be made as a result of the review, the amount payable under it (disregarding the provisions of this Part of this Schedule) (in this paragraph called “the reviewed formula amount”) would be—
+(2) Where the 
+%child support officer determines that, were a fresh assessment to be made as a result of the review, 
+Secretary of State determines that, were a fresh assessment to be made by virtue of a decision under section 17 of the Act superseding an earlier decision,  % Words substituted (1.6.99) by SI 1999/1510 reg 30(c)(ii)
+the amount payable under it (disregarding the provisions of this Part of this Schedule) (in this paragraph called “the reviewed formula amount”) would be—
 \begin{enumerate}\item[]
 ($a$) more than the formula amount, the amount of child support maintenance payable shall be the modified amount plus the difference between the formula amount and the reviewed formula amount;
 
@@ -310,7 +291,17 @@ Words substituted in para. 7(2) (31.3.93) by the Child Support Act 1991 (Commenc
 ($c$) less than the modified amount, the amount of child support maintenance payable shall be the reviewed formula amount.
 \end{enumerate}
 
-(3) The child support officer shall, in determining the reviewed formula amount, apply the provisions of regulations 20 to 22 of the Maintenance Assessment Procedure Regulations.
+(3) The 
+%child support officer 
+Secretary of State  % Words substituted (1.6.99) by SI 1999/1510 reg 30(c)(iii)
+shall, in determining the reviewed formula amount, apply the provisions of regulations 
+%20 to 
+21 and  % Words substituted (1.6.99) by SI 1999/1510 reg 30(c)(iii)
+22 of the Maintenance Assessment Procedure Regulations.
+
+\amendment{
+Words substituted in para. 12 (1.6.99) by the Social Security Act 1998 (Commencement No. 7 and Consequential and Transitional Provisions) Order 1999 reg. 30(c).
+}
 
 \part{Explanatory Note}
 
@@ -327,6 +318,8 @@ Words substituted in para. 7(2) (31.3.93) by the Child Support Act 1991 (Commenc
 \subsection*{(This note is not part of the Order)}
 
  The provisions of the Act specified in column 1 have been brought into force on the date specified in column 2 by the instrument specified in column 3.
+
+{\noindent\footnotesize
 \begin{longtable}{p{134pt}p{100pt}p{75pt}}
 \hline
 Column 1 & Column 2 & Column 3\\
@@ -387,5 +380,7 @@ Schedule 3 so far as not already in force and section 21(4) so far as it relates
 Schedule 4&1st September 1992&S.I. 1992/1938.\\
 Paragraphs 1 to 4 of Schedule 5 and section 58(13) so far as it relates to those paragraphs&1st September 1992&S.I. 1992/1938.\\
 \end{longtable}
+
+}
 
 \end{document}
