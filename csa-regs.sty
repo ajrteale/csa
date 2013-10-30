@@ -15,10 +15,12 @@
 
 \usepackage[perpage,para,symbol]{footmisc}
 
+\newcommand\siprefix{S.I.~}
+
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead[L]{}
-\fancyhead[C]{\itshape \regstitle{} (S.I.~\regsnumber) \parthead\phantom{...}% (\versionyear{} scheme version)
+\fancyhead[C]{\itshape \regstitle{} (\siprefix\regsnumber) \parthead\phantom{...}% (\versionyear{} scheme version)
 }
 \fancyhead[R]{}
 \fancyfoot[C]{\thepage}

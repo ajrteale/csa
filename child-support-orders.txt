@@ -64,11 +64,16 @@ S.I.
 1999/1466	The Social Security and Child Support (Decisions and Appeals) (Amendment) Regulations 1999
 1999/1510	The Social Security Act 1998 (Commencement No 7 and Consequential and Transitional Provisions) Order 1999
 1999/1623	The Social Security and Child Support (Decisions and Appeals) Amendment (No 2) Regulations 1999
+1999/1662	The Social Security Contributions (Transfer of Functions, etc.) Act 1999 (Commencement No. 2 and Consequential and Transitional Provisions) Order 1999
 1999/1670	The Social Security and Child Support (Decisions and Appeals) Amendment (No 3) Regulations 1999
+1999/2570	The Tax Credits (Decisions and Appeals) (Amendment) Regulations 1999
 1999/2677	The Social Security and Child Support (Decisions and Appeals), Vaccine Damage Payments and Jobseeker's Allowance (Amendment) Regulations 1999
+1999/3178	The Social Security Act 1998 (Commencement No. 12 and Consequential and Transitional Provisions) Order 1999
 2000/119	The Social Security and Child Support (Decisions and Appeals) Amendment Regulations 2000
 
-2000/1596	The Social Security and Child Support (Miscellaneous Amendments) Regulations 2000
+2000/897	The Social Security (Work-focused Interviews) Regulations 2000
+	2000/1596	The Social Security and Child Support (Miscellaneous Amendments) Regulations 2000
+
 2000/2666	The Child Support, Pensions and Social Security Act 2000 (Commencement No 1) Order 2000
 2000/2950	The Child Support, Pensions and Social Security Act 2000 (Commencement No 2) Order 2000
 2000/2994	The Child Support, Pensions and Social Security Act 2000 (Commencement No 3) Order 2000
