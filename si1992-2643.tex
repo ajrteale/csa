@@ -1,26 +1,18 @@
-\documentclass[a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 
-\usepackage[welsh,english]{babel}
+\newcommand\regstitle{The Child Support (Collection and Enforcement of Other Forms of Maintenance) Regulations 1992}
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+\newcommand\regsnumber{1992/2643}
 
-\usepackage{textcomp}
+\usepackage[newrules]{optional}
 
-%\usepackage[2012rules]{optional}
+\opt{oldrules}{
+\title{\regstitle\\(1993 scheme version)}
+}
 
-\usepackage[osf]{mathpazo}
-\usepackage{cfr-lm}
-
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-
-\usepackage[perpage,para,symbol]{footmisc}
-
-%\opt{newrules}{
-\title{The Child Support (Collection and Enforcement of Other Forms of Maintenance) Regulations 1992}
-%}
+\opt{newrules}{
+\title{\regstitle\\(2003 scheme version)}
+}
 
 %\opt{2012rules}{
 %\title{Child Maintenance and Other Payments Act 2008\\(2012 scheme version)}
@@ -34,40 +26,9 @@
 %\opt{newrules}{\newcommand\versionyear{2003}}
 %\opt{2012rules}{\newcommand\versionyear{2012}}
 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhead[L]{}
-\fancyhead[C]{\itshape The Child Support (Collection and Enforcement of Other Forms of Maintenance) Regulations 1992 (S.I.~1992/2643) \parthead%\phantom{...}% (\versionyear{} scheme version)
-}
-\fancyhead[R]{}
-\fancyfoot[C]{\thepage}
-\newcommand{\parthead}{}
+\usepackage{csa-regs}
 
-\usepackage{array}
-\usepackage{multirow}
-\usepackage[debugshow]{tabulary}
-\usepackage{longtable}
-\usepackage{multicol}
-\usepackage{lettrine}
-
-\usepackage[colorlinks=true]{hyperref}
-\usepackage{microtype}
-
-\hyphenation{Aw-dur-dod}
-\hyphenation{bank-rupt-cy}
-\hyphenation{Ec-cles-ton}
-\hyphenation{Eux-ton}
-\hyphenation{Hogh-ton}
-\hyphenation{Pres-ton}
-\hyphenation{Pru-den-tial}
-\hyphenation{Riv-ing-ton}
-
-\newcolumntype{x}[1]
-	{>{\raggedright}p{#1}}
-\newcommand{\tn}{\tabularnewline}
-\setlength\tymin{50pt}
-
-\newcommand\amendment[1]{\subsubsection*{Notes}{\itshape\frenchspacing\footnotesize #1 \par}}
+\setlength\headheight{27.57402pt}
 
 \begin{document}
 
@@ -105,18 +66,34 @@ The Secretary of State for Social Security, in exercise of the powers conferred 
 
 ($b$) any periodical payments under a maintenance order 
 or, in Scotland, registered minutes of agreement % Words inserted (5.4.93) by SI 1993/913 reg 44
-which are payable to or for the benefit of a spouse or former spouse who is the person with care of a child who is a qualifying child in respect of whom a child support maintenance assessment is in force in accordance with which the Secretary of State has arranged for the collection of child support maintenance under section 29 of the Act; and
+which are payable to or for the benefit of a spouse or former spouse who is the person with care of a child who is a qualifying child in respect of whom a child support 
+\opt{oldrules}{maintenance assessment}\opt{newrules}{maintenance calculation}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 3(2) 
+is in force in accordance with which the Secretary of State has arranged for the collection of child support maintenance under section 29 of the Act; and
 
 ($c$) any periodical payments under a maintenance order payable to or for the benefit of a former child of the family of the person against whom the order is made, that child having his home with the person with care.
 \end{enumerate}
 
 \amendment{
 Words inserted in reg. 2($b$) (5.4.93) by the Child Support (Miscellaneous Amendments) Regulations 1993 reg. 44.
+
+\opt{newrules}{
+Words substituted in reg. 2(b) (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 3(2).
+}
 }
 
 \subsection[3. Collection and enforcement—England and Wales]{Collection and enforcement—England and Wales}
 
-3.  In relation to England and Wales, sections 29(2) and (3) and 31 to 40 of the Act, and any regulations made under those sections, shall apply for the purpose of enabling the Secretary of State to enforce any obligation to pay any amount which he is authorised to collect under section 30 of the Act, with the modification that any reference in those sections or regulations to child support maintenance shall be read as a reference to any of the periodical payments mentioned in regulation 2 above, and any reference to a maintenance assessment shall be read as a reference to any of the maintenance orders mentioned in that regulation.
+3.  In relation to England and Wales, sections 29(2) and (3) and 31 to 
+\opt{oldrules}{40}\opt{newrules}{40B}  % Figure substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 3(3) 
+of the Act, and any regulations made under those sections, shall apply for the purpose of enabling the Secretary of State to enforce any obligation to pay any amount which he is authorised to collect under section 30 of the Act, with the modification that any reference in those sections or regulations to child support maintenance shall be read as a reference to any of the periodical payments mentioned in regulation 2 above, and any reference to a 
+\opt{oldrules}{maintenance assessment}\opt{newrules}{maintenance calculation}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 3(2) 
+shall be read as a reference to any of the maintenance orders mentioned in that regulation.
+
+\opt{newrules}{
+\amendment{
+Words substituted in reg. 3 (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 3(2).
+}
+}
 
 \subsection[4. Collection and enforcement—Scotland]{Collection and enforcement—Scotland}
 
@@ -124,12 +101,29 @@ Words inserted in reg. 2($b$) (5.4.93) by the Child Support (Miscellaneous Amend
 \begin{enumerate}\item[]
 ($a$) the Secretary of State may bring any proceedings and take any other steps (other than diligence against earnings) which could have been brought or taken by or on behalf of the person to whom the periodical payments are payable; and
 
-($b$) sections 29(2) and (3), 31 and 32 of the Act, and any regulations made under those sections, shall apply, with the modification that any reference in those sections or regulations to child support maintenance shall be read as a reference to any of the periodical payments mentioned in regulation 2 above, and any reference to a maintenance assessment shall be read as a reference to any of the maintenance orders mentioned in that regulation.
+($b$) sections 29(2) and (3), 31 and 32 of the Act, and any regulations made under those sections, shall apply, with the modification that any reference in those sections or regulations to child support maintenance shall be read as a reference to any of the periodical payments mentioned in regulation 2 above, and any reference to a 
+\opt{oldrules}{maintenance assessment}\opt{newrules}{maintenance calculation}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 3(2) 
+shall be read as a reference to any of the maintenance orders mentioned in that regulation.
 \end{enumerate}
+
+\opt{newrules}{
+\amendment{
+Words substituted in reg. 4(b) (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 3(2).
+}
+}
 
 \subsection[5. Collection and enforcement—supplementary]{Collection and enforcement—supplementary}
 
-5.  Nothing in Regulations 3 or 4 applies to any periodical payment which falls due before the date specified by the Secretary of State by a notice in writing to the absent parent that he is arranging for those payments to be collected, and that date shall be not earlier than the date the notice is given.
+5.  Nothing in Regulations 3 or 4 applies to any periodical payment which falls due before the date specified by the Secretary of State by a notice in writing to the 
+\opt{oldrules}{absent parent}\opt{newrules}{non-resident parent}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 3(4)
+that he is arranging for those payments to be collected, and that date shall be not earlier than the date the notice is given.
+
+
+\opt{newrules}{
+\amendment{
+Words substituted in reg. 5 (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 3(2).
+}
+}
 
 \bigskip
 

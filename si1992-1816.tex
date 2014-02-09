@@ -4,9 +4,15 @@
 
 \newcommand\regsnumber{1992/1816}
 
-%\opt{newrules}{
-\title{\regstitle}
-%}
+\usepackage[newrules]{optional}
+
+\opt{oldrules}{
+\title{\regstitle\\(1993 scheme version)}
+}
+
+\opt{newrules}{
+\title{\regstitle\\(2003 scheme version)}
+}
 
 %\opt{2012rules}{
 %\title{Child Maintenance and Other Payments Act 2008\\(2012 scheme version)}
@@ -21,6 +27,8 @@
 %\opt{2012rules}{\newcommand\versionyear{2012}}
 
 \usepackage{csa-regs}
+
+\setlength\headheight{27.57402pt}
 
 \begin{document}
 
@@ -49,7 +57,7 @@ Now, therefore, the Secretary of State for Social Security, in exercise of the p
 
 (2) In these Regulations, unless the context otherwise requires—
 \begin{enumerate}\item[]
-“absent parent” includes a person treated as an absent parent by virtue of regulation 20 of the Maintenance Assessments and Special Cases Regulations;
+\opt{oldrules}{“absent parent” includes a person treated as an absent parent by virtue of regulation 20 of the Maintenance Assessments and Special Cases Regulations;}  % Definition omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(2)(a)
 
 “the Act” means the Child Support Act 1991;
 
@@ -59,15 +67,25 @@ Now, therefore, the Secretary of State for Social Security, in exercise of the p
 
 “arrears notice” has the meaning prescribed in regulation 2;
 
-“due date” has the meaning prescribed in regulation 3;
+% Definition inserted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(2)(b)
+\opt{newrules}{“Maintenance Calculation Procedure Regulations” means the Child Support (Maintenance Calculation Procedure) Regulations 2000\footnote{S.I.\ 2001/157.};}
 
-“Maintenance Assessments and Special Cases Regulations” means the Child Support (Maintenance Assessments and Special Cases) Regulations 1992\footnote{\frenchspacing S.I. 1992/1815.};
+\opt{oldrules}{“due date” has the meaning prescribed in regulation 3;}  % Definition omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(2)(a)
 
-“Maintenance Assessment Procedure Regulations” means the Child Support (Maintenance Assessment Procedure) Regulations 1992\footnote{\frenchspacing S.I. 1992/1813.};
+\opt{oldrules}{“Maintenance Assessments and Special Cases Regulations” means the Child Support (Maintenance Assessments and Special Cases) Regulations 1992\footnote{\frenchspacing S.I. 1992/1815.};}  % Definition omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(2)(a)
+
+\opt{oldrules}{“Maintenance Assessment Procedure Regulations” means the Child Support (Maintenance Assessment Procedure) Regulations 1992\footnote{\frenchspacing S.I. 1992/1813.};}  % Definition omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(2)(a)
+
+% Definition inserted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(2)(c)
+\opt{newrules}{“non-resident parent” includes a person treated as such under regulation 8 of the Child Support (Maintenance Calculations and Special Cases) Regulations 2000\footnote{S.I.\ 2001/155.};}
 
 “parent with care” means a person who, in respect of the same child or children, is both a parent and a person with care;
 
-“relevant person” has the same meaning as in the Maintenance Assessment Procedure Regulations.
+“relevant person” has the same meaning as in the 
+\opt{oldrules}{Maintenance Assessment Procedure Regulations}\opt{newrules}{Maintenance Calculation Procedure Regulations};  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(2)(d)
+
+% Definition inserted (6.10.03) by SI 2002/3019 reg 26(2)
+“state pension credit” means the social security benefit of that name payable under the State Pension Credit Act 2002\footnote{2002 c.\ 16.}.
 \end{enumerate}
 
 (3) In these Regulations, unless the context otherwise requires, a reference—
@@ -79,32 +97,68 @@ Now, therefore, the Secretary of State for Social Security, in exercise of the p
 ($c$) in a paragraph to a lettered or numbered sub-paragraph is to the sub-paragraph in that paragraph bearing that letter or number.
 \end{enumerate}
 
-\section[Part II --- Arrears of child support maintenance and interest on arrears]{Part II\\*Arrears of child support maintenance and interest on arrears}
+\opt{newrules}{
+\amendment{
+Words substituted in definition of ``relevant person'' in reg. 1(2), definitions of ``Maintenance Calculation Procedure Regulations'' and ``non-resident parent'' inserted in reg. 1(2) and definitions of ``absent parent'', ``due date'', ``Maintenance Assessments and Special Cases Regulations'' and ``Maintenance Assessment Procedure Regulations'' in reg. 1(2) omitted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 5(2).
+}
+
+Definition of ``state pension credit'' added to reg. 1(2) (6.10.03) by the State Pension Credit (Consequential, Transitional and Miscellaneous Provisions) Regulations 2002 reg. 26(2).
+}
+
+\section[Part II --- Arrears of child support maintenance\opt{oldrules}{ and interest on arrears}]{Part II\\*Arrears of child support maintenance\opt{oldrules}{ and interest on arrears}}  % Words omitted in heading (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(a)
+
+\opt{newrules}{
+\amendment{
+Words omitted in heading to Pt. II (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 5(3)(a).
+}
+}
 
 \renewcommand\parthead{--- Part II}
 
-\subsection[2. Applicability of provisions as to arrears and interest and arrears notices]{Applicability of provisions as to arrears and interest and arrears notices}
+\subsection[2. Applicability of provisions as to arrears\opt{oldrules}{ and interest} and arrears notices]{Applicability of provisions as to arrears\opt{oldrules}{ and interest} and arrears notices}  % Words omitted in heading (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(b)(i)
 
-2.—(1) The provisions of paragraphs (2) to (4) and regulations 3 to 9 shall apply where—
+2.—(1) The provisions of paragraphs (2) to (4) and 
+\opt{oldrules}{regulations 3 to 9}\opt{newrules}{regulations 5 and 8}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(b)(ii)
+shall apply where—
 \begin{enumerate}\item[]
 ($a$) a case falls within section 41(1) of the Act; and
 
 ($b$) the Secretary of State is arranging for the collection of child support maintenance under section 29 of the Act.
 \end{enumerate}
 
-(2) Where the Secretary of State is considering taking action with regard to a case falling within paragraph (1), he shall serve a notice (an “arrears notice”) on the absent parent.
+(2) Where the Secretary of State is considering taking action with regard to a case falling within paragraph (1), he shall serve a notice (an “arrears notice”) on the 
+\opt{oldrules}{absent parent}\opt{newrules}{non-resident parent}.  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(b)(iv)
 
 (3) An arrears notice shall—
 \begin{enumerate}\item[]
 ($a$) itemize the payments of child support maintenance due and not paid;
 
-($b$) set out in general terms the provisions as to arrears and interest contained in this regulation and regulations 3 to 9; and
+($b$) set out in general terms the provisions as to arrears 
+\opt{oldrules}{and interest }% Words omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(b)(iii)
+contained in this regulation and \opt{oldrules}{regulations 3 to 9}\opt{newrules}{regulations 5 and 8}% Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(b)(ii)
+; and
 
-($c$) request the absent parent to make payment of all outstanding arrears.
+($c$) request the 
+\opt{oldrules}{absent parent}\opt{newrules}{non-resident parent}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(b)(iv)
+to make payment of all outstanding arrears.
 \end{enumerate}
 
-(4) Where an arrears notice has been served under paragraph (2), no duty to serve a further notice under that paragraph shall arise in relation to further arrears unless those further arrears have arisen after an intervening continuous period of not less than 12 weeks during the course of which all payments of child support maintenance due from the absent parent have been paid on time in accordance with regulations made under section 29 of the Act.
+(4) Where an arrears notice has been served under paragraph (2), no duty to serve a further notice under that paragraph shall arise in relation to further arrears unless those further arrears have arisen after an intervening continuous period of not less than 12 weeks during the course of which all payments of child support maintenance due from the 
+\opt{oldrules}{absent parent}\opt{newrules}{non-resident parent}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(b)(iv)
+have been paid on time in accordance with regulations made under section 29 of the Act.
 
+\opt{newrules}{
+\amendment{
+Words substituted in reg. 2(1), (2), (3)(b), (c), (4) and words omitted in heading to reg. 2 (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 5(3)(b).
+
+\medskip
+
+Regs. 3, 4 omitted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 5(3)(e).
+}
+}
+
+% Regs 3, 4 omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(e)
+\opt{oldrules}{
 \subsection[3. Liability to make payments of interest with respect to arrears]{Liability to make payments of interest with respect to arrears}
 
 3.—(1) Subject to paragraph (2) and regulations 4 and 5, interest shall be payable with respect to any amount of child support maintenance due in accordance with a maintenance assessment and not paid by the date specified by the Secretary of State in accordance with regulations made under section 29 of the Act (the “due date”), and shall be payable in respect of the period commencing on that day and terminating on the date that amount is paid.
@@ -171,6 +225,7 @@ Words substituted in reg. 4(1) and omitted in reg. 4(3) (18.4.95) by the Child S
 
 Words omitted in reg. 4(2)(b) (1.6.99) by the Social Security Act 1998 (Commencement No.\ 7 and Consequential and Transitional Provisions) Order 1999 reg. 25.
 }
+}
 
 \subsection[5. Payment of arrears by agreement]{Payment of arrears by agreement}
 
@@ -178,24 +233,41 @@ Words omitted in reg. 4(2)(b) (1.6.99) by the Social Security Act 1998 (Commence
 %
 %(2) An arrears agreement shall specify the dates on which the payments of arrears shall be made and the amount to be paid on each such date.
 % Reg 5(1), (2) substituted (5.4.93) by SI 1993/913 reg 37
-(1) The Secretary of State may at any time enter into an agreement with an absent parent (an “arrears agreement”) for the absent parent to pay all outstanding arrears by making payments on agreed dates of agreed amounts.
+(1) The Secretary of State may at any time enter into an agreement with 
+\opt{oldrules}{an absent parent}\opt{newrules}{a non-resident parent}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(c)(i)
+(an “arrears agreement”) for the 
+\opt{oldrules}{absent parent}\opt{newrules}{non-resident parent}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(c)(i)
+to pay all outstanding arrears by making payments on agreed dates of agreed amounts.
 
 (2) Where an arrears agreement has been entered into, the Secretary of State shall prepare a schedule of the dates on which payments of arrrears shall be made and the amount to be paid on each such date, and shall send a copy of the schedule to such persons as he thinks fit.
 
-(3) If an arrears agreement is entered into within 28 days of the due date, and the terms of that agreement are adhered to by the absent parent, there shall be no liability to make payments of interest under the provisions of regulation 3 with respect to the arrears in relation to which the arrears agreement was entered into.
+% Reg 5(3), (4) omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(c)(ii)
+\opt{oldrules}{(3) If an arrears agreement is entered into within 28 days of the due date, and the terms of that agreement are adhered to by the absent parent, there shall be no liability to make payments of interest under the provisions of regulation 3 with respect to the arrears in relation to which the arrears agreement was entered into.
 
-(4) If an arrears agreement is entered into later than 28 days after the due date and the terms of that agreement are adhered to by the absent parent, there shall, with respect to the arrears in relation to which that agreement was entered into, be no liability to make payments of interest in respect of any period commencing on the date that agreement was entered into.
+(4) If an arrears agreement is entered into later than 28 days after the due date and the terms of that agreement are adhered to by the absent parent, there shall, with respect to the arrears in relation to which that agreement was entered into, be no liability to make payments of interest in respect of any period commencing on the date that agreement was entered into.}
 
-(5) The Secretary of State may at any time enter into a further arrears agreement with the absent parent in relation to all arrears then outstanding.
+(5) The Secretary of State may at any time enter into a further arrears agreement with the \opt{oldrules}{absent parent}\opt{newrules}{non-resident parent}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(c)(i)
+in relation to all arrears then outstanding.
 
-(6) Where the terms of any arrears agreement are not adhered to by an absent parent, interest shall be payable with respect to arrears in accordance with the provisions of regulation 3.
+% Reg 5(6) omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(c)(ii)
+\opt{oldrules}{(6) Where the terms of any arrears agreement are not adhered to by an absent parent, interest shall be payable with respect to arrears in accordance with the provisions of regulation 3.}
 
 (7) It shall be an implied term of any arrears agreement that any payment of child support maintenance that becomes due whilst that agreement is in force shall be made by the due date.
 
 \amendment{
 Reg. 5(1), (2) substituted (5.4.93) by the Child Support (Miscellaneous Amendments) Regulations 1993 reg. 37.
+
+\opt{newrules}{
+Words substituted in reg. 5(1), (5) and reg. 5(3), (4), (6) omitted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 5(3)(c).
+
+\medskip
+
+Regs. 6, 7 omitted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 5(3)(e).
+}
 }
 
+% Regs 6, 7 omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(e)
+\opt{oldrules}{
 \subsection[6. Rate of interest and calculation of interest]{Rate of interest and calculation of interest}
 
 6.—(1) The rate of interest payable where liability to pay interest under regulation 3 arises shall be one per centum per annum above the median base rate prevailing from time to time calculated on a daily basis.
@@ -246,6 +318,7 @@ or income-based jobseeker’s allowance% Words inserted (7.10.96) by SI 1996/134
 \amendment{
 Words inserted in reg. 7 (7.10.96) by the Social Security and Child Support (Jobseeker's Allowance) (Consequential Amendments) Regulations 1996 reg. 3.
 }
+}
 
 %\subsection[8. Retention of recovered arrears of child support maintenance by the Secretary of State]{Retention of recovered arrears of child support maintenance by the Secretary of State}
 %
@@ -256,7 +329,9 @@ Words inserted in reg. 7 (7.10.96) by the Social Security and Child Support (Job
 
 8.—(1) This regulation applies where—
 \begin{enumerate}\item[]
-(i) the Secretary of State recovers arrears from an absent parent under section 41 of the Act; and
+(i) the Secretary of State recovers arrears from 
+\opt{oldrules}{an absent parent}\opt{newrules}{a non-resident parent}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(d)(i)
+under section 41 of the Act; and
 
 (ii) income support
 or income-based jobseeker’s allowance  % Words inserted (7.10.96) by SI 1996/1345 reg 3
@@ -267,24 +342,48 @@ is paid to or in respect of the person with care or was paid to or in respect of
 or income-based jobseeker’s allowance  % Words inserted (7.10.96) by SI 1996/1345 reg 3
 that was paid to or in respect of the person with care and the amount of income support 
 or income-based jobseeker’s allowance  % Words inserted (7.10.96) by SI 1996/1345 reg 3
-that he is satisfied would have been paid had the absent parent paid, by the due dates, the amounts due under the child support maintenance assessment in force or to be taken to have been in force by virtue of the provisions of section 41(2A) of the Act.
+that he is satisfied would have been paid had the 
+\opt{oldrules}{absent parent}\opt{newrules}{non-resident parent}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(d)(i)
+paid, by the due dates, the amounts due under the child support 
+\opt{oldrules}{maintenance assessment}\opt{newrules}{maintenance calculation}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(3)(d)(ii)
+in force or to be taken to have been in force by virtue of the provisions of section 41(2A) of the Act.
 
 \amendment{
 Reg. 8 substituted (22.1.96) by the Child Support (Miscellaneous Amendments) (No.\ 2) Regulations 1995 reg. 2.
 
 Words inserted in reg. 8 (7.10.96) by the Social Security and Child Support (Jobseeker's Allowance) (Consequential Amendments) Regulations 1996 reg. 3.
 
+\opt{newrules}{
+Words substituted in reg. 8(1)(i), (2) (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 5(3)(d).
+}
 }
 
-\section[Part III --- Attribution of payments and adjustment of the amount payable under a maintenance assessment]{\sloppy Part III\\*Attribution of payments and adjustment of the amount payable under a maintenance assessment}
+\section[Part III --- Attribution of payments and adjustment of the amount payable under a maintenance \opt{oldrules}{assessment}\opt{newrules}{calculation}]{\sloppy Part III\\*Attribution of payments and adjustment of the amount payable under a maintenance \opt{oldrules}{assessment}\opt{newrules}{calculation}}  % Word substituted in heading (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(a)
 
 \renewcommand\parthead{--- Part III}
 
+\opt{newrules}{
+\amendment{
+Word substituted in heading to Pt. III (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 5(4)(a).
+}
+}
+
 \subsection[9. Attribution of payments]{Attribution of payments}
 
-9.  Where a maintenance assessment is or has been in force and there are arrears of child support maintenance, the Secretary of State may attribute any payment of child support maintenance made by an absent parent to child support maintenance due as he thinks fit.
+9.  Where a maintenance 
+\opt{oldrules}{assessment}\opt{newrules}{calculation}  % Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(b)
+is or has been in force and there are arrears of child support maintenance, the Secretary of State may attribute any payment of child support maintenance made by 
+\opt{oldrules}{an absent parent}\opt{newrules}{a non-resident parent}  % Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(c)
+to child support maintenance due as he thinks fit.
 
-\subsection[10. Adjustment of the amount payable under a maintenance assessment]{Adjustment of the amount payable under a maintenance assessment}
+\opt{newrules}{
+\amendment{
+Words substituted in reg. 9 (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 5(4)(b), (c).
+
+}
+}
+
+\subsection[10. Adjustment of the amount payable under a maintenance \opt{oldrules}{assessment}\opt{newrules}{calculation}]{Adjustment of the amount payable under a maintenance \opt{oldrules}{assessment}\opt{newrules}{calculation}}  % Word substituted in heading (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(a)
 
 %10.—(1) Where a new or a fresh maintenance assessment has retrospective effect, the amount payable under that assessment may be adjusted by a child support officer for the purpose of taking account of the retrospective effect of the assessment by such amount as, subject to the provisions of paragraph (4), he considers appropriate in the circumstances of the case.
 %
@@ -304,25 +403,41 @@ Words inserted in reg. 8 (7.10.96) by the Social Security and Child Support (Job
 %(6) For the purposes of paragraph (5), the mean over-payment or the mean underpayment shall be the total net over-payment or the total net under-payment divided by the number of occasions on which, in respect of the period being taken into acount for the purposes of paragraph (2), there have been over-payments or, as the case may be, under-payments of child support maintenance.
 
 %Reg 10 substituted (18.4.95) by SI 1995/1045 reg 8
-10.—(1) Where for any reason, including the retrospective effect of a new or fresh maintenance assessment, there has been an overpayment of child support maintenance, 
+10.—(1) Where for any reason, including the retrospective effect of a% 
+\opt{oldrules}{new or fresh }  % Words omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(d)(i)
+maintenance 
+\opt{oldrules}{assessment}\opt{newrules}{calculation}% Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(b)
+, there has been an overpayment of child support maintenance, 
 %a child support officer 
 the Secretary of State  % Words substituted (1.6.99) by SI 1999/1510 reg 26(a)
 may, for the purpose of taking account of that overpayment—
 \begin{enumerate}\item[]
-($a$) apply the amount overpaid to reduce any arrears of child support maintenance due under any previous maintenance assessment made in respect of the same relevant persons; or
+($a$) apply the amount overpaid to reduce any arrears of child support maintenance due under any previous maintenance 
+\opt{oldrules}{assessment}\opt{newrules}{calculation}  % Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(b)
+made in respect of the same relevant persons; or
 
-($b$) where there is no previous relevant maintenance assessment or an overpayment remains after the application for sub-paragraph ($a$), and subject to paragraph (4), adjust the amount payable under a current maintenance assessment by such amount as he considers appropriate in all the circumstances of the case having regard in particular to—
+($b$) where there is no previous relevant maintenance 
+\opt{oldrules}{assessment}\opt{newrules}{calculation}  % Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(b)
+or an overpayment remains after the application for sub-paragraph ($a$), and subject to paragraph (4), adjust the amount payable under a current maintenance 
+\opt{oldrules}{assessment}\opt{newrules}{calculation}  % Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(b)
+by such amount as he considers appropriate in all the circumstances of the case having regard in particular to—
 \begin{enumerate}\item[]
-(i) the circumstances of the absent parent and the person with care;
+(i) the circumstances of the 
+\opt{oldrules}{absent parent}\opt{newrules}{non-resident parent}  % Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(c)
+and the person with care;
 
 \begin{sloppypar}
-(ii) the amount of the overpayment in relation to the amount due under the current maintenance assessment; and
+(ii) the amount of the overpayment in relation to the amount due under the current maintenance 
+\opt{oldrules}{assessment}\opt{newrules}{calculation}% Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(b)
+; and
 \end{sloppypar}
 
 (iii) the period over which it would be reasonable for the overpayment to be rectified.
 \end{enumerate}
 \end{enumerate}
 
+%Reg 10(2), (3) revoked (3.3.03 for new-rules cases only) by SI 2000/3185 reg 14(1)
+\opt{oldrules}{
 (2) Where 
 %a child support officer 
 the Secretary of State  % Words substituted (1.6.99) by SI 1999/1510 reg 26(a)
@@ -341,8 +456,32 @@ is satisfied that such adjustment would not be appropriate in all the circumstan
 %a child support officer 
 the Secretary of State  % Words substituted (1.6.99) by SI 1999/1510 reg 26(a)
 is satisfied that the adjustment referred to in paragraph (2) would not be appropriate, he may cancel that adjustment or he may adjust the amount payable under that fresh maintenance assessment as he sees fit, having regard to the matters specified in heads (i) to (iii) of sub-paragraph ($b$) of paragraph (1).
+}
 
-(4) Any adjustment under the provisions of paragraph (1), (2) or (3) shall not reduce the amount payable under a maintenance assessment to less than the minimum amount prescribed under paragraph 7 of Schedule 1 to the Act.
+% Reg 10(3A) inserted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(d)(ii)
+\opt{newrules}{
+(3A) Where there has been a voluntary payment, the Secretary of State may—
+\begin{enumerate}\item[]
+($a$) apply the amount of the voluntary payment to reduce any arrears of child support maintenance due under any previous maintenance calculation made in respect of the same relevant persons; or
+
+($b$) where there is no previous relevant maintenance calculation or an amount of the voluntary payment remains after the application of sub-paragraph ($a$), and subject to paragraph (4), adjust the amount payable under a current maintenance calculation by such amount as he considers appropriate in all the circumstances of the case having regard in particular to—
+\begin{enumerate}\item[]
+(i) the circumstances of the non-resident parent and the person with care;
+
+(ii) the amount of the voluntary payment in relation to the amount due under the current maintenance calculation; and
+
+(iii) the period over which it would be reasonable for the voluntary payment to be taken into account.
+\end{enumerate}
+\end{enumerate}
+}
+
+(4) Any adjustment under the provisions of paragraph (1), 
+\opt{oldrules}{(2) or (3)}\opt{newrules}{(3A) or regulation 15D of the Social Security and Child Support (Decisions and Appeals) Regulations 1999\footnote{S.I.\ 1999/991. The relevant amending instrument is S.I.\ 2000/3185.}}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(d)(iii)(aa)
+shall not reduce the amount payable under a maintenance 
+\opt{oldrules}{assessment}\opt{newrules}{calculation}  % Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(b)
+to less than 
+\opt{oldrules}{the minimum amount prescribed under paragraph 7}\opt{newrules}{an amount equivalent to a flat rate fixed by paragraph 4(1)}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(d)(iii)(bb)
+of Schedule 1 to the Act.
 
 \amendment{
 Reg. 10 substituted (18.4.95) by the Child Support and Income Support (Amendment) Regulations 1995 reg. 8.
@@ -352,19 +491,32 @@ Words inserted in reg. 10(2) (2.12.96) by the Child Support Departure Direction 
 Words substituted in reg. 10(2) (7.12.98) by the Child Support (Miscellaneous Amendments) (No. 2) Regulations 1998 reg. 3(2).
 
 Words substituted in reg. 10 (1.6.99) by the Social Security Act 1998 (Commencement No.\ 7 and Consequential and Transitional Provisions) Order 1999 reg. 26.
+
+\opt{newrules,2012rules}{
+Reg. 10(2), (3) revoked (3.3.03) by the Child Support (Decisions and Appeals) (Amendment) Regulations 2000 reg. 14(1) (subject to reg. 1(2) and savings in reg. 14(2)--(4)).
+
+Words substituted in reg. 10(1), (4), words omitted in reg. 10(1), word substituted in heading to reg. 10 and reg. 10(3A) inserted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 5(4)(a), (b), (c), (d).
+}
 }
 
 % Reg 10A inserted (22.1.96) by SI 1995/3261 reg 3
 
 \subsection[10A. Reimbursement of a repayment of overpaid child maintenance]{Reimbursement of a repayment of overpaid child maintenance}
 
-10A.—(1) The Secretary of State may require a relevant person to repay the whole or a part of any payment by way of reimbursement made to an absent parent under section 41B(2) of the Act where the overpayment referred to in section 41B(1) of the Act arose—
+10A.—(1) The Secretary of State may require a relevant person to repay the whole or a part of any payment by way of reimbursement made to 
+\opt{oldrules}{an absent parent}\opt{newrules}{a non-resident parent}  % Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(c)
+under section 41B(2) of the Act where the overpayment referred to in section 41B(1) of the Act arose—
 \begin{enumerate}\item[]
-($a$) in respect of the amount payable under a maintenance assessment calculated in accordance with Part I of Schedule 1 to the Act and where income support
+($a$) in respect of the amount payable under a maintenance 
+\opt{oldrules}{assessment}\opt{newrules}{calculation}  % Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(b)
+calculated in accordance with Part I of Schedule 1 to the Act and where income support%
+, state pension credit  % Words inserted (6.10.03) by SI 2002/3019 reg 26(3)
 or income-based jobseeker’s allowance% Words inserted (7.10.96) by SI 1996/1345 reg 3
-, family credit or disability working allowance was not in payment to that person at any time during the period in which that overpayment occurred or at the date or dates on which the payment by way of reimbursement was made; or
+\opt{oldrules}{, family credit or disability working allowance}  % Words omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(e)(i)
+was not in payment to that person at any time during the period in which that overpayment occurred or at the date or dates on which the payment by way of reimbursement was made\opt{oldrules}{; or
 
-($b$) in respect of the amount payable under an interim maintenance assessment and that amount has not been varied under regulation 8D(1) of the Maintenance Assessment Procedure Regulations following the making of a maintenance assessment calculated in accordance with Part I of Schedule 1 to the Act.
+% Reg 10A(1)(b) omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(e)(ii)
+($b$) in respect of the amount payable under an interim maintenance assessment and that amount has not been varied under regulation 8D(1) of the Maintenance Assessment Procedure Regulations following the making of a maintenance assessment calculated in accordance with Part I of Schedule 1 to the Act}.
 \end{enumerate}
 
 (2) In a case falling within section 4 or 7 of the Act, where the circumstances set out in section 41B(6) apply, the Secretary of State may retain out of the child support maintenance collected by him in accordance with section 29 of the Act such sums as cover the amount of any payment by way of reimbursement required by him from the relevant person under section 41B(3) of the Act.
@@ -373,8 +525,41 @@ or income-based jobseeker’s allowance% Words inserted (7.10.96) by SI 1996/134
 Reg. 10A inserted (22.1.96) by the Child Support (Miscellaneous Amendments) (No.\ 2) Regulations 1995 reg. 3.
 
 Words inserted in reg. 10A (7.10.96) by the Social Security and Child Support (Jobseeker's Allowance) (Consequential Amendments) Regulations 1996 reg. 3.
+
+\opt{newrules,2012rules}{
+Word substituted and omitted in reg. 10A(1) and reg. 10A(1)(b) omitted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 5(4)(b), (c), (e).
 }
 
+Words inserted in reg. 10A (6.10.03) by the State Pension Credit (Consequential, Transitional and Miscellaneous Provisions) Regulations 2002 reg. 26(3).
+}
+
+\opt{newrules}{
+% Reg 10B inserted (3.3.03 for new-rules cases only) by SI 2001/162 reg 5(4)(f)
+\subsection[10B. Repayment of a reimbursement of a voluntary payment]{Repayment of a reimbursement of a voluntary payment}
+
+10B.  The Secretary of State may require a relevant person to repay the whole or any part of any payment by way of reimbursement made to a non-resident parent under section 41B(2) of the Act where—
+\begin{enumerate}\item[]
+($a$) a voluntary payment was made;
+
+($b$) section 41B(1A) applies; and
+\end{enumerate}
+income support%
+, state pension credit  % Words inserted (6.10.03) by SI 2002/3019 reg 26(3)
+or income-based jobseeker’s allowance was not in payment to that person at any time during the period in which the voluntary payment was made or at the date or dates on which the payment by way of reimbursement was made.
+
+\amendment{
+Reg. 10B inserted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 5(4)(f).
+
+Words inserted in reg. 10B (6.10.03) by the State Pension Credit (Consequential, Transitional and Miscellaneous Provisions) Regulations 2002 reg. 26(3).
+
+\medskip
+
+Regs. 11--17 revoked (3.3.03) by the Child Support (Decisions and Appeals) (Amendment) Regulations 2000 reg. 14(1) (subject to reg. 1(2) and savings in reg. 14(2)--(4)).
+}
+}
+
+% Regs 11--17 revoked (3.3.03 for new-rules cases) by SI 2000/3185
+\opt{oldrules}{
 \section[Part IV --- Miscellaneous]{Part IV\\*Miscellaneous}
 
 \renewcommand\parthead{--- Part IV}
@@ -657,6 +842,7 @@ Reg. 16 inserted (1.6.99) by the Social Security Act 1998 (Commencement No.\ 7 a
 
 \amendment{
 Reg. 17 inserted (1.6.99) by the Social Security Act 1998 (Commencement No.\ 7 and Consequential and Transitional Provisions) Order 1999 reg. 28.
+}
 }
 
 \bigskip

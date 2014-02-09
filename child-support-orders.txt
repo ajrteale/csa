@@ -49,12 +49,15 @@ S.I.
 1996/2907	The Child Support Departure Direction and Consequential Amendments Regulations 1996
 1996/3195	The Social Security (Child Maintenance Bonus) Regulations 1996
 1996/3196	The Child Support (Miscellaneous Amendments) (No 2) Regulations 1996
+1997/454	The Social Security (Miscellaneous Amendments) Regulations 1997
 1997/645	The Child Maintenance Bonus (Northern Ireland Reciprocal Arrangements) Regulations 1997
 1997/802	The Child Support Commissioners (Procedure) (Amendment) Regulations 1997
 1997/827	The Social Security and Child Support (Miscellaneous Amendments) Regulations 1997
 1997/955	The Social Security (Adjudication) and Commissioners Procedure and Child Support Commissioners (Procedure) Amendment Regulations 1997
 1997/2943	The Child Support (Written Agreements) (Scotland) Order 1997
 1998/58		The Child Support (Miscellaneous Amendments) Regulations 1998
+1998/563	The Social Security (Miscellaneous Amendments) Regulations 1998
+1998/865	The Social Security (Miscellaneous Amendments) (No 2) Regulations 1998
 1998/2780	The Social Security Act 1998 (Commencement No 2) Order 1998
 1998/2799	The Child Support (Miscellaneous Amendments) (No 2) Regulations 1998
 1999/977	The Child Support (Miscellaneous Amendments) Regulations 1999
@@ -64,18 +67,21 @@ S.I.
 1999/1466	The Social Security and Child Support (Decisions and Appeals) (Amendment) Regulations 1999
 1999/1510	The Social Security Act 1998 (Commencement No 7 and Consequential and Transitional Provisions) Order 1999
 1999/1623	The Social Security and Child Support (Decisions and Appeals) Amendment (No 2) Regulations 1999
-1999/1662	The Social Security Contributions (Transfer of Functions, etc.) Act 1999 (Commencement No. 2 and Consequential and Transitional Provisions) Order 1999
+1999/1662	The Social Security Contributions (Transfer of Functions, etc) Act 1999 (Commencement No 2 and Consequential and Transitional Provisions) Order 1999
 1999/1670	The Social Security and Child Support (Decisions and Appeals) Amendment (No 3) Regulations 1999
+1999/2566	The Social Security and Child Support (Tax Credits) Consequential Amendments Regulations 1999
 1999/2570	The Tax Credits (Decisions and Appeals) (Amendment) Regulations 1999
 1999/2677	The Social Security and Child Support (Decisions and Appeals), Vaccine Damage Payments and Jobseeker's Allowance (Amendment) Regulations 1999
-1999/3178	The Social Security Act 1998 (Commencement No. 12 and Consequential and Transitional Provisions) Order 1999
+1999/3178	The Social Security Act 1998 (Commencement No 12 and Consequential and Transitional Provisions) Order 1999
 2000/119	The Social Security and Child Support (Decisions and Appeals) Amendment Regulations 2000
+2000/127	The Tax Credits (Decisions and Appeals) (Amendment) Regulations 2000
 2000/897	The Social Security (Work-focused Interviews) Regulations 2000
 2000/1596	The Social Security and Child Support (Miscellaneous Amendments) Regulations 2000
+2000/1982	The Social Security (Joint Claims: Consequential Amendments) Regulations 2000
 2000/2666	The Child Support, Pensions and Social Security Act 2000 (Commencement No 1) Order 2000
 2000/2950	The Child Support, Pensions and Social Security Act 2000 (Commencement No 2) Order 2000
 2000/2994	The Child Support, Pensions and Social Security Act 2000 (Commencement No 3) Order 2000
-
+2000/3030	The Social Security (Recovery of Benefits) (Miscellaneous Amendments) Regulations 2000
 2000/3166	The Child Support, Pensions and Social Security Act 2000 (Commencement No 4) Order 2000
 2000/3173	The Child Support (Variations) (Modification of Statutory Provisions) Regulations 2000
 2000/3174	The Child Support (Temporary Compensation Payment Scheme) Regulations 2000
@@ -84,7 +90,7 @@ S.I.
 2000/3185	The Child Support (Decisions and Appeals) (Amendment) Regulations 2000
 2000/3186	The Child Support (Transitional Provisions) Regulations 2000
 2000/3354	The Child Support, Pensions and Social Security Act 2000 (Commencement No 5) Order 2000
-2000/153	The Child Support, Pensions and Social Security Act 2000 (Commencement No 6) Order 2001
+2001/153	The Child Support, Pensions and Social Security Act 2000 (Commencement No 6) Order 2001
 2001/155	The Child Support (Maintenance Calculations and Special Cases) Regulations 2000
 2001/156	The Child Support (Variations) Regulations 2000
 2001/157	The Child Support (Maintenance Calculation Procedure) Regulations 2000
@@ -94,15 +100,19 @@ S.I.
 2001/774	The Child Support, Pensions and Social Security Act 2000 (Commencement No 7) Order 2001
 2001/1236	The Child Support (Civil Imprisonment) (Scotland) Regulations 2001
 2001/1252	The Child Support, Pensions and Social Security Act 2000 (Commencement No 8) Order 2001
+2001/1711	The Social Security (Breach of Community Order) (Consequential Amendments) Regulations 2001
 2001/1775	The Child Support (Miscellaneous Amendments) Regulations 2001
 2001/2295	The Child Support, Pensions and Social Security Act 2000 (Commencement No 9) Order 2001
 2001/2619	The Child Support, Pensions and Social Security Act 2000 (Commencement No 10) Order 2001
+2002/428	The Social Security (Claims and Payments and Miscellaneous Amendments) Regulations 2002
 2002/437	The Child Support, Pensions and Social Security Act 2000 (Commencement No 11) Order 2002
+2002/490	The Social Security (Loss of Benefit) (Consequential Amendments) Regulations 2002
 2002/771	The Child Support (Northern Ireland Reciprocal Arrangements) Amendment Regulations 2002
 2002/1204	The Child Support (Miscellaneous Amendments) Regulations 2002
 2002/1379	The Social Security and Child Support (Decisions and Appeals) (Miscellaneous Amendments) Regulations 2002
 2002/1854	The Child Support (Temporary Compensation Payment Scheme) (Modification and Amendment) Regulations 2002
 2002/1915	The Child Support Appeals (Jurisdiction of Courts) Order 2002
+2002/3019	The State Pension Credit (Consequential, Transitional and Miscellaneous Provisions) Regulations 2002
 2003/96	(SSI)	The Child Support Appeals (Jurisdiction of Courts) (Scotland) Order 2003
 2003/129	The Child Support (Decisions and Appeals) (Amendment) Regulations 2003
 2003/192	The Child Support, Pensions and Social Security Act 2000 (Commencement No 12) Order 2003
@@ -112,8 +122,8 @@ S.I.
 2003/347	The Child Support (Transitional Provision) (Miscellaneous Amendments) Regulations 2003
 2003/1050	The Social Security and Child Support (Miscellaneous Amendments) Regulations 2003
 2003/1189	The Social Security and Child Support (Miscellaneous Amendments) (No 2) Regulations 2003
-2003/2779	The Child Support (Miscellaneous Amendments) (No 2) Regulations 2003
 2003/3206	The Child Support (Information, Evidence and Disclosure) Amendment Regulations 2003
+
 2004/98		The Social Security (Child Maintenance Premium) Amendment Regulations 2004
 2004/2415	The Child Support (Miscellaneous Amendments) Regulations 2004
 2004/3368	The Social Security, Child Support and Tax Credits (Decisions and Appeals) Amendment Regulations 2004
@@ -162,3 +172,5 @@ S.I.
 2013/1654	The Child Support and Claims and Payments (Miscellaneous Amendments and Change to the Minimum Amount of Liability) Regulations 2013
 2013/1860	The Child Maintenance and Other Payments Act 2008 (Commencement No 11 and Transitional Provisions) Order 2013
 2013/2380	The Social Security, Child Support, Vaccine Damage and Other Payments (Decisions and Appeals) (Amendment) Regulations 2013
+2013/2947	The Child Maintenance and Other Payments Act 2008 (Commencement No 12 and Savings Provisions) and the Welfare Reform Act 2012 (Commencement No 15) Order 2013
+2014/107	The Marriage (Same Sex Couples) Act 2013 (Consequential Provisions) Order 2014

@@ -1,25 +1,11 @@
-\documentclass[a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 
-\usepackage[welsh,english]{babel}
+\newcommand\regstitle{The Child Support (Northern Ireland Reciprocal Arrangements) Regulations 1993}
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-
-\usepackage{textcomp}
-
-%\usepackage[2012rules]{optional}
-
-\usepackage[osf]{mathpazo}
-\usepackage{cfr-lm}
-
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-
-\usepackage[perpage,para,symbol]{footmisc}
+\newcommand\regsnumber{1993/584}
 
 %\opt{newrules}{
-\title{The Child Support (Northern Ireland Reciprocal Arrangements) Regulations 1993}
+\title{\regstitle}
 %}
 
 %\opt{2012rules}{
@@ -34,40 +20,9 @@
 %\opt{newrules}{\newcommand\versionyear{2003}}
 %\opt{2012rules}{\newcommand\versionyear{2012}}
 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhead[L]{}
-\fancyhead[C]{\itshape The Child Support (Northern Ireland Reciprocal Arrangements) Regulations 1993 (S.I.~1993/584) \parthead%\phantom{...}% (\versionyear{} scheme version)
-}
-\fancyhead[R]{}
-\fancyfoot[C]{\thepage}
-\newcommand{\parthead}{}
+\usepackage{csa-regs}
 
-\usepackage{array}
-\usepackage{multirow}
-\usepackage[debugshow]{tabulary}
-\usepackage{longtable}
-\usepackage{multicol}
-\usepackage{lettrine}
-
-\usepackage[colorlinks=true]{hyperref}
-\usepackage{microtype}
-
-\hyphenation{Aw-dur-dod}
-\hyphenation{bank-rupt-cy}
-\hyphenation{Ec-cles-ton}
-\hyphenation{Eux-ton}
-\hyphenation{Hogh-ton}
-\hyphenation{Pres-ton}
-\hyphenation{Pru-den-tial}
-\hyphenation{Riv-ing-ton}
-
-\newcolumntype{x}[1]
-	{>{\raggedright}p{#1}}
-\newcommand{\tn}{\tabularnewline}
-\setlength\tymin{50pt}
-
-\newcommand\amendment[1]{\subsubsection*{Notes}{\itshape\frenchspacing\footnotesize #1 \par}}
+\setlength\headheight{27.57402pt}
 
 \begin{document}
 
@@ -91,16 +46,26 @@ The Secretary of State for Social Security, in excercise of the powers conferred
 \subsection[2. Adaptation of the Child Support Act 1991 and regulations in respect of child support]{Adaptation of the Child Support Act 1991 and regulations in respect of child support}
 
 2.—(1) The provisions contained in the Memorandum of Arrangements set out in Schedule 1 
-as amended by the Exchange of Letters set out in Schedule 1A  % Words inserted by SI 1995/3261 reg 53
+as amended by the 
+%Exchange of Letters set out in Schedule 1A  % Words inserted by SI 1995/3261 reg 53
+Exchanges of Letters set out in Schedules 1A and 1B  % Words substituted by SI 2002/771 reg 2(2)
 to these Regulations shall have effect so far as the same relate to Great Britain.
 
-(2) In particular and without prejudice to paragraph (1) above any act, omission and event which has effect for the purposes of the provision of the Northern Ireland legislation specified in column 2 of Schedule 2 to these Regulations shall also have effect as an act, omission and event for the purposes of the provision of the Child Support Act 1991 specified in the corresponding paragraph of column 1 of Schedule 2 to the said Regulations; and in the provisions specified in column 1 of Schedule 2 to these Regulations the references to—
+(2) In particular and without prejudice to paragraph (1) above any act, omission and event which has effect for the purposes of the provision of the Northern Ireland legislation specified in column 2 of Schedule 2 
+or column 2 of Schedule 3  % Words inserted (16.4.02) by SI 2002/771 reg 2(3)(a)
+to these Regulations shall also have effect as an act, omission and event for the purposes of the provision of the Child Support Act 1991 specified in the corresponding paragraph of column 1 of Schedule 2 
+or column 1 of Schedule 3 and for the purposes of the provision of the Family Law Act 1986\footnote{1986 c.\ 55.} specified in the corresponding paragraph of column 1 of Schedule 3  % Words inserted (16.4.02) by SI 2002/771 reg 2(3)(b)
+to the said Regulations; and in the provisions specified in column 1 of Schedule 2 to these Regulations the references to—
 \begin{enumerate}\item[]
 ($a$) “the Act” shall be construed as including references to the Child Support (Northern Ireland) Order 1991\footnote{\frenchspacing S.I. 1991/2628 (N.I. 23).};
 
-($b$) “the Secretary of State” shall be construed as including references to the Department of Health and Social Services for Northern Ireland;
+($b$) “the Secretary of State” shall be construed as including references to the Department 
+%of Health and Social Services for Northern Ireland
+for Social Development%  % Words substituted (16.4.02) by SI 2002/771 reg 2(3)(c)
+;
 
-($c$) any “child support officer” shall be construed as including references to such an officer appointed by the Department of Health and Social Services for Northern Ireland;
+% Reg 2(2)(c) omitted (16.4.02) by SI 2002/771 reg 2(3)(d)
+%($c$) any “child support officer” shall be construed as including references to such an officer appointed by the Department of Health and Social Services for Northern Ireland;
 
 ($d$) “child support maintenance” shall be construed as including references to child support maintenance within the meaning of the Child Support (Northern Ireland) Order 1991;
 \end{enumerate}
@@ -108,6 +73,8 @@ and cognate expressions shall be construed accordingly.
 
 \amendment{
 Words inserted in reg. 2(1) (22.1.96) by the Child Support (Miscellaneous Amendments) (No. 2) Regulations 1995 reg. 53.
+
+Words inserted in reg. 2(2), words substituted in reg. 2(1), (2) and reg. 2(2)(c) omitted (16.4.02) by the Child Support (Northern Ireland Reciprocal Arrangements) Amendment Regulations 2002 reg. 2.
 }
 
 \bigskip
@@ -121,9 +88,7 @@ Signed by authority of the Secretary of State for Social Security.
 
 10th March 1993
 
-\clearpage
-
-\part*{S C H E D U L E S}
+\small
 
 \part[Schedule 1 --- Memorandum of Arrangements relating to the provision made for Child Support Maintenance in the United Kingdom between the Secretary of State for Social Security of the one part and the Department of Health and Social Services for Northern Ireland of the other part]{Schedule 1\\*Memorandum of Arrangements relating to the provision made for Child Support Maintenance in the United Kingdom between the Secretary of State for Social Security of the one part and the Department of Health and Social Services for Northern Ireland of the other part}
 
@@ -135,14 +100,43 @@ Signed by authority of the Secretary of State for Social Security.
 \begin{enumerate}\item[]
 “the Act” means the Child Support Act 1991 and “the Order” means the Child Support (Northern Ireland) Order 1991;
 
+% Definition of ``the 2000 Act'' inserted (16.4.02) by Sch 1B
+“the 2000 Act” means the Child Support, Pensions and Social Security Act 2000\footnote{2000 c.\ 19.};
+
 “application”, for the purposes of Article 5, includes an application by an absent parent and an application under section 7 of the Act;
 
-“determining authority” means, in relation to Great Britain, a child support officer, a child support appeal tribunal, a Child Support Commissioner, or a tribunal consisting of any three of the Child Support Commissioners, and appointed or constituted under the Act, and, in relation to Northern Ireland, a child support officer or a child support appeal tribunal appointed or constituted under the Order, a Child Support Commissioner for Northern Ireland appointed under the Act or a tribunal consisting of any two or three of the Child Support Commissioners for Northern Ireland constituted under the Order;
+% Definition of ``the Department'' inserted (16.4.02) by Sch 1B
+“the Department” means the Department for Social Development;
+
+%“determining authority” means, in relation to Great Britain, a child support officer, a child support appeal tribunal, a Child Support Commissioner, or a tribunal consisting of any three of the Child Support Commissioners, and appointed or constituted under the Act, and, in relation to Northern Ireland, a child support officer or a child support appeal tribunal appointed or constituted under the Order, a Child Support Commissioner for Northern Ireland appointed under the Act or a tribunal consisting of any two or three of the Child Support Commissioners for Northern Ireland constituted under the Order;
+% Definition of ``determining authority'' substituted (16.4.02) by Sch 1B
+“determining authority” means, in relation to Great Britain, the Secretary of State, an appeal tribunal or a Commissioner, and, in relation to Northern Ireland, the Department, an appeal tribunal or a Commissioner;
 
 “parent with care” means a person who, in respect of the same child or children, is both a parent and a person with care;
 
 “territory” means Great Britain or Northern Ireland, as the case may be.
 \end{enumerate}
+
+\amendment{
+Definitions of ``the 2000 Act'', ``the Department'' inserted in art. 1 and definition of ``determining authority'' in art. 1 substituted (16.4.02) by Sch. 1B to these Regulations.
+}
+
+\medskip
+
+1A.---(1)  In these arrangements—
+\begin{enumerate}\item[]
+($a$) references to a maintenance assessment shall, in relevant cases, include references to a maintenance calculation;
+
+($b$) references to an absent parent shall, in relevant cases, include references to a non-resident parent; and
+
+($c$) references to cases where an application for a maintenance assessment is made shall, in relevant cases, include references to cases where an application for a maintenance calculation is treated as having been made.
+\end{enumerate}
+
+(2) In this Article, “relevant cases” means cases for the purposes of which section 1 of the 2000 Act has come into force or cases for the purposes of which section 1 of the Child Support, Pensions and Social Security Act (Northern Ireland) 2000\footnote{2000 c.\ 4 (N.I.).} has come into operation.
+
+\amendment{
+Art. 1A inserted (16.4.02) by Sch. 1B to these Regulations.
+}
 
 \medskip
 
@@ -152,9 +146,18 @@ Signed by authority of the Secretary of State for Social Security.
 
 \medskip
 
-3.—(1) Subject to Articles 5 to 12 of this Memorandum, the provision made for Great Britain and the provision made for Northern Ireland shall operate as a single system within the United Kingdom.
+3.—(1) Subject to Articles 5 to 
+%12 
+12A  % Word substituted (16.4.02) by Sch 1B
+of this Memorandum, the provision made for Great Britain and the provision made for Northern Ireland shall operate as a single system within the United Kingdom.
 
-(2) For the purposes of paragraph (1), all acts, omissions and events and in particular any application, declaration, direction, decision or order having effect for the provision made for Great Britain and having effect in that territory or for the provision made for Northern Ireland and having effect in that territory, shall have a corresponding effect for the purpose of the provision made for child support maintenance made in the other territory.
+(2) For the purposes of paragraph (1), all acts, omissions and events and in particular any application, declaration, direction, decision% 
+, determination  % Word inserted (16.4.02) by Sch 1B
+or order having effect for the provision made for Great Britain and having effect in that territory or for the provision made for Northern Ireland and having effect in that territory, shall have a corresponding effect for the purpose of the provision made for child support maintenance made in the other territory.
+
+\amendment{
+Word inserted in art. 3(2) and word substituted in art. 3(1) (16.4.02) by Sch. 1B to these Regulations.
+}
 
 \medskip
 
@@ -199,9 +202,19 @@ those provisions shall have effect to determine which application shall be proce
 
 \renewcommand\parthead{--- Schedule 1 Part IV}
 
-7.—(1) Subject to paragraph (2) where the Secretary of State, the Department, or a child support officer appointed under the provision made for Great Britain or for Northern Ireland, has in his or its possession any information or evidence held for the purposes of the provision made for his or its territory, that information or evidence may be disclosed to the Secretary of State, the Department or the child support officer for the other territory for the purposes of the provision made for Great Britain or for Northern Ireland, as the case may be.
+7.—(1) Subject to paragraph (2) where the Secretary of State
+%, the Department, or a child support officer appointed under the provision made for Great Britain or for Northern Ireland, 
+or the Department  % Words substituted (16.4.02) by SI 2002/771
+has in his or its possession any information or evidence held for the purposes of the provision made for his or its territory, that information or evidence may be disclosed to the Secretary of State
+%, the Department or the child support officer for the other territory 
+or the Department  % Words substituted (16.4.02) by SI 2002/771
+for the purposes of the provision made for Great Britain or for Northern Ireland, as the case may be.
 
 (2) Where information is disclosed under the provisions of paragraph (1), the provision made for Northern Ireland or, as the case may be, Great Britain, relating to unauthorised disclosure of information shall apply to that information.
+
+\amendment{
+Words substituted in art. 7(1) (16.4.02) by Sch. 1B to these Regulations.
+}
 
 \medskip
 
@@ -239,15 +252,27 @@ in, and in accordance with the provision made for, the territory in which case i
 
 12A.  Where a person with care resides in one territory and an alleged parent who denies that he is one of the parents of a child in respect of whom an application for a maintenance assessment has been made resides in the other territory:—
 \begin{enumerate}\item[]
-($a$) The person with care or the Secretary of State may apply for a declaration as to whether or not the alleged parent is one of the child’s parents, under Article 28 of the Order;
+($a$) The person with care or the Secretary of State may apply for a declaration as to whether or not the alleged parent is one of the child’s parents, under
+%Article 28 of the Order
+Article 31B of the Matrimonial and Family Proceedings (Northern Ireland) Order 1989\footnote{S.I.\ 1989/677 (N.I.\ 4).}%  % Words substituted (16.4.02) by Sch 1B
+;
 
-($b$) The person with care or the Department of Health and Social Services may apply for such a declaration under section 27 of the Act; and
+($b$) The person with care or the Department 
+%of Health and Social Services   % Words omitted (16.4.02) by Sch 1B
+may apply for such a declaration under 
+%section 27 of the Act
+section 55A of the Family Law Act 1986\footnote{1986 c.\ 55.}%  Words substituted (16.4.02) by Sch 1B
+; and
 
-($c$) The Department of Health and Social Services may bring an action for declarator of parentage under the provisions of section 28 of the Act.
+($c$) The Department 
+%of Health and Social Services   % Words omitted (16.4.02) by Sch 1B
+may bring an action for declarator of parentage under the provisions of section 28 of the Act.
 \end{enumerate}
 
 \amendment{
 Pt. VIA inserted (22.1.96) by Sch. 1A to these regulations.
+
+Words substituted in art. 12A(a), (b) and words omitted in art. 12A(b), (c) (16.4.02) by Sch. 1B to these Regulations.
 }
 
 \section[Part VII --- Administrative Procedures]{Part VII\\*Administrative Procedures}
@@ -292,7 +317,7 @@ Sch. 1A inserted (22.1.96) by the Child Support (Miscellaneous Amendments) (No. 
 
   After Part VI there shall be inserted the following Part:—
 \begin{quotation}
- \part*{“Part VIA\\Parentage}
+ \section*{“Part VIA\\Parentage}
 
 12A.  Where a person with care resides in one territory and an alleged parent who denies that he is one of the parents of a child in respect of whom an application for a maintenance assessment has been made resides in the other territory:—
 \begin{enumerate}\item[]
@@ -340,7 +365,7 @@ Sch. 1A inserted (22.1.96) by the Child Support (Miscellaneous Amendments) (No. 
 
   After Part VI there shall be inserted the following Part:—
 \begin{quotation}
- \part*{“Part VIA\\Parentage}
+ \section*{“Part VIA\\Parentage}
 
 12A.  Where a person with care resides in one territory and an alleged parent who denies that he is one of the parents of a child in respect of whom an application for a maintenance assessment has been made resides in the other territory:—
 \begin{enumerate}\item[]
@@ -363,28 +388,182 @@ Sch. 1A inserted (22.1.96) by the Child Support (Miscellaneous Amendments) (No. 
 
   Permanent Secretary.
 
+\part[Schedule 1B --- Exchange of letters amending the Memorandum of Arrangements relating to the provision made for Child Support Maintenance in the United Kingdom]{Schedule 1B\\*Exchange of letters amending the Memorandum of Arrangements relating to the provision made for Child Support Maintenance in the United Kingdom}
+
+\renewcommand\parthead{--- Schedule 1B}
+
+\amendment{
+Sch. 1B inserted (16.4.02) by the Child Support (Northern Ireland Reciprocal Arrangements) Amendment Regulations 2002 reg. 3, Sch. 1.
+}
+
+\section*{No.\ 1\\The Parliamentary Under-Secretary of State for Work and Pensions, with the consent of the Treasury, to the Minister for Social Development}
+
+11th March 2002
+
+Sir,
+
+I have the honour to refer to the Memorandum of Arrangements relating to the provision made for Child Support Maintenance between the Secretary of State for Social Security of the one part and the Department of Health and Social Services for Northern Ireland of the other part which came into effect on 5th April 1993, as amended in accordance with the Exchange of Letters from the Secretary of State for Social Security to the Department of Health and Social Services for Northern Ireland of 7th November 1995 and from the Department of Health and Social Services for Northern Ireland to the Secretary of State for Social Security of 8th November 1995 (which Memorandum in its amended form is referred to in this letter as “the Principal Memorandum”). I refer also to recent discussions between the Department for Work and Pensions and the Department for Social Development concerning the need to amend the Principal Memorandum so as to make further provision in relation to child support matters.
+
+I now have the honour, with the consent of the Treasury, to propose the following amendments to the Principal Memorandum:
+
+In Article 1—
+\begin{enumerate}\item[]
+($a$) after the definition of “the Act” there shall be inserted the following definition—
+\begin{quotation}
+““the 2000 Act” means the Child Support, Pensions and Social Security Act 2000\footnote{2000 c.\ 19.};”;
+\end{quotation}
+
+($b$) after the definition of “application” there shall be inserted the following definition—
+\begin{quotation}
+““the Department” means the Department for Social Development;”; and
+\end{quotation}
+
+($c$) for the definition of “determining authority” there shall be substituted the following definition—
+\begin{quotation}
+    ““determining authority” means, in relation to Great Britain, the Secretary of State, an appeal tribunal or a Commissioner, and, in relation to Northern Ireland, the Department, an appeal tribunal or a Commissioner;”. 
+\end{quotation}
+\end{enumerate}
+
+After Article 1 there shall be inserted—
+\begin{quotation}
+“1A.---(1)  In these arrangements—
+\begin{enumerate}\item[]
+($a$) references to a maintenance assessment shall, in relevant cases, include references to a maintenance calculation;
+
+($b$) references to an absent parent shall, in relevant cases, include references to a non-resident parent; and
+
+($c$) references to cases where an application for a maintenance assessment is made shall, in relevant cases, include references to cases where an application for a maintenance calculation is treated as having been made.
+\end{enumerate}
+
+(2) In this Article, “relevant cases” means cases for the purposes of which section 1 of the 2000 Act has come into force or cases for the purposes of which section 1 of the Child Support, Pensions and Social Security Act (Northern Ireland) 2000\footnote{2000 c.\ 4 (N.I.).} has come into operation.”.
+\end{quotation}
+
+Article 3 shall be amended as follows—
+\begin{enumerate}\item[]
+($a$) in paragraph (1), for the word “12”, there shall be substituted the word “12A”; and
+
+($b$) in paragraph (2), after the word “decision” there shall be inserted the word “, determination”.
+\end{enumerate}
+
+Article 7(1) shall be amended as follows—
+\begin{enumerate}\item[]
+($a$) for the words “, the Department, or a child support officer appointed under the provision made for Great Britain or for Northern Ireland,” there shall be substituted the words “or the Department”; and
+
+($b$) for the words “, the Department or the child support officer for the other territory”, there shall be substituted the words “or the Department”.
+\end{enumerate}
+
+Article 12A shall be amended as follows—
+\begin{enumerate}\item[]
+($a$) in paragraph ($a$), for the words “Article 28 of the Order” there shall be substituted the words “Article 31B of the Matrimonial and Family Proceedings (Northern Ireland) Order 1989\footnote{S.I.\ 1989/677 (N.I.\ 4).}”;
+
+($b$) in paragraph ($b$), for the words “section 27 of the Act” there shall be substituted the words “section 55A of the Family Law Act 1986\footnote{1986 c.\ 55.}”; and
+
+($c$) in paragraphs ($b$)  and ($c$), the words “of Health and Social Services” shall be omitted on each occasion where they occur.
+\end{enumerate}
+
+If the foregoing proposals are acceptable to you, I have the honour to propose that this letter and your reply to that effect shall constitute a Memorandum of Arrangements between us which shall come into effect on 16th April 2002.
+
+\section*{No.\ 2\\The Minister for Social Development, with the consent of the Department of Finance and Personnel, to the Parliamentary Under-Secretary of State for Work and Pensions}
+
+14th March 2002
+
+Madam,
+
+I refer to your letter of 11th March 2002 which reads as follows:
+\begin{quotation}
+I have the honour to refer to the Memorandum of Arrangements relating to the provision made for Child Support Maintenance between the Secretary of State for Social Security of the one part and the Department of Health and Social Services for Northern Ireland of the other part which came into effect on 5th April 1993, as amended in accordance with the Exchange of Letters from the Secretary of State for Social Security to the Department of Health and Social Services for Northern Ireland of 7th November 1995 and from the Department of Health and Social Services for Northern Ireland to the Secretary of State for Social Security of 8th November 1995 (which Memorandum in its amended form is referred to in this letter as “the Principal Memorandum”). I refer also to recent discussions between the Department for Work and Pensions and the Department for Social Development concerning the need to amend the Principal Memorandum so as to make further provision in relation to child support matters.
+
+I now have the honour, with the consent of the Treasury, to propose the following amendments to the Principal Memorandum:
+
+In Article 1—
+\begin{enumerate}\item[]
+($a$) after the definition of “the Act” there shall be inserted the following definition—
+\begin{quotation}
+““the 2000 Act” means the Child Support, Pensions and Social Security Act 2000\footnote{2000 c.\ 19.};”;
+\end{quotation}
+
+($b$) after the definition of “application” there shall be inserted the following definition—
+\begin{quotation}
+““the Department” means the Department for Social Development;”; and
+\end{quotation}
+
+($c$) for the definition of “determining authority” there shall be substituted the following definition—
+\begin{quotation}
+    ““determining authority” means, in relation to Great Britain, the Secretary of State, an appeal tribunal or a Commissioner, and, in relation to Northern Ireland, the Department, an appeal tribunal or a Commissioner;”. 
+\end{quotation}
+\end{enumerate}
+
+After Article 1 there shall be inserted—
+\begin{quotation}
+“1A.---(1)  In these arrangements—
+\begin{enumerate}\item[]
+($a$) references to a maintenance assessment shall, in relevant cases, include references to a maintenance calculation;
+
+($b$) references to an absent parent shall, in relevant cases, include references to a non-resident parent; and
+
+($c$) references to cases where an application for a maintenance assessment is made shall, in relevant cases, include references to cases where an application for a maintenance calculation is treated as having been made.
+\end{enumerate}
+
+(2) In this Article, “relevant cases” means cases for the purposes of which section 1 of the 2000 Act has come into force or cases for the purposes of which section 1 of the Child Support, Pensions and Social Security Act (Northern Ireland) 2000\footnote{2000 c.\ 4 (N.I.).} has come into operation.”.
+\end{quotation}
+
+Article 3 shall be amended as follows—
+\begin{enumerate}\item[]
+($a$) in paragraph (1), for the word “12”, there shall be substituted the word “12A”; and
+
+($b$) in paragraph (2), after the word “decision” there shall be inserted the word “, determination”.
+\end{enumerate}
+
+Article 7(1) shall be amended as follows—
+\begin{enumerate}\item[]
+($a$) for the words “, the Department, or a child support officer appointed under the provision made for Great Britain or Northern Ireland,” there shall be substituted the words “or the Department”; and
+
+($b$) for the words “, the Department or the child support officer for the other territory”, there shall be substituted the words “or the Department”.
+\end{enumerate}
+
+Article 12A shall be amended as follows—
+\begin{enumerate}\item[]
+($a$) in paragraph ($a$), for the words “Article 28 of the Order” there shall be substituted the words “Article 31B of the Matrimonial and Family Proceedings (Northern Ireland) Order 1989\footnote{S.I.\ 1989/677 (N.I.\ 4).}”;
+
+($b$) in paragraph ($b$), for the words “section 27 of the Act” there shall be substituted the words “section 55A of the Family Law Act 1986\footnote{1986 c.\ 55.}”; and
+
+($c$) in paragraphs ($b$)  and ($c$), the words “of Health and Social Services” shall be omitted on each occasion where they occur.”.
+\end{enumerate}
+\end{quotation}
+
+I have the honour to confirm, with the consent of the Department of Finance and Personnel, that the foregoing proposals are acceptable to the Minister for Social Development, and agree that your letter and this reply shall constitute a Memorandum of Arrangements between us which shall come into effect on 16th April 2002.
+
 \part[Schedule 2 --- Adaptation of certain provisions of the Child Support Act 1991]{Schedule 2\\*Adaptation of certain provisions of the Child Support Act 1991}
 
+\renewcommand\parthead{--- Schedule 2}
+
 \noindent
-\begin{tabulary}{\linewidth}{JJJ}
+%\begin{tabulary}{\linewidth}{JJJ}
+\begin{longtable}{p{71.1145pt}p{108.42673pt}p{174.45883pt}}
 \hline
 Column 1 & Column 2 & Column 3\\
 \itshape Provisions of the Child Support Act 1991 & \itshape Provisions of the Child Support (Northern Ireland) Order 1991 & \itshape Subject Matter\\
 \hline
+\endhead
+\hline
+\endlastfoot
 Section 1&Article 5&The duty to maintain\\
 Section 2&Article 6&Welfare of children: the general principle\\
 Section 8&Article 10&Role of the courts with respect to maintenance for children\\
 Section 9&Article 11&Agreements about maintenance\\
 Section 10&Article 12&Relationship between maintenance assessments and certain court orders and related matters\\
+Section 14A &Article 16A &Information—offences. \\ % Entry inserted (16.4.02) by SI 2002/771 reg 4(2)
 Section 15&Article 17&Powers of inspectors\\
-Sections 27 and 28 & Article 28 & Declaration of parentage\\ % Entry inserted (22.1.96) by SI 1995/3261 reg 55
+%Sections 27 and 28 & Article 28 & Declaration of parentage\\ % Entry inserted (22.1.96) by SI 1995/3261 reg 55, omitted (16.4.02) by SI 2002/771 reg 4(3)
 Section 29&Article 29&Collection of child support maintenance\\
 Section 30&Article 30&Collection and enforcement of other forms of maintenance\\
-\hline
-\end{tabulary}
+%\end{tabulary}
+\end{longtable}
 
 \amendment{
 Entry relating to ss. 27, 28 inserted (22.1.96) by the Child Support (Miscellaneous Amendments) (No. 2) Regulations 1995 reg. 55.
+
+Entry relating to s. 14A inserted and entry relating to ss. 27, 28 omitted (16.4.02) by the Child Support (Northern Ireland Reciprocal Arrangements) Amendment Regulations 2002 reg. 4.
 }
 
 \bigskip
@@ -403,6 +582,57 @@ Sealed with the Official Seal of the Department of Health and Social Services fo
 
 {\raggedleft
 \emph{F.\ A.\ Elliott}\\*Permanent Secretary
+
+}
+
+% Sch 3 inserted (16.4.02) by SI 2002/771 reg 5, Sch 2
+\part[Schedule 3 --- Adaptation of the Child Support Act 1991 and the Family Law Act 1986 for the purposes of the Child Support Act 1991]{Schedule 3\\*Adaptation of the Child Support Act 1991 and the Family Law Act 1986\footnote{1986 c.\ 55.} for the purposes of the Child Support Act 1991}
+
+\amendment{
+Sch. 3 inserted (16.4.02) by the Child Support (Northern Ireland Reciprocal Arrangements) Amendment Regulations 2002 reg. 5, Sch. 2.
+}
+
+\medskip
+
+\noindent
+{\footnotesize
+\begin{longtable}{p{142.207pt}p{100.4398pt}p{111.34279pt}}
+%\begin{tabulary}{\linewidth}{JJJ}
+\hline
+\itshape Column 1	& \itshape Column 2	& \itshape Column 3\\
+\itshape Provision of the Child Support Act 1991 (“the 1991 Act”) or the Family Law Act 1986 (“the 1986 Act”)	& \itshape Provision of the Matrimonial Proceedings (Northern Ireland) Order 1989\footnote{S.I.\ 1989/677 (N.I.\ 4).}	& \itshape Subject matter\\
+\hline
+\endhead
+\hline
+\endlastfoot
+Section 28 of the 1991 Act	&Article 31B	&Application for declaration of parentage for the purposes of the 1991 Act\\
+Section 55A of the 1986 Act	&Article 31B	&Application for declaration of parentage for the purposes of the 1991 Act.\\
+\end{longtable}
+%\end{tabulary}
+
+}
+
+
+\bigskip
+
+Sealed with the Official Seal of the Department for Social Development on 14th March 2002.
+
+{\raggedleft
+\emph{Nigel Dodds}\\
+Minister for Social Development
+
+}
+
+\bigskip
+
+The Department of Finance and Personnel hereby consents.
+
+Sealed with the Official Seal of the Department of Finance and Personnel on 19th March 2002.
+
+{\raggedleft
+\emph{N.~Taylor}\\
+Senior Officer of the\\
+Department of Finance and Personnel
 
 }
 

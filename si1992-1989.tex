@@ -4,9 +4,15 @@
 
 \newcommand\regsnumber{1992/1989}
 
-%\opt{newrules}{
-\title{\regstitle}
-%}
+\usepackage[newrules]{optional}
+
+\opt{oldrules}{
+\title{\regstitle\\(1993 scheme version)}
+}
+
+\opt{newrules}{
+\title{\regstitle\\(2003 scheme version)}
+}
 
 %\opt{2012rules}{
 %\title{Child Maintenance and Other Payments Act 2008\\(2012 scheme version)}
@@ -29,7 +35,7 @@
 \maketitle
 
 \noindent
-The Secretary of State for Social Security, in exercise of the powers conferred by sections 29(2) and (3), 31(8), 32(1) to (5) and (7) to (9), 34(1), 35(2), (7) and (8), 39(1), (3) and (4), 40(4), (8) and (11), 51, 52 and 54 of the Child Support Act 1991\footnote{\frenchspacing 1991 c. 48. Section 54 is cited because of the meaning ascribed to the word “prescribed”.} and of all other powers enabling him in that behalf, hereby makes the following Regulations:
+The Secretary of State for Social Security, in exercise of the powers conferred by sections 29(2) and (3), 31(8), 32(1) to (5) and (7) to (9), 34(1), 35(2), (7) and (8), 39(1), (3) and (4), 40(4), (8) and (11), 51, 52 and 54 of the Child Support Act 1991\footnote{1991 c.\ 48. Section 54 is cited because of the meaning ascribed to the word “prescribed”.} and of all other powers enabling him in that behalf, hereby makes the following Regulations:
 
 {\sloppy
 
@@ -47,13 +53,30 @@ The Secretary of State for Social Security, in exercise of the powers conferred 
 
 1.—(1) These Regulations may be cited as the Child Support (Collection and Enforcement) Regulations 1992 and shall come into force on 5th April 1993.
 
-(2) In these Regulations “the Act” means the Child Support Act 1991.
+\opt{oldrules}{(2) In these Regulations “the Act” means the Child Support Act 1991.}
+% Reg 1(2) substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(2)(a)
+\opt{newrules}{
+(2) In these Regulations—
+\begin{enumerate}\item[]
+“the Act” means the Child Support Act 1991;
+
+“the 2000 Act” means the Child Support, Pensions and Social Security Act 2000\footnote{2000 c.\ 19.};
+
+“interest” means interest which has become payable under section 41 of the Act before its amendment by the 2000 Act; and
+
+“voluntary payment” means a payment as defined in section 28J of the Act and Regulations made under that section.
+\end{enumerate}
+
+% Reg 1(2A) inserted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(2)(b)
+(2A) Except in relation to regulation 8(3)($a$)  and Schedule 2, in these Regulations “fee” means an assessment fee or a collection fee, which for these purposes have the same meaning as in the Child Support Fees Regulations 1992\footnote{The definition of collection fee was amended by S.I.\ 1994/227.} prior to their revocation by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000\footnote{S.I.\ 2001/162.}.
+}
 
 (3) Where under any provision of the Act or of these Regulations—
 \begin{enumerate}\item[]
 ($a$) any document or notice is given or sent to the Secretary of State, it shall be treated as having been given or sent on the day it is received by the Secretary of State; and
 
-($b$) any document or notice is given or sent to any other person, it shall, if sent by post to that person’s last known or notified address, be treated as having been given or sent on the second day after the day of posting, excluding any Sunday or any day which is a bank holiday under the Banking and Financial Dealings Act 1971\footnote{\frenchspacing 1971 c. 80.}.
+($b$) any document or notice is given or sent to any other person, it shall, if sent by post to that person’s last known or notified address, be treated as having been given or sent on 
+\opt{oldrules}{the second day after the day of posting, excluding any Sunday or any day which is a bank holiday under the Banking and Financial Dealings Act 1971\footnote{\frenchspacing 1971 c. 80.}.}\opt{newrules}{the day that it is posted.}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(2)(c)
 \end{enumerate}
 
 (4) In these Regulations, unless the context otherwise requires, a reference—
@@ -69,13 +92,21 @@ The Secretary of State for Social Security, in exercise of the powers conferred 
 ($e$) to a numbered Schedule is to the Schedule to these Regulations bearing that number.
 \end{enumerate}
 
+\opt{newrules}{
+\amendment{
+Words substituted in reg. 1(3)(b), reg. 1(2A) inserted and reg. 1(2) substituted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(2).
+}
+}
+
 \section[Part II --- Collection of child support maintenance]{Part II\\*Collection of child support maintenance}
 
 \renewcommand\parthead{--- Part II}
 
 \subsection[2. Payment of child support maintenance]{Payment of child support maintenance}
 
-2.—(1) Where a maintenance assessment has been made under the Act and the case is one to which section 29 of the Act applies, the Secretary of State may specify that payments of child support maintenance shall be made by the liable person—
+2.—(1) Where a maintenance 
+\opt{oldrules}{assessment}\opt{newrules}{calculation}  % Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(3)(a)
+has been made under the Act and the case is one to which section 29 of the Act applies, the Secretary of State may specify that payments of child support maintenance shall be made by the liable person—
 \begin{enumerate}\item[]
 ($a$) to the person caring for the child or children in question or, where an application has been made under section 7 of the Act, to the child who made the application;
 
@@ -86,9 +117,17 @@ The Secretary of State for Social Security, in exercise of the powers conferred 
 
 (2) In paragraph (1) and in the rest of this Part, “liable person” means a person liable to make payments of child support maintenance.
 
+\opt{newrules}{
+\amendment{
+Word substituted in reg. 2(1) (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(3)(a) (subject to savings in reg. 6).
+}
+}
+
 \subsection[3. Method of payment]{Method of payment}
 
-3.—(1) Payments of child support maintenance shall be made by the liable person by whichever of the following methods the Secretary of State specifies as being appropriate in the circumstances—
+3.—(1) Payments of child support maintenance% 
+\opt{newrules}{, penalty payments, interest and fees}  % Words inserted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(3)(b)(i)
+shall be made by the liable person by whichever of the following methods the Secretary of State specifies as being appropriate in the circumstances—
 \begin{enumerate}\item[]
 ($a$) by standing order;
 
@@ -98,10 +137,27 @@ The Secretary of State for Social Security, in exercise of the powers conferred 
 
 ($d$) by cheque or postal order;
 
-($e$) in cash.
+($e$) in cash\opt{newrules}{;
+
+% Reg 3(1)(f) inserted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(3)(b)(ii)
+($f$) by debit card%
+}.
 \end{enumerate}
 
-(2) The Secretary of State may direct a liable person to take all reasonable steps to open an account from which payments under the maintenance assessment may be made in accordance with the method of payment specified under paragraph (1).
+\opt{newrules}{
+% Reg 3(1A) inserted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(3)(c)
+(1A) In paragraph (1), “debit card” means a card, operating as a substitute for a cheque, that can be used to obtain cash or to make a payment at a point of sale whereby the card holder’s bank or building society account is debited without deferment of payment.
+}
+
+(2) The Secretary of State may direct a liable person to take all reasonable steps to open an account from which payments under the maintenance 
+\opt{oldrules}{assessment}\opt{newrules}{calculation}  % Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(3)(a)
+may be made in accordance with the method of payment specified under paragraph (1).
+
+\opt{newrules}{
+\amendment{
+Words inserted in reg. 3(1), word substituted in reg. 3(2) and reg. 3(1)(f), (1A) inserted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(3)(a), (b), (c) (subject to savings in reg. 6).
+}
+}
 
 \subsection[4. Interval of payment]{Interval of payment}
 
@@ -165,29 +221,104 @@ shall specify the interval by reference to which the payments referred to in par
 Words substituted in reg. 5(2) and reg. 5(3), (4) substituted (18.4.95) by the Child Support and Income Support (Amendment) Regulations 1995 reg. 13.
 }
 
+\opt{newrules}{
+% Reg 5A inserted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(3)(d)
+\subsection[5A. Voluntary payments]{Voluntary payments}
+
+5A.---(1)  Regulation 5(1) shall apply in relation to voluntary payments as if—
+\begin{enumerate}\item[]
+($a$) for the words “Payment of child support maintenance” there were substituted the words “Voluntary payments”; and
+
+($b$) the words “or other specified person” were omitted.
+\end{enumerate}
+
+(2) In determining when the Secretary of State shall transmit a voluntary payment to the person entitled to it, the Secretary of State shall have regard to the factor in regulation 4(2)($c$).
+
+\amendment{
+Reg. 5A inserted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(3)(d) (subject to savings in reg. 6).
+}
+}
+
 \subsection[6. Representations about payment arrangements]{Representations about payment arrangements}
 
 6.  The Secretary of State shall, insofar as is reasonably practicable, provide the liable person and the person entitled to receive the payments of child support maintenance with an opportunity to make representations with regard to the matters referred to in regulations 2 to 5 and the Secretary of State shall have regard to those representations in exercising his powers under those regulations.
 
 \subsection[7. Notice to liable person as to requirements about payment]{Notice to liable person as to requirements about payment}
 
-7.—(1) The Secretary of State shall send the liable person a notice stating—
+7.—(1) 
+\opt{newrules}{In the case of child support maintenance, t}\opt{oldrules}{T}he  % Words inserted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(3)(e)(i)(aa)
+Secretary of State shall send the liable person a notice stating—
 \begin{enumerate}\item[]
 ($a$) the amount of child support maintenance payable;
 
 ($b$) to whom it is to be paid;
 
-($c$) the method of payment; and
+($c$) the method of payment; \opt{oldrules}{and}
 
-($d$) the day and interval by reference to which payments are to be made.
+($d$) the day and interval by reference to which payments are to be made\opt{newrules}{; and
+
+% Reg 7(1)(e) added (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(3)(e)(i)(bb)
+($e$) the amount of any payment of child support maintenance which is overdue and which remains outstanding}.
 \end{enumerate}
+
+\opt{newrules}{
+% Reg 7(1A) inserted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(3)(e)(ii)
+(1A) In the case of penalty payments, interest or fees, the Secretary of State shall send the liable person a notice stating—
+\begin{enumerate}\item[]
+($a$) the amount of child support maintenance payable;
+
+($b$) the amount of arrears;
+
+($c$) the amount of the penalty payment, interest or fees to be paid, as the case may be;
+
+($d$) the method of payment;
+
+($e$) the day by which payment is to be made; and
+
+($f$) information as to the provisions of sections 16 and 20 of the Act.
+\end{enumerate}
+}
 
 (2) A notice under paragraph (1) shall be sent to the liable person as soon as is reasonably practicable after—
 \begin{enumerate}\item[]
-($a$) the making of a maintenance assessment, and
+($a$) the making of a maintenance 
+\opt{oldrules}{assessment}\opt{newrules}{calculation}%  % Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(3)(a)
+, and
 
 ($b$) after any change in the requirements referred to in any previous such notice.
 \end{enumerate}
+
+\opt{newrules}{
+% Reg 7(3) added (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(3)(e)(iii)
+(3) A notice under paragraph (1A) shall be sent to the liable person as soon as reasonably practicable after the decision to require a payment of the penalty payment, interest or fees has been made.
+
+\amendment{
+Words inserted in reg. 7(1), word substituted in reg. 7(2) and reg. 7(1)(e), (1A), (3) inserted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(3)(a), (e) (subject to savings in reg. 6).
+}
+}
+
+% Pt IIA inserted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(4)
+\opt{newrules}{
+\section[Part IIA --- Collection of penalty payments]{Part IIA\\*Collection of penalty payments}
+
+\renewcommand\parthead{--- Part IIA}
+
+\subsection[7A. Payment of a financial penalty]{Payment of a financial penalty}
+
+7A.---(1)  This regulation applies where a maintenance calculation is, or has been, in force, the liable person is in arrears with payments of child support maintenance, and the Secretary of State requires the liable person to pay penalty payments to him.
+
+(2) For the purposes of regulation 7(1)($e$)  a payment will be overdue if it is not received by the time that the next payment of child support maintenance is due.
+
+(3) The Secretary of State may require a penalty payment to be made if the outstanding amount is not received within 7 days of the notification in regulation 7(1)($e$)  or if the liable person fails to pay all outstanding amounts due on dates and of amounts as agreed between the liable person and the Secretary of State.
+
+(4) Payments of a penalty payment shall be made within 14 days of the notification referred to in regulation 7(1A).
+
+(5) In this Part a “liable person” means a person liable to make a penalty payment and in Part II and in this Part “penalty payment” is to be construed in accordance with section 41A of the Act.
+
+\amendment{
+Reg. 7A inserted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(4) (subject to savings in reg. 6).
+}
+}
 
 \section[Part III --- Deduction from earnings orders]{Part III\\*Deduction from earnings orders}
 
@@ -200,22 +331,24 @@ Words substituted in reg. 5(2) and reg. 5(3), (4) substituted (18.4.95) by the C
 %Definition of ``defective'' inserted (18.4.95) by SI 1995/1045 reg 14(2)
 “defective” means in relation to a deduction from earnings order that it does not comply with the requirements of regulations 9 to 11 and such failure to comply has made it impracticable for the employer to comply with his obligations under the Act and these Regulations;
 
-\begin{sloppypar}
+% Definition of ``disposable income'' omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(a)(i)
+\opt{oldrules}{\begin{sloppypar}
 “disposable income” means the amount determined under 
 %regulation 12(1) 
 regulation 12(1)($a$)  % Words substituted (18.4.95) by SI 1995/1045 reg 14(3)
 of the Child Support (Maintenance Assessments and Special Cases) Regulations 1992\footnote{\frenchspacing S.I. 1992/1815.};
-\end{sloppypar}
+\end{sloppypar}}
 
 “earnings” shall be construed in accordance with paragraphs (3) and (4);
 
-“exempt income” means the amount determined under regulation 9 of the Child Support (Maintenance Assessments and Special Cases) Regulations 1992;
+% Definition of ``exempt income'' omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(a)(i)
+\opt{oldrules}{“exempt income” means the amount determined under regulation 9 of the Child Support (Maintenance Assessments and Special Cases) Regulations 1992;}
 
-%Definition of ``interim maintenance assessment'' inserted (18.4.95) by SI 1995/1045 reg 14(4)
-“interim maintenance assessment” means a Category A, Category B, Category C or Category D interim maintenance assessment within the meaning of 
+%Definition of ``interim maintenance assessment'' inserted (18.4.95) by SI 1995/1045 reg 14(4), omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(a)(i)
+\opt{oldrules}{“interim maintenance assessment” means a Category A, Category B, Category C or Category D interim maintenance assessment within the meaning of 
 %regulation 8(1B) 
 regulation 8(3)  % Words substituted (7.10.96) by SI 1996/1945 reg 3
-of the Child Support (Maintenance Assessment Procedure) Regulations 1992\footnote{\frenchspacing S.I. 1992/1813.};
+of the Child Support (Maintenance Assessment Procedure) Regulations 1992\footnote{\frenchspacing S.I. 1992/1813.};}
 
 “net earnings” shall be construed in accordance with paragraph (5);
 
@@ -223,13 +356,21 @@ of the Child Support (Maintenance Assessment Procedure) Regulations 1992\footnot
 
 “pay-day” in relation to a liable person means an occasion on which earnings are paid to him or the day on which such earnings would normally fall to be paid;
 
-“prescribed minimum amount” means the minimum amount prescribed in regulation 13 of the Child Support (Maintenance Assessments and Special Cases) Regulations 1992;
+% Definition of ``protected earnings proportion'' inserted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(a)(ii)
+\opt{newrules}{
+“protected earnings proportion” means the proportion referred to in regulation 11(2).
+}
 
-“protected earnings rate” means the level of earnings specified in a deduction from earnings order (expressed as a sum of money per week, month or other period) below which deductions of child support maintenance shall not be made for the purposes of this Part;
+% Definition of ``prescribed minimum amount'' omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(a)(i)
+\opt{oldrules}{“prescribed minimum amount” means the minimum amount prescribed in regulation 13 of the Child Support (Maintenance Assessments and Special Cases) Regulations 1992;}
 
-“protected income level” means the level of protected income determined in accordance with 
+% Definition of ``protected earnings rate'' omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(a)(i)
+\opt{oldrules}{“protected earnings rate” means the level of earnings specified in a deduction from earnings order (expressed as a sum of money per week, month or other period) below which deductions of child support maintenance shall not be made for the purposes of this Part;}
+
+% Definition of ``protected income level'' omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(a)(i)
+\opt{oldrules}{“protected income level” means the level of protected income determined in accordance with 
 paragraphs (1) to (5) of  % Words inserted (18.4.95) by SI 1995/1045 reg 14(5)
-regulation 11 of the Child Support (Maintenance Assessments and Special Cases) Regulations 1992.
+regulation 11 of the Child Support (Maintenance Assessments and Special Cases) Regulations 1992.}
 \end{enumerate}
 
 (2) For the purposes of this Part the relationship of employer and employee shall be treated as subsisting between two persons if one of them, as a principal and not as a servant or agent, pays to the other any sum defined as earnings under paragraph (1) and “employment”, “employer” and “employee” shall be construed accordingly.
@@ -253,8 +394,11 @@ other than pay or allowances payable by his employer to him as a special member 
 ($c$) pension, allowances or benefit payable under any enactment relating to social security;
 
 ($d$) pension or allowances payable in respect of disablement or disability;
--
-($e$) guaranteed minimum pension within the meaning of the Social Security Pensions Act 1975\footnote{\frenchspacing 1975 c. 60.}.
+
+($e$) guaranteed minimum pension within the meaning of the Social Security Pensions Act 1975\footnote{\frenchspacing 1975 c. 60.};
+
+% Reg 8(4)(f) added (6.4.03) by SI 2003/328 reg 2
+($f$) working tax credit payable under section 10 of the Tax Credits Act 2002\footnote{2002 c.\ 21.}.
 \end{enumerate}
 
 (5) “Net earnings” means the residue of earnings after deduction of—
@@ -282,6 +426,12 @@ Words substituted in definition of ``disposable income'' in reg. 8(1), words ins
 Words substituted in definition of ``interim maintenance assessment'' in reg. 8(1) (7.10.96) by the Child Support (Miscellaneous Amendments) Regulations 1996 reg. 3.
 
 Words inserted in reg. 8(4)(b) (6.4.99) by the Child Support (Miscellaneous Amendments) Regulations 1999 reg. 2(2).
+
+\opt{newrules}{
+Definition of ``protected earnings proportion'' inserted in reg. 8(1) and definitions of ``disposable income'', ``exempt income'', ``interim maintenance assessment'', ``prescribed minimum amount'', ``protected earnings rate'' and ``protected income level'' omitted in reg. 8(1) (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(5)(a) (subject to savings in reg. 6).
+}
+
+Reg. 8(4)(f) added (6.4.03) by the Child Support (Miscellaneous Amendments) Regulations 2003 reg. 2.
 }
 
 \subsection[9. Deduction from earnings orders]{Deduction from earnings orders}
@@ -306,7 +456,8 @@ Words inserted in reg. 8(4)(b) (6.4.99) by the Child Support (Miscellaneous Amen
 % Reg 9($d$), ($e$) substituted (18.4.95) by SI 1995/1045 reg 15
 ($d$) the normal deduction rate or rates and the date upon which each is to take effect;
 
-($e$) the protected earnings rate;
+($e$) the 
+\opt{oldrules}{protected earnings rate}\opt{newrules}{protected earnings proportion};  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(b)
 
 ($f$) the address to which amounts deducted from earnings are to be sent.
 \end{enumerate}
@@ -317,6 +468,10 @@ Words inserted in reg. 8(4)(b) (6.4.99) by the Child Support (Miscellaneous Amen
 Reg. 9($d$), ($e$) substituted (18.4.95) by the Child Support and Income Support (Amendment) Regulations 1995 reg. 15.
 
 Reg. 9($cc$) inserted (22.1.96) by the Child Support (Miscellaneous Amendments) (No.\ 2) Regulations 1995 reg. 6.
+
+\opt{newrules}{
+Words substituted in reg. 9(e) (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(5)(b) (subject to savings in reg. 6).
+}
 }
 
 \subsection[10. Normal deduction rate]{Normal deduction rate}
@@ -326,7 +481,8 @@ Reg. 9($cc$) inserted (22.1.96) by the Child Support (Miscellaneous Amendments) 
 a normal deduction rate  % Words substituted (18.4.95) by SI 1995/1045 reg 16(2)
 is set shall be the period by reference to which the liable person’s earnings are normally paid or, if none, such other period as the Secretary of State may specify.
 
-(2) The Secretary of State, in specifying the normal deduction rate, shall not include any amount in respect of arrears or interest% 
+% Reg 10(2), (3) omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(c)
+\opt{oldrules}{(2) The Secretary of State, in specifying the normal deduction rate, shall not include any amount in respect of arrears or interest% 
 , in a case where there is a current assessment,  % Words inserted (18.4.95) by SI 1995/1045 reg 16(3)($a$)
 if, 
 %at the date of making of the current assessment—
@@ -337,22 +493,33 @@ at the date of making of any current maintenance assessment other than an interi
 ($b$) the deduction of such an amount from the liable person’s disposable income would have reduced his disposable income below the level specified in paragraph (3).
 \end{enumerate}
 
-(3) The level referred to in paragraph (2) is the liable person’s protected income level less the prescribed minimum amount.
+(3) The level referred to in paragraph (2) is the liable person’s protected income level less the prescribed minimum amount.}
 
 \amendment{
 Words substituted in reg. 10(1), (2) and words inserted in reg. 10(2) (18.4.95) by the Child Support and Income Support (Amendment) Regulations 1995 reg. 16.
+
+\opt{newrules}{
+Reg. 10(2), (3) omitted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(5)(c) (subject to savings in reg. 6).
+}
 }
 
-\subsection[11. Protected earnings rate]{Protected earnings rate}
+\subsection[11. \opt{oldrules}{Protected earnings rate}\opt{newrules}{Protected earnings proportion}]{\opt{oldrules}{Protected earnings rate}\opt{newrules}{Protected earnings proportion}}  % Words substituted in heading to reg 11 (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(d)(i)
 
-11.—(1) The period by reference to which the protected earnings rate is set shall be the same as the period by reference to which the normal deduction rate is set under regulation 10(1).
+11.—(1) The period by reference to which the 
+\opt{oldrules}{protected earnings rate}\opt{newrules}{protected earnings proportion}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(d)(ii)
+is set shall be the same as the period by reference to which the normal deduction rate is set under regulation 10(1).
 
-(2) The amount to be specified as the protected earnings rate in respect of any period shall%
-, except where paragraph (3) or paragraph (4) applies,  % Words inserted (18.4.95) by SI 1995/1045 reg 17(2)
-be an amount equal to the liable person’s exempt income in respect of that period as calculated at the date of the current assessment.
+(2) The amount to be specified as the 
+\opt{oldrules}{protected earnings rate}\opt{newrules}{protected earnings proportion}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(d)(ii)
+in respect of any period shall%
+\opt{oldrules}{, except where paragraph (3) or paragraph (4) applies,}  % Words inserted (18.4.95) by SI 1995/1045 reg 17(2), omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(d)(iii)(aa)
+be an amount equal to 
+\opt{oldrules}{the liable person’s exempt income}\opt{newrules}{60\% of the liable person’s net earnings}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(d)(iii)(bb)
+in respect of that period as calculated at the date of the current 
+\opt{oldrules}{assessment}\opt{newrules}{maintenance calculation}.  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(d)(iii)(cc)
 
-%Reg 11(3), (4) inserted (18.4.95) by SI 1995/1045 reg 17(3)
-(3) Where an interim maintenance assessment%
+%Reg 11(3), (4) inserted (18.4.95) by SI 1995/1045 reg 17(3), omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(d)(iv)
+\opt{oldrules}{(3) Where an interim maintenance assessment%
 , except a Category B interim maintenance assessment,  % Words inserted (5.8.96) by SI 1996/1945 reg 4
 is in force the protected earnings rate shall be—
 \begin{enumerate}\item[]
@@ -394,7 +561,7 @@ is in force the protected earnings rate shall be—
 ($b$) subject to sub-paragraph ($a$), in a case where the absent parent provides sufficient evidence to satisfy the Secretary of State that his circumstances have changed since the last occasion on which his exempt income was calculated for the purposes of a decision under the Act, the protected earnings rate shall be the exempt amount as it would be calculated in consequence of that change of circumstances if regulation 9 of the Child Support (Maintenance Assessments and Special Cases) Regulations 1992\footnote{\frenchspacing S.I. 1992/1815; regulation 9 was amended by S.I. 1993/913, 1995/1045, 1995/3261, 1996/1803, 1996/1945, 1996/2907 and 1998/58.} applied in his case; and
 
 ($c$) in any other case, the protected earnings rate shall be the amount of the liable person’s exempt income as it was on the last occasion that amount was calculated for the purposes of a decision under the Act.
-\end{enumerate}
+\end{enumerate}}
 
 \amendment{
 Words inserted in reg. 11(2) and reg. 11(3), (4) inserted (18.4.95) by the Child Support and Income Support (Amendment) Regulations 1995 reg. 17.
@@ -404,27 +571,48 @@ Words inserted in reg. 11(3) (5.8.96) by the Child Support (Miscellaneous Amendm
 %Words inserted in reg. 11(4)(a)(i), (ii) (7.12.98) by the Child Support (Miscellaneous Amendments) (No. 2) Regulations 1998 reg. 3(3).
 
 Reg. 11(4) substituted (1.6.99) by the Social Security Act 1998 (Commencement No.\ 7 and Consequential and Transitional Provisions) Order 1999 reg. 29.
+
+\opt{newrules}{
+Words substituted in reg. 11(1), (2), words omitted in reg. 11(2), words in heading to reg. 11 substituted and reg. 11(3), (4) omitted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(5)(d) (subject to savings in reg. 6).
+}
 }
 
 \subsection[12. Amount to be deducted by employer]{Amount to be deducted by employer}
 
 12.—(1) Subject to the provisions of this regulation, an employer who has been served with a copy of a deduction from earnings order in respect of a liable person in his employment shall, each pay-day, make a deduction from the net earnings of that liable person of an amount equal to the normal deduction rate.
 
-(2) Where the deduction of the normal deduction rate would reduce the liable person’s net earnings below the protected earnings rate the employer shall deduct only such amount as will leave the liable person with net earnings equal to the protected earnings rate.
+(2) Where the deduction of the normal deduction rate would reduce the liable person’s net earnings below the 
+\opt{oldrules}{protected earnings rate}\opt{newrules}{protected earnings proportion}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(e)(i)
+the employer shall deduct only such amount as will leave the liable person with net earnings equal to the 
+\opt{oldrules}{protected earnings rate}\opt{newrules}{protected earnings proportion}.  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(e)(i)
 
-(3) Where the liable person receives a payment of earnings at an interval greater or lesser than the interval specified in relation to the normal deduction rate and the protected earnings rate (“the specified interval”) the employer shall, for the purpose of such payments, take as the normal deduction rate and the protected earnings rate such amounts (to the nearest whole penny) as are in the same proportion to the interval since the last pay-day as the normal deduction rate and the protected earnings rate bear to the specified interval.
+(3) Where the liable person receives a payment of earnings at an interval greater or lesser than the interval specified in relation to the normal deduction rate and the 
+\opt{oldrules}{protected earnings rate}\opt{newrules}{protected earnings proportion}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(e)(i)
+(“the specified interval”) the employer shall, for the purpose of such payments, take as the normal deduction rate and the  
+\opt{oldrules}{protected earnings rate}\opt{newrules}{protected earnings proportion}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(e)(i)
+such amounts (to the nearest whole penny) as are in the same proportion to the interval since the last pay-day as the normal deduction rate and the  
+\opt{oldrules}{protected earnings rate}\opt{newrules}{protected earnings proportion}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(e)(i)
+bear to the specified interval.
 
 %  Reg 12(3A) inserted (18.1.98) by SI 1998/58 reg 6
 (3A) Where on any pay-day the liable person receives a payment of earnings covering a period longer than the period by reference to which the normal deduction rate is set, the employer shall, subject to paragraph (2), make a deduction from the net earnings paid to that liable person on that pay-day of an amount which is in the same proportion to the normal deduction rate as that longer period is to the period by reference to which that normal deduction rate is set.
 
 (4) Where, on any pay-day, the employer fails to deduct an amount due under the deduction from earnings order or deducts an amount less than the amount of the normal deduction rate the shortfall shall, subject to the operation of paragraph (2), be deducted in addition to the normal deduction rate at the next available pay-day or days.
 
+% Reg 12(5) omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(e)(ii)
+\opt{oldrules}{
 (5) Where, on any pay-day, the liable person’s net earnings are less than his protected earnings rate the amount of the difference shall be carried forward to his next pay-day and treated as part of his protected earnings in respect of that pay-day.
+}
 
-(6) Where, on any pay-day, an employer makes a deduction from the earnings of a liable person in accordance with the deduction from earnings order he may also deduct an amount not exceeding £1 in respect of his administrative costs and such deduction for administrative costs may be made notwithstanding that it may reduce the liable person’s net earnings below the protected earnings rate.
+(6) Where, on any pay-day, an employer makes a deduction from the earnings of a liable person in accordance with the deduction from earnings order he may also deduct an amount not exceeding £1 in respect of his administrative costs and such deduction for administrative costs may be made notwithstanding that it may reduce the liable person’s net earnings below the  
+\opt{oldrules}{protected earnings rate}\opt{newrules}{protected earnings proportion}.  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(e)(i)
 
 \amendment{
 Reg. 12(3A) inserted (18.1.98) by the Child Support (Miscellaneous Amendments) Regulations 1998 reg. 6.
+
+\opt{newrules}{
+Words substituted in reg. 12(2), (3), (6) and reg. 12(5) omitted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(5)(e) (subject to savings in reg. 6).
+}
 }
 
 \subsection[13. Employer to notify liable person of deduction]{Employer to notify liable person of deduction}
@@ -480,15 +668,22 @@ and it shall be the duty of the liable person to comply with any such requiremen
 % Reg 17 substituted (18.4.95) by SI 1995/1045 reg 18
 17.—(1) Subject to paragraph (2), the Secretary of State shall review a deduction from earnings order in the following circumstances—
 \begin{enumerate}\item[]
-($a$) where there is a change in the amount of the maintenance assessment;
+($a$) where there is a change in the amount of the maintenance 
+\opt{oldrules}{assessment}\opt{newrules}{calculation};  % Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(f)(i)
 
-($b$) where any arrears and interest on arrears payable under the order are paid off.
+($b$) where any arrears% 
+\opt{oldrules}{ and interest on arrears}\opt{newrules}{, penalty payment, interest or fees}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(f)(ii)
+payable under the order are paid off.
 \end{enumerate}
 
 (2) There shall be no obligation to review a deduction from earnings order under paragraph (1) where the normal deduction rates specified in the order take account of the changes which will arise as a result of the circumstances specified in sub-paragraph ($a$) or ($b$) of that paragraph.
 
 \amendment{
 Reg. 17 substituted (18.4.95) by the Child Support and Income Support (Amendment) Regulations 1995 reg. 18.
+
+\opt{newrules}{
+Words substituted in reg. 17(1)(a), (b) (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(5)(f) (subject to savings in reg. 6).
+}
 }
 
 \subsection[18. Power to vary deduction from earnings orders]{Power to vary deduction from earnings orders}
@@ -530,7 +725,11 @@ Reg. 17 substituted (18.4.95) by the Child Support and Income Support (Amendment
 
 ($e$) at the time of the making of the order he did not have, or subsequently ceased to have, jurisdiction to make a deduction from earnings order; or
 
-($f$) in the case of an order made at a time when there is in force an interim maintenance assessment, it is inappropriate to continue deductions under the order having regard to the compliance or the attempted compliance with the maintenance assessment by the liable person.
+($f$) in the case of an order made at a time when there is in force 
+\opt{oldrules}{an interim maintenance assessment}\opt{newrules}{a default or interim maintenance decision},  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(g)(i)
+it is inappropriate to continue deductions under the order having regard to the compliance or the attempted compliance with the 
+\opt{oldrules}{maintenance assessment}\opt{newrules}{maintenance calculation}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(g)(ii)
+by the liable person.
 \end{enumerate}
 
 
@@ -538,6 +737,10 @@ Reg. 17 substituted (18.4.95) by the Child Support and Income Support (Amendment
 
 \amendment{
 Reg. 20(1) substituted (18.4.95) by the Child Support and Income Support (Amendment) Regulations 1995 reg. 19.
+
+\opt{newrules}{
+Words substituted in reg. 20(1)(f) (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(5)(g) (subject to savings in reg. 6).
+}
 }
 
 \subsection[21. Lapse of deduction from earnings orders]{Lapse of deduction from earnings orders}
@@ -552,7 +755,15 @@ Reg. 20(1) substituted (18.4.95) by the Child Support and Income Support (Amendm
 
 (5) Where a deduction from earnings order is revived under paragraph (4), the Secretary of State shall give written notice of that fact to, and serve a copy of the notice on, the liable person and the liable person’s employer.
 
-(6) Where an order is revived under paragraph (4), no amount shall be carried forward under regulation 12(4) or (5) from a time prior to the revival of the order.
+(6) Where an order is revived under paragraph (4), no amount shall be carried forward under regulation 12(4)% 
+\opt{oldrules}{or (5)}   % Words omitted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(5)(h)
+from a time prior to the revival of the order.
+
+\opt{newrules}{
+\amendment{
+Words omitted in reg. 21(6) (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(5)(h) (subject to savings in reg. 6).
+}
+}
 
 \subsection[22. Appeals against deduction from earnings orders]{Appeals against deduction from earnings orders}
 
@@ -590,18 +801,33 @@ Reg. 20(1) substituted (18.4.95) by the Child Support and Income Support (Amendm
 
 \subsection[24. Priority as between orders]{Priority as between orders}
 
-24.—(1) Where an employer would, but for this paragraph, be obliged, on any pay-day, to make deductions under two or more deduction from earnings orders he shall—
+% Reg 24(1) omitted (3.3.03 for old-rules cases only) by SI 2001/162 reg 2(5)(i)(i)
+24.—\opt{oldrules}{(1) Where an employer would, but for this paragraph, be obliged, on any pay-day, to make deductions under two or more deduction from earnings orders he shall—
 \begin{enumerate}\item[]
 ($a$) deal with the orders according to the respective dates on which they were made, disregarding any later order until an earlier one has been dealt with;
 
 ($b$) deal with any later order as if the earnings to which it relates were the residue of the liable person’s earnings after the making of any deduction to comply with any earlier order.
 \end{enumerate}
 
-(2) Where an employer would, but for this paragraph, be obliged to comply with one or more deduction from earnings orders and one or more attachment of earnings orders he shall—
+}%
+(2) Where an employer would, but for this paragraph, be obliged to comply with 
+\opt{oldrules}{one or more deduction from earnings orders}\opt{newrules}{a deduction from earnings order}  % Words substituted (3.3.03 for old-rules cases only) by SI 2001/162 reg 2(5)(i)(iii)(aa)
+and one or more attachment of earnings orders he shall—
 \begin{enumerate}\item[]
-($a$) in the case of an attachment of earnings order which was made either wholly or in part in respect of the payment of a judgment debt or payments under an administration order, deal first with the deduction from earnings order or orders and thereafter with the attachment of earnings order as if the earnings to which it relates were the residue of the liable person’s earnings after the making of deductions to comply with the deduction from earnings order or orders;
+($a$) in the case of an attachment of earnings order which was made either wholly or in part in respect of the payment of a judgment debt or payments under an administration order, deal first with the deduction from earnings order% 
+\opt{oldrules}{or orders}  % Words omitted (3.3.03 for old-rules cases only) by SI 2001/162 reg 2(5)(i)(iii)(bb)
+and thereafter with the attachment of earnings order as if the earnings to which it relates were the residue of the liable person’s earnings after the making of deductions to comply with the deduction from earnings order% 
+\opt{oldrules}{or orders}% Words omitted (3.3.03 for old-rules cases only) by SI 2001/162 reg 2(5)(i)(iii)(bb)
+;
 
-($b$) in the case of any other attachment of earnings order, deal with the orders according to the respective dates on which they were made in like manner as under paragraph (1).
+($b$) in the case of any other attachment of earnings order\opt{oldrules}{, deal with the orders according to the respective dates on which they were made in like manner as under paragraph (1).}\opt{newrules}{
+he shall—
+\begin{enumerate}\item[]
+(i) deal with the orders according to the respective dates on which they were made, disregarding any later order until an earlier one has been dealt with;
+
+(ii) deal with any later order as if the earnings to which it relates were the residue of the liable person’s earnings after the making of any deduction to comply with any earlier order.
+\end{enumerate}
+} % Words substituted (3.3.03 for old-rules cases only) by SI 2001/162 reg 2(5)(i)(ii)
 \end{enumerate}
 
 “Attachment of earnings order” in this paragraph means an order made under the Attachment of Earnings Act 1971\footnote{\frenchspacing 1971 c. 32.} or under regulation 32 of the Community Charge (Administration and Enforcement) Regulations 1989\footnote{\frenchspacing S.I. 1989/438.}
@@ -609,10 +835,20 @@ or under regulation 37 of the Council Tax (Administration and Enforcement) Regul
 
 (3) Paragraph (2) does not apply to Scotland.
 
-(4) In Scotland, where an employer would, but for this paragraph, be obliged to comply with one or more deduction from earnings orders and one or more diligences against earnings he shall deal first with the deduction from earnings order or orders and thereafter with the diligence against earnings as if the earnings to which the diligence relates were the residue of the liable person’s earnings after the making of deductions to comply with the deduction from earnings order or orders.
+(4) In Scotland, where an employer would, but for this paragraph, be obliged to comply with 
+\opt{oldrules}{one or more deduction from earnings orders}\opt{newrules}{a deduction from earnings order}  % Words substituted (3.3.03 for old-rules cases only) by SI 2001/162 reg 2(5)(i)(iii)(aa)
+and one or more diligences against earnings he shall deal first with the deduction from earnings order% 
+\opt{oldrules}{or orders}  % Words omitted (3.3.03 for old-rules cases only) by SI 2001/162 reg 2(5)(i)(iii)(bb)
+and thereafter with the diligence against earnings as if the earnings to which the diligence relates were the residue of the liable person’s earnings after the making of deductions to comply with the deduction from earnings order% 
+\opt{oldrules}{or orders}% Words omitted (3.3.03 for old-rules cases only) by SI 2001/162 reg 2(5)(i)(iii)(bb)
+.
 
 \amendment{
 Words inserted in the definition of ``attachment of earnings order'' in reg. 24(2) (5.4.93) by the Child Support (Miscellaneous Amendments) Regulations 1993 reg. 42.
+
+\opt{newrules}{
+Words substituted in reg. 24(2), (4), words omitted in reg. 24(2), (4) and reg. 24(1) omitted (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(5)(i) (subject to savings in reg. 6).
+}
 }
 
 \subsection[25. Offences]{Offences}
@@ -647,9 +883,16 @@ Reg. 25(a) renumbered as reg. 25(ab) and reg. 25(aa) inserted (6.4.99) by the Ch
 
 27.—(1) The Secretary of State shall give the liable person at least 7 days notice of his intention to apply for a liability order under section 33(2) of the Act.
 
-(2) Such notice shall set out the amount of child support maintenance which it is claimed has become payable by the liable person and has not been paid and the amount of any interest in respect of arrears payable under section 41(3) of the Act\footnote{\frenchspacing See The Child Support (Arrears, Interest and Adjustment of Maintenance Assessments) Regulations 1992, S.I. 1992/1816.}.
+(2) Such notice shall set out the amount of child support maintenance which it is claimed has become payable by the liable person and has not been paid and the amount of any interest%
+\opt{oldrules}{ in respect of arrears payable under section 41(3) of the Act\footnote{\frenchspacing See The Child Support (Arrears, Interest and Adjustment of Maintenance Assessments) Regulations 1992, S.I. 1992/1816.}}\opt{newrules}{, penalty payments or fees which have become payable and have not been paid}.  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(6)(a)
 
 (3) Payment by the liable person of any part of the amounts referred to in paragraph (2) shall not require the giving of a further notice under paragraph (1) prior to the making of the application.
+
+\opt{newrules}{
+\amendment{
+Words substituted in reg. 27(2) (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(6)(a) (subject to savings in reg. 6).
+}
+}
 
 \subsection[28. Application for a liability order]{Application for a liability order}
 
@@ -723,16 +966,28 @@ Words substituted in reg. 29(4) (5.4.93) by the Child Support (Miscellaneous Ame
 
 \subsection[33. Application for warrant of commitment]{Application for warrant of commitment}
 
-33.—(1) For the purposes of enabling an inquiry to be made under section 40 of the Act as to the liable person’s conduct and means, a justice of the peace having jurisdiction for the area in which the liable person resides may—
+33.—(1) For the purposes of enabling an inquiry to be made under section 
+\opt{oldrules}{40}\opt{newrules}{39A}  % Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(6)(b)(i) 
+of the Act as to the liable person’s conduct and means, a justice of the peace having jurisdiction for the area in which the liable person resides may—
 \begin{enumerate}\item[]
 ($a$) issue a summons to him to appear before a magistrates' court and (if he does not obey the summons) issue a warrant for his arrest; or
 
 ($b$) issue a warrant for his arrest without issuing a summons.
 \end{enumerate}
 
-(2) In any proceedings under section 40 of the Act, a statement in writing to the effect that wages of any amount have been paid to the liable person during any period, purporting to be signed by or on behalf of his employer, shall be evidence of the facts there stated.
+(2) In any proceedings under 
+\opt{oldrules}{section 40}\opt{newrules}{sections 39A and 40}  % Words substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(6)(b)(ii) 
+of the Act, a statement in writing to the effect that wages of any amount have been paid to the liable person during any period, purporting to be signed by or on behalf of his employer, shall be evidence of the facts there stated.
 
-(3) Where an application under section 40 of the Act has been made but no warrant of commitment is issued or term of imprisonment fixed, the application may be renewed on the ground that the circumstances of the liable person have changed.
+(3) Where an application under section 
+\opt{oldrules}{40}\opt{newrules}{39A}  % Word substituted (3.3.03 for new-rules cases only) by SI 2001/162 reg 2(6)(b)(i) 
+of the Act has been made but no warrant of commitment is issued or term of imprisonment fixed, the application may be renewed on the ground that the circumstances of the liable person have changed.
+
+\opt{newrules}{
+\amendment{
+Words substituted in reg. 33(1), (2), (3) (31.5.01) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(6)(b) (as modified by the Child Support (Miscellaneous Amendments) Regulations 2001 reg. 2 and subject to savings in reg. 6).
+}
+}
 
 \subsection[34. Warrant of commitment]{Warrant of commitment}
 
@@ -747,6 +1002,29 @@ Words substituted in reg. 29(4) (5.4.93) by the Child Support (Miscellaneous Ame
 (5) Where, after the issue of a warrant, part-payment of the amount stated in it is made, the period of imprisonment shall be reduced proportionately so that for the period of imprisonment specified in the warrant there shall be substituted a period of imprisonment of such number of days as bears the same proportion to the number of days specified in the warrant as the amount remaining unpaid under the warrant bears to the amount specified in the warrant.
 
 (6) Where the part-payment is of such an amount as would, under paragraph (5), reduce the period of imprisonment to such number of days as have already been served (or would be so served in the course of the day of payment), the period of imprisonment shall be reduced to the period already served plus one day.
+
+% Reg 35 added (2.4.01) by SI 2001/162 reg 2(6)(c)
+\subsection[35. Disqualification from driving order]{Disqualification from driving order}
+
+35.---(1)  For the purposes of enabling an enquiry to be made under section 39A of the Act as to the liable person’s livelihood, means and conduct, a justice of the peace having jurisdiction for the area in which the liable person resides may issue a summons to him to appear before a magistrates' court and to produce any driving licence held by him, and, where applicable, its counterpart, and, if he does not appear, may issue a warrant for his arrest.
+
+(2) In any proceedings under sections 39A and 40B of the Act, a statement in writing to the effect that wages of any amount have been paid to the liable person during any period, purporting to be signed for or on behalf of his employer, shall be evidence of the facts there stated.
+
+(3) Where an application under section 39A of the Act has been made but no disqualification order is made, the application may be renewed on the ground that the circumstances of the liable person have changed.
+
+(4) A disqualification order shall be in the form prescribed in Schedule 4.
+
+(5) The amount to be included in the disqualification order under section 40B(3)($b$)  of the Act in respect of the costs shall be such amount as in the view of the court is equal to the costs reasonably incurred by the Secretary of State in respect of the costs of the application for the disqualification order.
+
+(6) An order made under section 40B(4) of the Act may be executed anywhere in England and Wales by any person to whom it is directed or by any constable acting within his police area, if the liable person fails to appear or produce or surrender his driving licence or its counterpart to the court.
+
+(7) An order may be executed by a constable notwithstanding that it is not in his possession at the time but such order shall, if demanded, be shown to the liable person as soon as reasonably practicable.
+
+(8) In this regulation “driving licence” means a licence to drive a motor vehicle granted under Part III of the Road Traffic Act 1988\footnote{1998 c.\ 52, section 108(1).}.
+
+\amendment{
+Reg. 35 added (2.4.01) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(6)(c).
+}
 
 \bigskip
 
@@ -798,6 +1076,8 @@ On the complaint of the Secretary of State for Social Security that the sums spe
 \begin{tabulary}{0.9\linewidth}{lJJ}
 Sum payable and outstanding \hspace{0.075\linewidth} &  --- & child support maintenance\\
 &--- & interest\\
+\opt{newrules}{&--- & penalty payments\\
+&--- & fees\\}
 & --- & other periodical payments collected by virtue of section 30 of the Child Support Act 1991\\
 \end{tabulary}
 
@@ -815,6 +1095,10 @@ Aggregate amount in respect of which the liability order is made:
 
 }
 
+\opt{newrules}{
+\amendment{
+Words inserted in Sch. 1 (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(7) (subject to savings in reg. 6).}
+}
 
 \part[Schedule 2 --- Charges connected with distress]{Schedule 2\\*Charges connected with distress}
 
@@ -841,7 +1125,7 @@ BB {} For preparing and sending a letter advising the liable person that the wri
 C {} For the removal and storage of goods for the purposes of sale:&
 Reasonable costs and fees incurred.\\
 D {}  For the possession of goods as described in paragraph 2(3)—\\
-\hspace{12pt}(i) for close possession (the person in possession on behalf of the Secretary of State to provide his own board):&
+\hspace{12pt}(i) for close possession (the person in\linebreak\hspace*{12pt}possession on behalf of the Secretary of\linebreak\hspace*{12pt}State to provide his own board):&
 £4.50 per day.\\
 \hspace{12pt}(ii) for walking possession:&
 %45p per day.\\
@@ -849,9 +1133,9 @@ D {}  For the possession of goods as described in paragraph 2(3)—\\
 E {} For appraisement of an item distrained, at the request in writing of the liable person:&
 Reasonable fees and expenses of the broker appraising.\\
 F {} For other expenses of, and commission on, a sale by auction—\\
-\hspace{12pt}(i) where the sale is held on the auctioneer’s premises:&
-The auctioneer’s commission fee and out-of-pocket expenses (but not exceeding in aggregate 15 per cent.\ of the sum realised), together with reasonable costs and fees incurred in respect of advertising.\\
-\hspace{12pt}(ii) where the sale is held on the liable person’s premises:&
+\hspace{12pt}\textls[25]{(i) where the sale is held on the}\linebreak\hspace*{12pt}auctioneer’s premises:&
+\textls[25]{The auctioneer’s commission fee and} out-of-pocket expenses (but not exceeding in aggregate 15 per cent.\ of the sum realised), together with reasonable costs and fees incurred in respect of advertising.\\
+\hspace{12pt}(ii) where the sale is held on the liable\linebreak\hspace*{12pt}person’s premises:&
 The auctioneer’s commission fee (but not exceeding 7\textonehalf{} per cent.\ of the sum realised), together with the auctioneer’s out-of-pocket expenses and reasonable costs and fees incurred in respect of advertising.\\
 G {} For other expenses incurred in connection with a proposed sale where there is no buyer in relation to it:&
 Reasonable costs and fees incurred.\\
@@ -924,11 +1208,17 @@ The court is satisfied---
 \end{enumerate}
 [and/or]
 \begin{enumerate}\item[]
-that the Secretary of State sought under section 36 of the Act to recover through the [\phantom{Bolton}] County Court, by means of [garnishee proceedings] or [a charging order], the amount then outstanding in respect of which the order was made;
+that the Secretary of State sought under section 36 of the Act to recover through the [\phantom{Bolton}] County Court, by means of [garnishee proceedings] 
+\opt{oldrules}{or }% Word omitted (3.3.03) by SI 2001/162 reg 2(8)(b)
+[a charging order], the amount then outstanding in respect of which the order was made;
 
 (ii) that such amount, or any portion of it, remains unpaid; and
 
-(iii) having inquired in the liable person's presence as to his means and as to whether there was been [wilful refusal] or [culpable neglect] on his part, the court is of the opinion that there has been [wilful refusal] or [culpable neglect] on his part.
+(iii) having inquired in the liable person's presence as to his means and as to whether there was been [wilful refusal] 
+\opt{oldrules}{or }% Word omitted (3.3.03) by SI 2001/162 reg 2(8)(c)
+[culpable neglect] on his part, the court is of the opinion that there has been [wilful refusal] 
+\opt{oldrules}{or }% Word omitted (3.3.03) by SI 2001/162 reg 2(8)(c)
+[culpable neglect] on his part.
 \end{enumerate}
 
 The decision of the Court is that the liable person be [committed to prison] [detained] for [\phantom{7 days}] unless the aggregate amount mentioned below in respect of which this warrant is made is sooner paid.*
@@ -937,7 +1227,9 @@ The decision of the Court is that the liable person be [committed to prison] [de
 
 This warrant is made in respect of---
 
-Amount outstanding (including any interest, costs and charges):
+Amount outstanding (including any interest, 
+\opt{newrules}{penalty payments, fees, }% Words inserted (3.3.03) by SI 2001/162 reg 2(8)(a)
+costs and charges):
 
 Costs of commitment of the Secretary of State:
 
@@ -963,6 +1255,89 @@ And you [\emph{name of person or persons to whom warrant is directed}] are hereb
 
 *\emph{Note:} The period of imprisonment will be reduced as provided by regulation 34(5) and (6) of the Child Support (Collection and Enforcement) Regulations 1992 if part-payment is made of the aggregate amount.
 
+\opt{newrules}{
+\amendment{
+Words inserted and omitted in Sch. 3 (3.3.03 for new-rules cases only) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(8) (subject to savings in reg. 6).}
+}
+
+\part[Schedule 4 --- Form of order of disqualification from holding or obtaining a driving licence]{Schedule 4\\*Form of order of disqualification from holding or obtaining a driving licence}
+
+\renewcommand\parthead{--- Schedule 4}
+
+\amendment{
+Sch. 4 added (2.4.01) by the Child Support (Collection and Enforcement and Miscellaneous Amendments) Regulations 2000 reg. 2(9) and Sch.
+}
+
+\medskip
+
+\noindent
+Sections 39A and 40B of the Child Support Act 1991 and regulation 35 of the Child Support (Collection and Enforcement) Regulations 1992
+
+\medskip
+
+{\raggedleft \hspace{0.5\linewidth}\dotfill Magistrates' Court
+
+}
+
+\medskip
+
+Date:
+
+\medskip
+
+Liable Person:
+
+\medskip
+
+Address:
+
+\medskip
+
+A liability order (``the order'') was made against the liable person by the [\phantom{Bolton}] Magistrates' Court on [\phantom{\today}] under section 33 of the Child Support Act 1991 (``the Act'') in respect of an amount of [\phantom{£100.00}].
+
+The court is satisfied---
+\begin{enumerate}
+\item[]
+(i) that the Secretary of state sought under section 35 of the Act to levy by distress the amount then outstanding in respect of which the order was made;
+
+[and/or]
+
+that the Secretary of State sought under section 36 of the Act to recover through [\phantom{Bolton}] County Court, by means of [garnishee proceedings] [a charging order], the amount then outstanding in respect of which the order was made;
+
+(ii) that such amount, or any portion of it, remains unpaid; and
+
+(iii) having inquired in the liable person's presence as to his means and as to whether there was been [wilful refusal] or [culpable neglect] on his part.
+\end{enumerate}
+
+The decision of the Court is that the liable person be disqualified from [holding or obtaining] a driving licence from [date] for [period] unless the aggregate amount in respect of which this order is made is sooner paid.*
+
+\medskip
+
+This order is made in respect of---
+
+Amount outstanding (including any interest, fees, penalty payments, costs and charges):
+
+\medskip
+
+Aggregate amount:
+
+\medskip
+
+And you [the liable person] shall surrender to the court any driving licence and counterpart held.
+
+\medskip
+
+{\raggedleft Justice of the Peace
+
+\medskip
+
+[\emph{or} by order of the Court\\*Clerk of the Court]
+
+}
+
+\medskip
+
+*\emph{Note:} The period of disqualification may be reduced as provided by section 40B(5)($a$) of the Act if part payment is made of the aggregate amount.  The order will be revoked by section 40B(5)($b$) of the Act if full payment is made of the aggregate amount.
 
 \part{Explanatory Note}
 
