@@ -2,22 +2,14 @@
 
 \usepackage[welsh,english]{babel}
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-
-\usepackage{lmodern}
-\usepackage[osf]{mathpazo}
-
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-
-\usepackage[perpage,para,symbol]{footmisc}
-
 \usepackage[oldrules]{optional}
 
+\newcommand\regstitle{Child Support Act 1991}
+
+\newcommand\regsnumber{c.~48}
+
 \opt{oldrules}{
-\title{Child Support Act 1991\\ (1993 Scheme version)}
+\title{\regstitle}
 }
 
 \opt{newrules}{
@@ -36,53 +28,24 @@
 
 \date{Royal Assent 25th July 1991}
 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhead[L]{}
-\fancyhead[C]{\itshape Child Support Act 1991 (c.\ 48) \parthead\phantom{...} (\versionyear{} scheme version)}
-\fancyhead[R]{}
-\fancyfoot[C]{\thepage}
-\newcommand{\parthead}{}
+\usepackage{csa-regs}
 
-\usepackage{array}
-\usepackage{multirow}
-\usepackage[debugshow]{tabulary}
-\usepackage{longtable}
-\usepackage{multicol}
-\usepackage{lettrine}
+\setlength\headheight{27.57402pt}
 
-\usepackage[colorlinks=true]{hyperref}
-\usepackage{microtype}
+%\hbadness=10000
 
-\hyphenation{Aw-dur-dod}
-\hyphenation{bank-rupt-cy}
-\hyphenation{Ec-cles-ton}
-\hyphenation{Eux-ton}
-\hyphenation{Hogh-ton}
-\hyphenation{Pres-ton}
-\hyphenation{Pru-den-tial}
-\hyphenation{Riv-ing-ton}
-
-\newcolumntype{x}[1]
-	{>{\raggedright}p{#1}}
-\newcommand{\tn}{\tabularnewline}
-\setlength\tymin{50pt}
-
-\newcommand\amendment[1]{\subsubsection*{Notes}{\itshape\frenchspacing\footnotesize #1 \par}}
+\renewcommand\siprefix{\relax}
 
 \begin{document}
 
 \maketitle
 
 \noindent
-{\large An Act to make provision for the \opt{oldrules}{assessment}\opt{newrules,2012rules}{calculation}, collection and enforcement of periodical maintenance payable by certain parents with respect to children of theirs who are not in their care; for the collection and enforcement of certain other kinds of maintenance; and for connected purposes.}
+{\large An Act to make provision for the calculation, collection and enforcement of periodical maintenance payable by certain parents with respect to children of theirs who are not in their care; for the collection and enforcement of certain other kinds of maintenance; and for connected purposes.}
 
-\opt{newrules,2012rules}{
+\amendment{The long title was amended (3.3.03 for 2003 and 2012 scheme cases) by section 1(2)(b) of the Child Support, Pensions and Social Security Act 2000.
 
-\amendment{Word “assessment” (or any variant of that term) substituted by “calculation” (or other variants)
-(3.3.2003) for the purposes of certain cases only (see SI 2003/192) by the Child
-Support, Pensions and Social Security Act 2000 (c. 19) s. 1(2)($b$).}
-
+For 1993 scheme cases, for ``calculation'' read ``assessment''.
 }
 
 \bigskip
@@ -105,21 +68,20 @@ Support, Pensions and Social Security Act 2000 (c. 19) s. 1(2)($b$).}
 (1) For the purposes of this Act, each parent of a qualifying child is
 responsible for maintaining him.
 
-(2) For the purposes of this Act, \opt{oldrules}{an absent parent}\opt{newrules,2012rules}{a non-resident parent} shall be
+(2) For the purposes of this Act, a non-resident parent shall be
 taken to have met his responsibility to maintain any qualifying child of his by making
 periodical payments of maintenance with respect to the child of such amount, and at
 such intervals, as may be determined in accordance with the provisions of this Act.
 
-(3) Where a \opt{oldrules}{maintenance assessment}\opt{newrules,2012rules}{maintenance calculation} made under this
-Act requires the making of periodical payments, it shall be the duty of the \opt{oldrules}{absent parent}\opt{newrules,2012rules}{non-resident parent} with respect to whom the \opt{oldrules}{assessment}\opt{newrules,2012rules}{calculation} was
+(3) Where a maintenance calculation made under this
+Act requires the making of periodical payments, it shall be the duty of the non-resident parent with respect to whom the calculation was
 made to make those payments.
 
-\opt{newrules,2012rules}{
 \amendment{
-Words “maintenance assessment(s)” substituted by “maintenance calculation(s)” and “(an) absent parent” substituted by “($a$) non-resident parent(s)” (3.3.03) for the purposes of
-certain cases only (see SI 2003/192) by the Child Support, Pensions and Social
-Security Act 2000 (c. 19) s. 1(2)($a$) Sch. 3 para. 11(2).
-}}
+Section 1 has been amended (3.3.03 for 2003 and 2012 scheme cases) by section 1(2)(a) of, and paragraph 11 of Schedule 3 to, the Child Support, Pensions and Social Security Act 2000.
+
+For 1993 scheme cases, for ``(a) non-resident parent'' substitute ``(an) absent parent'' and for ``maintenance assessment'' or ``assessment'' substitute ``maintenance calculation'' or ``calculation''.
+}
 
 \subsection{2. Welfare of children: the general principle}
 
@@ -127,21 +89,19 @@ Where, in any case which falls to be dealt with under this Act, the Secretary of
 Act, the Secretary of State shall have regard to the welfare of any child likely to be
 affected by the decision.
 
-\amendment{Words repealed in s. 2 (1.6.99) by the Social Security Act 1998 (c. 14) Sch. 8. 
-
-Words substituted in s. 2 (1.8.12) by the Public Bodies (Child Maintenance and Enforcement
-Commission: Abolition and Transfer of Functions) Order 2012 Sch para 2.}
+\amendment{Section 2 has been amended (1.6.99) by Schedule 8 to the Social Security Act 1998 and (1.8.12) by paragraph 2 of the Schedule to the Public Bodies (Child Maintenance and Enforcement
+Commission: Abolition and Transfer of Functions) Order 2012.}
 
 \subsection{3. Meaning of certain terms used in this Act}
 
 (1) A child is a “qualifying child” if---
 \begin{enumerate}\item[]
-($a$) one of his parents is, in relation to him, \opt{oldrules}{an absent parent}\opt{newrules,2012rules}{a non-resident parent}; or
+($a$) one of his parents is, in relation to him, a non-resident parent; or
 
-($b$) both of his parents are, in relation to him, \opt{oldrules}{absent parents.}\opt{newrules,2012rules}{non-resident parents.}
+($b$) both of his parents are, in relation to him, non-resident parents.
 \end{enumerate}
 
-(2) The parent of any child is \opt{oldrules}{an “absent parent”}\opt{newrules,2012rules}{a “non-resident parent”}, in relation to him, if---
+(2) The parent of any child is a “non-resident parent”, in relation to him, if---
 
 \begin{enumerate}\item[]
 ($a$)
@@ -192,8 +152,7 @@ For the purposes of this Act there may be more than one person with care
 in relation to the same qualifying child.
 
 (6)
-Periodical payments which are required to be paid in accordance with a
-\opt{oldrules}{maintenance assessment}\opt{newrules,2012rules}{maintenance calculation}
+Periodical payments which are required to be paid in accordance with a maintenance calculation
 are referred to in this Act as “child
 support maintenance”.
 
@@ -201,38 +160,26 @@ support maintenance”.
 Expressions are defined in this section only for the purposes of this Act.
 
 \amendment{
-Words in s. 3(4)($d$) substituted (1.11.96) by the Children (Scotland) Act 1995 (c. 36) Sch. 7 para. 52(2).
+Section 3 has been amended (31.1.01 for certain purposes, see S.I.~2000/3354; 3.3.03 for 2003 and 2012 scheme cases) by section 1(2)(a) of, and paragraph 11(2) of Schedule 3 to, the Child Support, Pensions and Social Security Act 2000.  Subsection (4)(d) has been amended (1.11.96) by paragraph 52 of Schedule 7 to the Children (Scotland) Act 1995.
 
-\opt{newrules,2012rules}{
-
-Words in s. 3(2) substituted (31.1.01) by para. 11(2) of Sch. 3 to the Child Support, Pensions
-and Social Security Act 2000 (c. 19).
-
-Words “(an) absent parent” substituted by “($a$) non-resident parent(s)” (3.3.03) for the purposes of
-certain cases only (see S.I. 2003/192) by the Child Support, Pensions and Social
-Security Act 2000 (c. 19), Sch. 3, para. 11(2).
-
-Words “maintenance assessment(s)” substituted by “maintenance calculation(s)” (3.3.03) for
-the purposes of certain cases only (See S.I. 2003/192) by the Child Support,
-Pensions and Social Security Act 2000 (c. 19), s. 1(2)($a$).
-}
+For 1993 scheme cases for ``(an) absent parent(s)'' substitute ``(a) non-resident parent(s)'' and for ``maintenance assesment'' substitute ``maintenance calculation''.
 }
 
 \subsection{4. Child support maintenance}
 
 (1) A
 person who is, in relation to any qualifying child or any qualifying
-children, either the person with care or the \opt{oldrules}{absent parent}\opt{newrules,2012rules}{non-resident parent}
+children, either the person with care or the non-resident parent
 may
-apply to the Secretary of State for a \opt{oldrules}{maintenance assessment}\opt{newrules,2012rules}{maintenance calculation}
+apply to the Secretary of State for a maintenance calculation
 to be made under this Act with respect to that child, or any of those
 children.
 
 (2)
-Where a \opt{oldrules}{maintenance assessment}\opt{newrules,2012rules}{maintenance calculation}
+Where a maintenance calculation
 has been made in
 response to an application under this section the Secretary of State may, if the
-person with care or \opt{oldrules}{absent parent}\opt{newrules,2012rules}{non-resident parent}
+person with care or non-resident parent
 with respect to whom the
 \opt{oldrules}{assessment}\opt{newrules,2012rules}{calculation}
 was made applies to the Secretary of State under this
@@ -240,11 +187,11 @@ subsection, arrange for---
 \begin{enumerate}\item[]
 ($a$)
 the collection of the child support maintenance payable in accordance
-with the \opt{oldrules}{assessment}\opt{newrules,2012rules}{calculation};
+with the calculation;
 
 ($b$)
 the enforcement of the obligation to pay child support maintenance in
-accordance with the \opt{oldrules}{assessment}\opt{newrules,2012rules}{calculation}.
+accordance with the calculation.
 
 \end{enumerate}
 
@@ -262,17 +209,17 @@ with the information which is required to enable---
 
 \begin{enumerate}\item[]
 ($a$)
-the \opt{oldrules}{absent parent}\opt{newrules,2012rules}{non-resident parent}
-to be \opt{newrules,2012rules}{identified or }%
+the non-resident parent
+to be identified or 
 traced (where
 that is necessary);
 
 ($b$)
-the amount of child support maintenance payable by the \opt{oldrules}{absent parent}\opt{newrules,2012rules}{non-resident parent}
+the amount of child support maintenance payable by the non-resident parent
 to be assessed; and
 
 ($c$)
-that amount to be recovered from the \opt{oldrules}{absent parent}\opt{newrules,2012rules}{non-resident parent}.
+that amount to be recovered from the non-resident parent.
 \end{enumerate}
 
 (5)
@@ -281,11 +228,10 @@ at any time request the Secretary of State to cease acting under this section.
 
 (6)
 It shall be the duty of the Secretary of State to comply with any request
-made under subsection (5) (but subject to any regulations made under subsection
-(8)).
+made under subsection (5) (but subject to any regulations made under subsection~(8)).
 
 (7)
-The obligation to provide information which is imposed by subsection (4)---
+The obligation to provide information which is imposed by subsection~(4)---
 \begin{enumerate}\item[]
 ($a$)
 shall not apply in such circumstances as may be prescribed; and
@@ -304,16 +250,14 @@ to a qualifying child or any qualifying children if---
 \begin{enumerate}\item[]
 ($a$)
 there is in force a written maintenance agreement made before 5th April
-1993, or a maintenance order\opt{newrules,2012rules}{ 
-made before a prescribed date}, in respect
-of that child, or those children and the person who is, at that time, the \opt{oldrules}{absent
-parent}\opt{newrules,2012rules}{non-resident parent}; or
+1993, or a maintenance order 
+made before a prescribed date, in respect
+of that child, or those children and the person who is, at that time, the non-resident parent; or
 
-\opt{newrules,2012rules}{
 ($aa$) a
 maintenance order made on or after the date prescribed for the purposes
 of paragraph ($a$) is in force in respect of them, but has been so for less than
-the period of one year beginning with the date on which it was made;}
+the period of one year beginning with the date on which it was made;
 
 ($ab$) a
 maintenance agreement---
@@ -331,53 +275,59 @@ beginning with the date on which it was made.
 \end{enumerate}
 
 \amendment{
-S. 4(6) should be read in conjunction with the Child Support (Maintenance Assessment Procedure) Regulations 1992 reg. 52(8).
+Section 4 amended (3.3.03 for 2003 and 2012 scheme cases only) by section 1(2) of, and paragraph 11 of Schedule 3 to, the Child Support, Pensions and Social Security Act 2000, and (1.8.12) by paragraph 3 of the Schedule to the Public Bodies (Child Maintenance
+and Enforcement Commission: Abolition and Transfer of Functions) Order 2012.
 
-By virtue of s. 18(6) of the Child Support Act 1995 (c. 34), s. 4(10) is disapplied for maintenance
-orders under s. 8(7) or (8) below.
+Subsection (4) amended (1.6.99) by Schedule 8 to the Social Security Act 1998.
 
-S. 4(10) inserted (4.9.95) by the Child Support Act 1995 (c. 34) s. 18(1).
+Subsection (6) should be read in conjunction with regulation 52(8) of the Child Support (Maintenance Assessment Procedure) Regulations 1992.
 
-Words in s. 4(4) repealed (1.6.99) by the Social Security Act 1998 (c. 14) Sch. 8.
+Subsection (9) repealed (27.10.08) by Schedule 8 to the Child Maintenance and Other Payments Act 2008.
 
-\opt{newrules,2012rules}{Words “maintenance assessment(s)” substituted by “maintenance calculation(s)” (3.3.03) for
-the purposes of certain cases only (see S.I. 2003/192) by the Child Support,
-Pensions and Social Security Act 2000 (c. 19) s. 1(2)($a$).  
+Subsections (10) and (11) inserted (4.9.95) by section 18(1) of the Child Support Act 1995, but under section 18(6) of that Act subsection (10) does not apply to maintenance orders under section 8(7) or (8) below.  Subsection (10)(a) amended (4.2.03 for regulation-making purposes, 3.3.03 for 2003 and 2012 scheme cases) by section 2(2) of the Child Support, Pensions and Social Security Act 2000.  Subsection (10)(aa) inserted (3.3.03 for 2003 and 2012 scheme cases only) by section 2(3) of the Child Support, Pensions and Social Security Act 2000.  Subsection (10)(ab) inserted (6.6.08) by section 35(1) of the Child Maintenance and Other Payments Act 2008.  Subsection (10)(b) repealed (14.7.08 for certain cases, 27.10.08 otherwise) by Schedule 8 to the Child Maintenance and Other Payments Act 2008.  Subsection (11) repealed (27.10.08) by Schedule 8 to the Child Maintenance and Other Payments Act 2008.
 
-Word “assessment” (or any variant of that term) substituted by “calculation” (or other variants)
-(3.3.03)
-for the purposes of certain cases only (see S.I. 2003/192) by the Child
-Support, Pensions and Social Security Act 2000 (c. 19) s. 1(2)($b$).
+For 1993 scheme cases, references to maintenance calculations should be read as references to maintenance assessments; references to calculations should be read as references to assessments; references to non-resident parents should be read as references to absent parents; subsection (4)(a) should be read as:
+\begin{quotation}
+($a$)
+the absent parent
+to be 
+traced (where
+that is necessary);
+\end{quotation}
+and subsection (10) should be read as:
+\begin{quotation}
+(10) No
+application may be made at any time under this section with respect
+to a qualifying child or any qualifying children if---
+\begin{enumerate}\item[]
+($a$)
+there is in force a written maintenance agreement made before 5th April
+1993, or a maintenance order, in respect
+of that child, or those children and the person who is, at that time, the absent
+parent; or
 
-Words inserted in s. 4(10)($a$) (4.2.03 for reg. making purposes, 3.3.03) for the purposes of
-certain cases only (see S.I. 2003/192) by the Child Support, Pensions and Social
-Security Act 2000 (c. 19) s. 2(2).
+($ab$) a
+maintenance agreement---
+\begin{enumerate}\item[]
+(i)
+made on or after the date prescribed for the purposes of paragraph ($a$);
+and
 
-S. 4(10)($aa$) inserted (3.3.03) for the purposes of certain cases only (see S.I. 2003/192) by the Child Support, Pensions and Social Security Act 2000 (c. 19) s. 2(3). 
+(ii)
+registered for execution in the Books of Council and Session or the
+sheriff court books,
+\end{enumerate}
+is in force in respect of them, but has been so for less than the period of one year
+beginning with the date on which it was made.
+\end{enumerate}
+\end{quotation}
 
-Words “(an) absent parent” substituted by
-“($a$) non-resident parent(s)” (3.3.03) for the
-purposes of certain cases only (see S.I. 2003/192) by the Child Support,
-Pensions and Social Security Act 2000 (c. 19) Sch. 3 para. 11(2).  }
-
- S. 4(10)($b$) repealed (14.7.08 for certain cases only, 27.10.08 for all other purposes) (see S.I. 2008/1476) by the
-Child Maintenance and Other Payments Act 2008 (c. 6) Sch. 8. 	
-
- S. 4(10)($ab$) inserted (6.6.08) by the Child Maintenance and Other Payments Act 2008 (c. 6) s.
-35(1).
-
-S.
-4(9), (11) repealed (27.10.08) by the Child Maintenance and Other Payments Act 2008 (c. 6)
-Sch. 8.
-
-Words substituted in s. 4 (1.8.12) by the Public Bodies (Child Maintenance
-and Enforcement Commission: Abolition and Transfer of Functions) Order 2012 Sch. para. 3.
 }
 
 \subsection{5. Child support
-maintenance;
+maintenance:
 supplemental
-provisions.}
+provisions}
 
 (1)
 Where---
@@ -390,70 +340,67 @@ one or more, but not all, of them have parental responsibility for
 %(or, in Scotland, parental rights over) 
 the child;
 \end{enumerate}
-no application may be made for a \opt{oldrules}{maintenance assessment}\opt{newrules,2012rules}{maintenance calculation}
+no application may be made for a maintenance calculation
 with respect to the child by any of those persons who do not have parental responsibility
 for 
 %(or, in Scotland, parental rights over) 
 the child.
 
 (2)
-Where more than one application for a \opt{oldrules}{maintenance assessment}\opt{newrules,2012rules}{maintenance calculation}
+Where more than one application for a maintenance calculation
 is made with respect to the child concerned, only one of them may be
 proceeded with.
 
 (3)
 The Secretary of State may by regulations make provision as to which of
-two or more applications for a \opt{oldrules}{maintenance assessment}\opt{newrules,2012rules}{maintenance calculation}
+two or more applications for a maintenance calculation
 with respect to the same child is to be proceeded with. 
 
 \amendment{
-Words in s. 5(1) repealed (1.11.96) by the Children (Scotland) Act 1995 (c. 48) Sch. 4 para. 52(3).
+Section 5 is amended (3.3.03 for 2003 and 2012 scheme cases) by section 1(2)(a) of the Child Support, Pensions and Social Security Act 2000.  Subsection (1) is amended (1.11.96) by paragraph 52 of Schedule 4 to the Children (Scotland) Act 1995.
 
-\opt{newrules,2012rules}{Words “maintenance assessment(s)” substituted by “maintenance calculation(s)” (3.3.03) for
-the purposes of certain cases only (See S.I. 2003/192) by the Child Support,
-Pensions and Social Security Act 2000 (c. 19), s. 1(2)($a$).}
+For 1993 scheme cases, references to maintenance calculations should be read as references to maintenance assessments.
 
 \medskip
 
-S. 6 repealed (14.7.08 for certain cases, 27.10.08 and 1.6.09 for all other purposes) by the Child Maintenance and Other Payments Act 2008 (c. 6) Sch. 8 (subject to transitional provisions in S.I. 2008/2548 art. 4).
+Section 6 (applications by those receiving benefit) was repealed (14.7.08 for certain cases, 27.10.08 and 1.6.09 for all other purposes, subject to transitional provisions in article 4 of S.I.~2008/2548) by Schedule 8 to the Child Maintenance and Other Payments Act 2008.
 }
 
 
 \subsection{7. Right of child in Scotland to apply for assessment}
 
 (1) A qualifying child who has attained the age of 12 years and who is habitually
-resident in Scotland may apply to the Secretary of State for a \opt{oldrules}{maintenance
-assessment}\opt{newrules,2012rules}{maintenance calculation} to be made with respect to him if
+resident in Scotland may apply to the Secretary of State for a maintenance calculation to be made with respect to him if
 no such application has been made by a person who is, with respect to that
-child, a person with care or \opt{oldrules}{an absent parent}\opt{newrules,2012rules}{a non-resident parent}.
+child, a person with care or a non-resident parent.
 
 (2)
 An application made under subsection (1) shall authorise the 
 Secretary of
-State to make a \opt{oldrules}{maintenance assessment}\opt{newrules,2012rules}{maintenance calculation}
+State to make a maintenance calculation
 with respect to
-any other children of the \opt{oldrules}{absent parent}\opt{newrules,2012rules}{non-resident parent}
+any other children of the non-resident parent
 who are qualifying
 children in the care of the same person as the child making the application.
 
 (3)
-Where a \opt{oldrules}{maintenance assessment}\opt{newrules,2012rules}{maintenance calculation}
+Where a maintenance calculation
 has been made in
 response to an application under this section the Secretary of State may, if the
-person with care, the \opt{oldrules}{absent parent}\opt{newrules,2012rules}{non-resident parent}
+person with care, the non-resident parent
 with respect to whom the
-\opt{oldrules}{assessment}\opt{newrules,2012rules}{calculation}
+calculation
 was made or the child concerned applies to 
 the Secretary
 of State under this subsection, arrange for---
 \begin{enumerate}\item[]
 ($a$)
 the collection of the child support maintenance payable in accordance
-with the \opt{oldrules}{assessment}\opt{newrules,2012rules}{calculation};
+with the calculation;
 
 ($b$)
 the enforcement of the obligation to pay child support maintenance in
-accordance with the \opt{oldrules}{assessment}\opt{newrules,2012rules}{calculation}.
+accordance with the calculation.
 \end{enumerate}
 	
 (4)
@@ -464,21 +411,21 @@ necessary to do so, the Secretary of State may act accordingly.
 
 (5)
 Where a child has asked the Secretary of State to proceed under this section,
-the person with care of the child, the \opt{oldrules}{absent parent}\opt{newrules,2012rules}{non-resident parent}
+the person with care of the child, the non-resident parent
 and the
 child concerned shall, so far as they reasonably can, comply with such regulations as
 may be made by the Secretary of State with a view to the Secretary of State being provided with the information which is required to enable---
 \begin{enumerate}\item[]
 ($a$)
-the \opt{oldrules}{absent parent}\opt{newrules,2012rules}{non-resident parent}
+the non-resident parent
 to be traced (where that is necessary);
 
 ($b$)
-the amount of child support maintenance payable by the \opt{oldrules}{absent parent}\opt{newrules,2012rules}{non-resident parent}
+the amount of child support maintenance payable by the non-resident parent
 to be assessed; and
 
 ($c$)
-that amount to be recovered from the \opt{oldrules}{absent parent}\opt{newrules,2012rules}{non-resident parent}.
+that amount to be recovered from the non-resident parent.
 \end{enumerate}
 
 (6)
@@ -487,10 +434,10 @@ may at any time request the Secretary of State to cease acting under this sectio
 
 (7)
 It shall be the duty of the Secretary of State to comply with any request made
-under subsection (6) (but subject to any regulations made under subsection (9)).
+under subsection (6) (but subject to any regulations made under subsection~(9)).
 
 (8)
-The obligation to provide information which is imposed by subsection (5)---
+The obligation to provide information which is imposed by subsection~(5)---
 \begin{enumerate}\item[]
 ($a$)
 shall not apply in such circumstances as may be prescribed by the Secretary
@@ -506,12 +453,6 @@ The Secretary of State may by regulations make such incidental, supplemental
 or transitional provision as he thinks appropriate with respect to cases
 in which he is requested to cease to act under this section.
 
-\opt{oldrules}{(10) No
-application may be made at any time under this section by a qualifying
-child if there is in force a written maintenance agreement made before 5th
-April 1993, or a maintenance order, in respect of that child and the person who is,
-at that time, the absent parent.}
-\opt{newrules,2012rules}{
 (10) No application may be made at any time under this section by a qualifying
 child if---
 \begin{enumerate}\item[]
@@ -530,8 +471,7 @@ the period of one year beginning with the date on which it was made; or
 a maintenance agreement---
 \begin{enumerate}\item[]
 (i)
-made on or after the date prescribed for the purposes of paragraph
-($a$); and
+made on or after the date prescribed for the purposes of paragraph~($a$); and
 
 (ii)
 registered for execution in the Books of Council and Session or the
@@ -539,39 +479,25 @@ sheriff court books,
 \end{enumerate}
 is in force in respect of them, but has been so for less than the period of one year
 beginning with the date on which it was made.
-\end{enumerate}}
+\end{enumerate}
 
 \amendment{
-S. 7(10) inserted (4.9.95) by the Child Support Act 1995 (c. 34) s. 18(2).
+Section 7 was amended (3.3.03 for 2003 and 2012 scheme cases only) by section 1(2)(a) of, and paragraph 11(2) of Schedule 3 to, the Child Support, Pensions and Social Security Act 2000, and (1.8.12) by paragraph 4 of the Schedule to the Public Bodies (Child Maintenance and Enforcement Commission: Abolition and Transfer of Functions) Order 2012.
 
-By virtue of s. 18(6) of the Child Support Act 1995 (c. 34), s. 7(10) is disapplied for maintenance
-orders under s. 8(7) or (8) below. 
+Subsection (1)(b) was repealed (14.7.08 for certain cases only as provided in S.I.~2008/1476, 1.6.09 for all other purposes) by Schedule 8 to the Child Maintenance and Other Payments Act 2008.
 
-Words in s. 7(5) repealed (1.6.99) by the Social Security Act 1998 (c. 14) Sch. 8.
+Subsection (5) was amended (1.6.99) by Schedule 8 to the Social Security Act 1998.
 
-\opt{newrules,2012rules}{Words “maintenance assessment(s)” substituted by “maintenance calculation(s)” (3.3.03) for
-the purposes of certain cases only (see S.I. 2003/192) by the Child Support,
-Pensions and Social Security Act 2000 (c. 19) s. 1(2)($a$).
+Subsection (10) was inserted (4.9.95) by section 18(2) of the Child Support Act 1995, but under section 18(6) of that Act does not apply to maintenance orders under section 8(7) or (8) below.  Subsection (10) was substituted (4.2.03 for regulation-making purposes, 3.3.03 for 2003 and 2012 scheme cases) by paragraph 11(4) of Schedule 3 to the Child Support, Pensions and Social Security Act 2000.  Subsection (10)(c) was inserted (6.6.08 for 2003 and 2012 scheme cases) by section 35(2) of the Child Maintenance and Other Payments Act 2008.
 
-Words “(an) absent parent” substituted by
-“($a$) non-resident parent(s)” (3.3.03) for the
-purposes of certain cases only (see S.I. 2003/192) by the Child Support,
-Pensions and Social Security Act 2000 (c. 19) Sch. 3 para. 11(2).
+For 1993 scheme cases, references to maintenance calculations should be read as references to maintenance assessments, references to absent parents should be read as references to non-resident parents, and subsection (10) should read as:
+\begin{quotation}
+(10) No
+application may be made at any time under this section by a qualifying
+child if there is in force a written maintenance agreement made before 5th
+April 1993, or a maintenance order, in respect of that child and the person who is,
+at that time, the absent parent.\end{quotation}
 
-S. 7(10) substituted (4.2.03 for reg. making purposes, 3.3.03) for the purposes of
-certain cases only (see S.I. 2003/192) by the Child Support, Pensions and Social
-Security Act 2000 (c. 19) Sch. 3 para. 11(4).
-}
-
-S. 7(1)($b$) repealed (14.7.08 for certain cases only (see S.I. 2008/1476), 1.6.09 for all other purposes) by the
-Child Maintenance and Other Payments Act 2008 (c. 6) Sch. 8.
-
-\opt{newrules,2012rules}{S. 7(10)($c$) inserted (6.6.08) by the Child Maintenance and Other Payments Act 2008
-(c.
-6) s. 35(2).}
-
-Words substituted in s. 7 (1.8.12) by the Public Bodies (Child Maintenance and Enforcement
-Commission: Abolition and Transfer of Functions) Order 2012 Sch. para. 4.
 }
 
 
@@ -579,38 +505,24 @@ Commission: Abolition and Transfer of Functions) Order 2012 Sch. para. 4.
 
 (1) This
 subsection applies in any case where the Secretary of State would
-have jurisdiction to make a \opt{oldrules}{maintenance assessment}\opt{newrules,2012rules}{maintenance calculation}
+have jurisdiction to make a maintenance calculation
 with
-respect to a qualifying child and \opt{oldrules}{an absent parent}\opt{newrules,2012rules}{a non-resident parent}
+respect to a qualifying child and a non-resident parent
 of his on an
-application duly made by a person entitled to apply for such an \opt{oldrules}{assessment}\opt{newrules,2012rules}{calculation}
+application duly made by a person entitled to apply for such a calculation
 with respect to that child.
 
 (2)
 Subsection (1) applies even though the circumstances of the case are such
-that the Secretary of State would not make \opt{oldrules}{an assessment}\opt{newrules,2012rules}{a calculation} if it were
+that the Secretary of State would not make a calculation if it were
 applied for.
 
 (3)
-\opt{newrules,2012rules}{Except as provided in subsection (3A), i}\opt{oldrules}{I}n any case where subsection (1)
+Except as provided in subsection (3A), in any case where subsection (1)
 applies, no court shall exercise any power which it would otherwise have to make,
 vary or revive any maintenance order in relation to the child and absent parent
 concerned.
 
-\opt{oldrules}{(3A) In
-any case in which section 4(10) or 7(10) prevents the making of an
-application for a maintenance assessment, and---
-\begin{enumerate}\item[]
-($a$)
-no application has been made for a maintenance assessment under section
-6, or
-
-($b$)
-such an application has been made but no maintenance assessment has been
-made in response to it,
-\end{enumerate}
-subsection (3) shall have effect with the omission of the word “vary”.}
-\opt{newrules,2012rules}{
 (3A) Unless a maintenance calculation has been made with respect to the child
 concerned, subsection (3) does not prevent a court from varying a maintenance
 order in relation to that child and the non-resident parent concerned---
@@ -620,11 +532,10 @@ if the maintenance order was made on or after the date prescribed for the
 purposes of section 4(10)($a$) or 7(10)($a$); or
 
 ($b$)
-where the order was made before then, in any case in which section 4(10)
+where the order was made before then, in any case in which section~4(10)
 or 7(10) prevents the making of an application for a maintenance
 calculation with respect to or by that child.
 \end{enumerate}
-}
 
 (4)
 Subsection (3) does not prevent a court from revoking a maintenance order.
@@ -637,7 +548,7 @@ order in relation to a child if---
 \begin{enumerate}\item[]
 ($a$)
 a written agreement (whether or not enforceable) provides for the
-making, or securing, by \opt{oldrules}{an absent parent}\opt{newrules,2012rules}{a non-resident parent}
+making, or securing, by a non-resident parent
 of the
 child of periodical payments to or for the benefit of the child; and
 
@@ -656,26 +567,19 @@ This section shall not prevent a court from exercising any power which it
 has to make a maintenance order in relation to a child if---
 \begin{enumerate}\item[]
 ($a$)
-a \opt{oldrules}{maintenance assessment}\opt{newrules,2012rules}{maintenance calculation}
+a maintenance calculation
 is in force with respect
 to the child;
 
-\opt{oldrules}{
-($b$)
-the amount of the child support maintenance payable in accordance with
-the assessment was determined by reference to the alternative formula
-mentioned in paragraph 4(3) of Schedule 1; and}
-\opt{newrules,2012rules}{
-($b$) the non-resident parent’s \opt{newrules}{net}\opt{2012rules}{gross} weekly income exceeds the figure
+($b$) the non-resident parent’s gross weekly income exceeds the figure
 referred to in paragraph 10(3) of Schedule 1 (as it has effect from time to
-time pursuant to regulations made under paragraph 10A(1)($b$)); and}
+time pursuant to regulations made under paragraph 10A(1)($b$)); and
 
 ($c$)
-the court is satisfied that the circumstances of the case make it appropriate for the \opt{oldrules}{absent parent}\opt{newrules,2012rules}{non-resident parent}
+the court is satisfied that the circumstances of the case make it appropriate for the non-resident parent
 to make or secure the making
 of periodical payments under a maintenance order in addition to the child
-support maintenance payable by him in accordance with the \opt{oldrules}{maintenance
-assessment}\opt{newrules,2012rules}{maintenance calculation}.
+support maintenance payable by him in accordance with the maintenance calculation.
 \end{enumerate}
 
 (7)
@@ -749,51 +653,52 @@ section 109(4) of the Constitutional Reform Act 2005) to exercise his functions 
 this section.
 
 \amendment{
-The power in s. 8(5) is exercised in the Child Maintenance (Written Agreements) Order 1993 (S.I. 1993/620) and the Child Support (Written Agreements) (Scotland) Order 1997 (S.I. 1997/2943 (S. 188)).
+Section 8 has been amended (1.6.99) by paragraph 22 of Schedule 7 to the Social Security Act 1998, (3.3.03 for 2003 and 2012 scheme cases only) by section 1(2) of, and paragraph 11(2) and (5) of Schedule 3 to, the Child Support, Pensions and Social Security Act 2000, and (1.8.12) by paragraph 5 of the Schedule to the Public Bodies (Child Maintenance and
+Enforcement Commission: Abolition and Transfer of Functions) Order 2012.
 
-S. 8(3A) inserted (4.9.95) by the Child Support Act 1995 (c. 34) s. 18(3).
+Subsection (1) was amended (27.10.08) by Schedule 8 to the Child Maintenance and Other Payments Act 2008.
 
-Words substituted in s. 8 (1.6.99) by the Social Security Act 1998 (c. 14) Sch. 7 para. 22.
+Subsection (3A) was inserted (4.9.95) by section 18(3) of the Child Support Act 1995 and substituted (3.3.03 for new-rules cases only) by paragraph 11(5) of Schedule 3 to the Child Support, Pensions and Social Security Act 2000.
 
-\opt{newrules,2012rules}{Words “maintenance assessment(s)” substituted by “maintenance calculation(s)” (3.3.03) for
-the purposes of certain cases only (see S.I. 2003/192) by the Child Support,
-Pensions and Social Security Act 2000 (c. 19) s. 1(2)($a$).
+Subsections (5A) and (12) were inserted (3.4.06) by paragraph 219 of Schedule 4 to the Constitutional Reform Act 2005.
 
-Word “assessment” (or any variant of that term) substituted by “calculation” (or other variants)
-(3.3.03)
-for the purposes of certain cases only (see S.I. 2003/192) by the Child
-Support, Pensions and Social Security Act 2000 (c. 19) s. 1(2)($b$).
+Subsection (6) was amended (10.12.12 for 2012 scheme cases only) by paragraph 1(2) of Schedule 7 to the Child Maintenance and Other Payments Act 2008.
 
-Words “(an) absent parent” substituted by
-“($a$) non-resident parent(s)” (3.3.03) for the
-purposes of certain cases only (see S.I. 2003/192) by the Child Support,
-Pensions and Social Security Act 2000 (c. 19) Sch. 3 para. 11(2).
+Subsection (8)(a) was amended (8.4.13 for certain cases only as provided in article 7 of S.I.~2013/358) by paragraph 2 of Schedule 9 to the Welfare Reform Act 2012.
 
-Words inserted in s. 8(3) (3.3.03) for the purposes of certain cases only
-(See S.I. 2003/192) by the Child Support, Pensions and Social Security Act 2000 (c.
-19) Sch. 3 para. 11(5).}
+Subsection (11)(e) was amended and subsection (11)(ea) inserted (5.12.05) by Part I of Schedule 24 to the Civil Partnership Act 2004.
 
-\opt{newrules,2012rules}{S. 8(3A) substituted (3.3.03) for the purposes of certain cases only
-(see S.I. 2003/192) by the Child Support, Pensions and Social Security Act 2000 (c.
-19) Sch. 3 para. 11(5).
+For 1993 scheme cases, references to maintenance calculations should be read as references to maintenance assessments, references to calculations should be read as references to assessments, references to absent parents should be read as references to non-resident parents, subsections (3) and (3A) should read as:
+\begin{quotation}
+(3)
+In any case where subsection (1)
+applies, no court shall exercise any power which it would otherwise have to make,
+vary or revive any maintenance order in relation to the child and absent parent
+concerned.
 
-S. 8(6)($b$) substituted (3.3.03) for the purposes of certain cases only (see S.I. 2003/
-192) by the Child Support, Pensions and Social Security Act 2000 (c. 19) Sch. 3
-para. 11(5)($d$).
-}
+(3A) In
+any case in which section 4(10) or 7(10) prevents the making of an
+application for a maintenance assessment, and---
+\begin{enumerate}\item[]
+($a$)
+no application has been made for a maintenance assessment under section
+6, or
 
-Word in s. 8(11)($e$) repealed and s. 8(11)($ea$) inserted (5.12.05) by the Civil Partnership Act 2004 (c. 33) Sch. 24 Pt. I.
+($b$)
+such an application has been made but no maintenance assessment has been
+made in response to it,
+\end{enumerate}
+subsection (3) shall have effect with the omission of the word “vary”.
+\end{quotation}
+and subsection (6)(b) should read as:
+\begin{quotation}
+($b$)
+the amount of the child support maintenance payable in accordance with
+the assessment was determined by reference to the alternative formula
+mentioned in paragraph 4(3) of Schedule 1; and.
+\end{quotation}
 
-S. 8(5A), (12) inserted (3.4.06) by the Constitutional Reform Act 2005 (c. 4) Sch. 4 para. 219.
-
-Words in s. 8(1) repealed (27.10.08) by the Child Maintenance and Other Payments Act 2008
-(c.
-6) Sch. 8.
-
-Words substituted in s. 8 (1.8.12) by the Public Bodies (Child Maintenance and
-Enforcement Commission: Abolition and Transfer of Functions) Order 2012 Sch. para. 5.
-
-Words inserted in s. 8(8)($a$) (8.4.13) for the purposes of certain cases only (see S.I. 2013/358 art. 7) by the Welfare Reform Act 2012 (c. 5) Sch. 9 para. 2.
+For 2003 scheme cases, the reference to gross weekly income in subsection (6)(b) should be read as a reference to net weekly income.
 }
 
 \subsection{9. Agreements about maintenance}
@@ -933,9 +838,15 @@ in any case where a court makes an order which it considers has affected,
 or is likely to affect, a \opt{oldrules}{maintenance assessment}\opt{newrules,2012rules}{maintenance calculation}.
 \end{enumerate}
 
-(5) Rules may be made under section 144 of the Magistrates’ Courts Act 1980
-(rules of procedure) requiring any person who, in prescribed circumstances, makes
-an application to a magistrates’ court for a maintenance order to furnish the court
+(5) Rules 
+%may be made under section 144 of the Magistrates’ Courts Act 1980
+%(rules of procedure) requiring 
+of court may require   % Words substituted (22.4.14) by 2013 c 22 Sch 11 para 123(a)
+any person who, in prescribed circumstances, makes
+an application to 
+%a magistrates’ court 
+the family court     % Words substituted (22.4.14) by 2013 c 22 Sch 11 para 123(b)
+for a maintenance order to furnish the court
 with a statement in a prescribed form, and signed by an officer of the Secretary of
 State, as to whether or not, at the time when the statement is made, there is a
 \opt{oldrules}{maintenance assessment}\opt{newrules,2012rules}{maintenance calculation}
@@ -961,6 +872,8 @@ Pensions and Social Security Act 2000 (c. 19) s. 1(2)($a$).
 
 Words substituted in s. 10 (1.8.12) by the Public Bodies (Child Maintenance and Enforcement
 Commission: Abolition and Transfer of Functions) Order 2012 Sch. para. 6.
+
+Words substituted in s. 10(5) (24.4.14) by the Crime and Courts Act 2013 Sch. 11. para. 123.
 }
 
 \opt{oldrules}{
@@ -1490,12 +1403,17 @@ Commission: Abolition and Transfer of Functions) Order 2012 Sch. para. 11.
 ($a$) any decision of the Secretary of State under section 11 or 12 or this section,
 whether as originally made or as revised under section 16;
 
-($b$) any decision of the First-tier Tribunal under section 20;
+($b$) any decision of 
+an appeal tribunal or  % Words inserted (3.11.08) by 2012 c 6 Sch 12 para 2(2)(a)
+the First-tier Tribunal under section 20;
 
-($d$) any decision of the First-tier Tribunal on a referral under section
-28D(1)($b$);
+($d$) any decision of 
+an appeal tribunal or  % Words inserted (3.11.08) by 2012 c 6 Sch 12 para 2(2)(a)
+the First-tier Tribunal on a referral under section~28D(1)($b$);
 
-($e$) any decision of the Upper Tribunal on an appeal from such a decision as
+($e$) any decision of 
+a Child Support Commissioner or  % Words inserted (3.11.08) by 2012 c 6 Sch 12 para 2(2)(b)
+the Upper Tribunal on an appeal from such a decision as
 is mentioned in paragraph ($b$) or ($d$),
 \end{enumerate}
 may be superseded by a decision made by the Secretary of State, either on an application made for the purpose or on the Secretary of State’s own initiative.
@@ -1528,6 +1446,14 @@ maintenance decision (under section 12) in relation to the non-resident parent i
 
 (5) Regulations may provide that, in prescribed cases or circumstances, a decision under this section shall take effect as from such other date as may be prescribed.
 
+% S 17(6) inserted (3.11.08) by 2012 c 6 Sch 12 para 2(3)
+(6) In this section—
+\begin{enumerate}\item[]
+    “appeal tribunal” means an appeal tribunal constituted under Chapter I of Part I of the Social Security Act 1998 (the functions of which have been transferred to the First-tier Tribunal);
+
+    “Child Support Commissioner” means a person appointed as such under section 22 (the functions of whom have been transferred to the Upper Tribunal).
+\end{enumerate}
+
 \amendment{
 S. 17 substituted for ss. 17--19 (4.3.99 for certain purposes, 1.6.99 for all other purposes) by the Social Security Act 1998 (c. 14) s. 41 (subject to transitional provisions in S.I. 1999/1510 arts. 48, 49).
 
@@ -1539,6 +1465,8 @@ Word “and” repealed in s. 17(1)($b$) (3.3.03) for the purposes of certain ca
 
 Words substituted in s. 17(1) (3.11.08) by the Transfer of Tribunal Functions Order 2008 Sch. 3 para. 79.
 
+Words inserted in s. 17(1) and s. 17(6) inserted (3.11.08) by the Welfare Reform Act 2012 Sch. 12 para. 2.
+
 S. 17(1)($c$) repealed (14.7.08) by the Child Maintenance and Other Payments Act 2008
 (c. 6) Sch. 8.
 
@@ -1548,9 +1476,6 @@ Words substituted in s. 17 (1.8.12) by the Public Bodies (Child Maintenance and 
 Words substituted in s. 17(2) and (3) (10.12.12) for the purposes of certain cases only (see S.I. 2012/3042) by the Child Maintenance and Other Payments Act 2008 (c. 6) s. 17 as amended by the Public Bodies (Child Maintenance and Enforcement Commission: Abolition and Transfer of Functions) Order 2012 Sch. para. 77.
 }
 
-The insertion of words in s. 17(1) by the Welfare Reform Act 2012 (c. 5) Sch. 12 para. 2(2) is not yet in force.
-
-The insertion of s. 17(6) by the Welfare Reform Act 2012 (c. 5) Sch. 12 para. 2(3) is not yet in force.
 }
 
 \opt{oldrules}{
@@ -3875,7 +3800,7 @@ s. 23.
 Words substituted in s. 32H (1.8.12) by the Public Bodies (Child Maintenance and Enforcement Commission: Abolition and Transfer of Functions) Order 2012 Sch. para. 39.
 }
 
-\subsection{32I. Power to disapply sections 32G(1) and (2) and 32H(2)($b$) and (4)($b$)}
+\subsection{\sloppy 32I. Power to disapply sections 32G(1) and (2) and 32H(2)($b$) and (4)($b$)}
 
 (1) The Secretary of State may by regulations make provision as to
 circumstances in which things that would otherwise be in breach of sections 32G(1) and (2) and 32H(2)($b$) and (4)($b$) may be done.
@@ -4052,7 +3977,9 @@ This section does not apply to a disposition made before the coming into force o
 (10)
 In this section "the court" means---
 \begin{enumerate}\item[]
-($a$) in relation to England and Wales, the High Court;
+($a$) in relation to England and Wales, the High Court
+or the family court%  % Words inserted (22.4.14) by 2013 c 22 Sch 11 para 124
+;
 
 ($b$) in relation to Scotland, the Court of Session or the sheriff.
 \end{enumerate}
@@ -4074,6 +4001,8 @@ s. 24.
 }
 
 Words substituted in s. 32L (1.8.12) by the Public Bodies (Child Maintenance and Enforcement Commission: Abolition and Transfer of Functions) Order 2012 Sch. para. 42.
+
+Words substituted in s. 32L(10) (24.4.14) by the Crime and Courts Act 2013 Sch. 11. para. 124.
 
 \medskip
 
@@ -5182,32 +5111,34 @@ Words substituted in s. 44 (1.8.12) by the Public Bodies (Child Maintenance and 
 
 (2) In subsection (1), “court” means---
 \begin{enumerate}\item[]
-($a$) in relation to England and Wales and subject to any provision made under Schedule 11 to the Children Act 1989 (jurisdiction of courts with respect to certain proceedings relating to children) the High Court, a county court or a magistrates’ court; and
+($a$) in relation to England and Wales% 
+%and subject to any provision made under Schedule 11 to the Children Act 1989 (jurisdiction of courts with respect to certain proceedings relating to children) the High Court, a county court or a magistrates’ court; and
+, the High Court or the family court; and  % Words substituted (22.4.14) by 2013 c 22 Sch 11 para 125
 
 ($b$) in relation to Scotland, the Court of Session or the sheriff.
 \end{enumerate}
 
-(3)
-Schedule 11 to the Act of 1989 shall be amended in accordance with subsections (4) and (5).
-
-(4)
-The following sub-paragraph shall be inserted in paragraph 1, after sub-paragraph (2)---
-\begin{quotation}
- “(2A) Sub-paragraphs (1) and (2) shall also apply in relation to proceedings---
-\begin{enumerate}\item[]
-($a$)
-under section 27 of the Child Support Act 1991 (reference to court for declaration of parentage); or
-
-($b$)
-which are to be dealt with in accordance with an order made under section 45 of that Act (jurisdiction of courts in certain proceedings under that Act).”
-\end{enumerate}
-\end{quotation}
-
-(5)
-In paragraphs 1(3) and 2(3), the following shall be inserted after “Act 1976”---
-\begin{quotation}
-“($bb$) section 20 (appeals) or 27 (reference to court for declaration of parentage) of the Child Support Act 1991;”.
-\end{quotation}
+%(3)
+%Schedule 11 to the Act of 1989 shall be amended in accordance with subsections (4) and (5).
+%
+%(4)
+%The following sub-paragraph shall be inserted in paragraph 1, after sub-paragraph (2)---
+%\begin{quotation}
+% “(2A) Sub-paragraphs (1) and (2) shall also apply in relation to proceedings---
+%\begin{enumerate}\item[]
+%($a$)
+%under section 27 of the Child Support Act 1991 (reference to court for declaration of parentage); or
+%
+%($b$)
+%which are to be dealt with in accordance with an order made under section 45 of that Act (jurisdiction of courts in certain proceedings under that Act).”
+%\end{enumerate}
+%\end{quotation}
+%
+%(5)
+%In paragraphs 1(3) and 2(3), the following shall be inserted after “Act 1976”---
+%\begin{quotation}
+%“($bb$) section 20 (appeals) or 27 (reference to court for declaration of parentage) of the Child Support Act 1991;”.
+%\end{quotation}
 
 (7)
 Any order under subsection (1) may make---
@@ -5230,6 +5161,8 @@ Words substituted in s. 45(1)($a$) (3.11.08) by the Transfer of Tribunal Functio
 S. 45(6) omitted (3.11.08) by the Transfer of Tribunal Functions Order 2008 Sch. 3 para. 92($b$).
 
 Words omitted in s. 45(7) (3.11.08) by the Transfer of Tribunal Functions Order 2008 Sch. 3 para. 92($c$).
+
+Words substituted in s. 45(2)(a) and s. 45(3)--(5) omitted (24.4.14) by the Crime and Courts Act 2013 Sch. 11. para. 125, 210.
 }
 
 \section{Miscellaneous and supplemental}
@@ -5353,7 +5286,9 @@ The repeal of s. 47 by the Child Maintenance and Other Payments Act 2008 (c. 6) 
 
 \subsection{48. Right of audience}
 
-(1) Any officer of the Secretary of State who is authorised by the Secretary of State for the purposes of this section shall have, in relation to any proceedings under this Act before a magistrates’ court, a right of audience and the right to conduct litigation.
+(1) Any officer of the Secretary of State who is authorised by the Secretary of State for the purposes of this section shall have, in relation to any proceedings under this Act before 
+the family court or  % Words inserted (22.4.14) by 2013 c 22 Sch 11 para 126
+a magistrates’ court, a right of audience and the right to conduct litigation.
 
 (2) In this section “right of audience” and “right to conduct litigation” have the same meaning as in section 119 of the Courts and Legal Services Act 1990.
 
@@ -5363,6 +5298,7 @@ Words substituted in s. 48(1) (4.9.95) by the Child Support Act 1995 (c. 34) Sch
 
 Words substituted in s. 48(1) (1.8.12) by the Public Bodies (Child Maintenance and Enforcement Commission: Abolition and Transfer of Functions) Order 2012 Sch. para. 58.
 
+Words inserted in s. 48(1) (24.4.14) by the Crime and Courts Act 2013 Sch. 11. para. 126.
 }
 
 \subsection{49. Right of audience: Scotland}
@@ -5655,10 +5591,9 @@ The insertion of s. 51A(6) by the Welfare Reform Act 2012 (c. 5) Sch. 11 para. 7
 
 (1) Any power conferred on the Lord Advocate or the Secretary of State by this Act to make regulations or orders (other than a deduction from earnings order) shall be exercisable by statutory instrument.
 
-\opt{oldrules}{(2)
-No statutory instrument containing (whether alone or with other provisions) regulations made under section 4(7), 5(3), (9) or (10), 7(8), 12(2), 28C(2)($b$), 28F(3), 30(5A), 32A to 32C, 32E to 32J, 41(2), (3) or (4), 41A, 41B(6), 41E(1)($a$), 42, 43(1) or 47 or under Part I of Schedule 1 or under Schedule 4B, or an order made under section 45(1) or (6), shall be made unless a draft of the instrument has been laid before Parliament and approved by a resolution of each House of Parliament.}
+%\opt{oldrules}{(2)
+%No statutory instrument containing (whether alone or with other provisions) regulations made under section 4(7), 5(3), (9) or (10), 7(8), 12(2), 28C(2)($b$), 28F(3), 30(5A), 32A to 32C, 32E to 32J, 41(2), (3) or (4), 41A, 41B(6), 41E(1)($a$), 42, 43(1) or 47 or under Part I of Schedule 1 or under Schedule 4B, or an order made under section 45(1) or (6), shall be made unless a draft of the instrument has been laid before Parliament and approved by a resolution of each House of Parliament.}
 
-\opt{newrules,2012rules}{
 (2) No statutory instrument containing (whether alone or with other provisions) regulations made under---
 \begin{enumerate}\item[]
 ($a$) section 12(4) (so far as the regulations make provision for the default
@@ -5690,7 +5625,6 @@ of the kind mentioned in sub-paragraph (2) of that paragraph, or
 of the kind mentioned in sub-paragraph (2)($a$) or ($b$) of that paragraph,
 \end{enumerate}
 shall be made unless a draft of the instrument has been laid before Parliament and approved by a resolution of each House of Parliament.
-}
 
 (2B) No statutory instrument containing (whether alone or with other provisions) regulations which by virtue of section 51A are to have effect for a limited period shall be made unless a draft of the instrument has been laid before Parliament and approved by a resolution of each House of Parliament.
 
@@ -5726,9 +5660,7 @@ matter.
 \opt{oldrules}{Words inserted in s. 52(2) (4.9.95) by the Child Support Act 1995 (c. 34) Sch. 3 para. 15.
 }
 
-\opt{newrules,2012rules}{
-S. 52(2), (2A) substituted for s. 52(2) (10.11.00 for the purposes of making regulations and Acts of Sederunt only, 3.3.03) for the purposes of certain cases only (see S.I. 2003/192) by the Child Support, Pensions and Social Security Act 2000 (c. 19) s. 25.
-}
+S. 52(2), (2A) substituted for s. 52(2) (10.11.00 for the purposes of making regulations and Acts of Sederunt only, 3.3.03 for 2003 and 2012 scheme cases, 16.5.14 for 1993 scheme cases) for the purposes of certain cases only (see S.I. 2003/192) by the Child Support, Pensions and Social Security Act 2000 (c. 19) s. 25.
 
 Words in s. 52(1) omitted (3.4.06) by the Constitutional Reform Act 2005 (c. 4) Sch. 18 Pt. II.
 
@@ -7610,18 +7542,27 @@ Words substituted in para. 1($c$) (3.11.08) by the Transfer of Tribunal Function
 
 ($b$) any decision of the Secretary of State under section 17 as extended by this sub-paragraph; and
 
-($c$) any decision of the First-tier Tribunal on a referral under section 28D(1)($b$),
+($c$) any decision of 
+an appeal tribunal or  % Words inserted (3.11.08) by 2012 c 5 Sch 12 para 3(2)
+the First-tier Tribunal on a referral under section 28D(1)($b$),
 \end{enumerate}
 whether as originally made or as revised under section 16 as extended by paragraph 1, as it applies in relation to any decision of the Secretary of State under section 11, 12 or 17, whether as originally made or as revised under section 16.
 
-(2) Section 17 shall apply in relation to any decision of the First-tier Tribunal under section 20 as extended by paragraph 3 as it applies in relation to any decision of the First-tier Tribunal under section 20.
+(2) Section 17 shall apply in relation to any decision of 
+an appeal tribunal or  % Words inserted (3.11.08) by 2012 c 5 Sch 12 para 3(3)
+the First-tier Tribunal under section 20 as extended by paragraph 3 as it applies in relation to any decision of
+an appeal tribunal or  % Words inserted (3.11.08) by 2012 c 5 Sch 12 para 3(3)
+the First-tier Tribunal under section 20.
+
+% Para 2(3) inserted (3.11.08) by 2012 c 5 Sch 12 para 3(4)
+(3) In this paragraph “appeal tribunal“ means an appeal tribunal constituted under Chapter I of Part I of the Social Security Act 1998 (the functions of which have been transferred to the First-tier Tribunal).
 
 \amendment{
 Words in para. 2(1)($a$) repealed (14.7.08 for certain cases, 1.6.09 for all other purposes) by the Child Maintenance and Other Payments Act 2008 (c. 6) Sch. 7 para. 1(34).
 
 Words substituted in para. 2 (3.11.08) by the Transfer of Tribunal Functions Order 2008  Sch. 3 para. 100(3).
 
-The insertion of words in para. 2(1), (2) and the insertion of para. 2(3) by the Welfare Reform Act 2012 (c. 5) Sch. 12 para. 3 have not yet been brought into force.
+Words inserted in para. 2(1), (2) and para. 2(3) inserted (3.11.08) by the Welfare Reform Act 2012 (c. 5) Sch. 12 para. 3.
 
 }
 

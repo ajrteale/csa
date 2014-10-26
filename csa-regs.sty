@@ -1,3 +1,5 @@
+\flushbottom
+
 \usepackage[welsh,english]{babel}
 
 \usepackage[utf8]{inputenc}
@@ -5,11 +7,16 @@
 
 %\usepackage[2012rules]{optional}
 
-%\usepackage{cfr-lm}
-\usepackage[osf]{mathpazo}
-\usepackage{textcomp}
+\usepackage{cfr-lm}
+%\usepackage[osf]{mathpazo}
+%\usepackage{textcomp}
 
-\usepackage[subtle,charwidths,leading]{savetrees}
+%\usepackage[subtle,charwidths,leading]{savetrees}
+% Code on \looseness nicked from savetrees package
+%\let\markeverypar\everypar
+%\newtoks\everypar
+%\everypar\markeverypar
+%\markeverypar{\the\everypar\looseness=-1\relax}
 
 \usepackage{perpage} %the perpage package
 \MakePerPage{footnote} %the perpage package command
@@ -22,7 +29,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead[L]{}
-\fancyhead[C]{\itshape \regstitle{} (\siprefix\regsnumber) \parthead\phantom{...}% (\versionyear{} scheme version)
+\fancyhead[C]{\itshape \regstitle{} (\siprefix\regsnumber) \parthead\phantom{...}\looseness=0% (\versionyear{} scheme version)
 }
 \fancyhead[R]{}
 \fancyfoot[C]{\thepage}
@@ -34,6 +41,7 @@
 \usepackage{longtable}
 \usepackage{multicol}
 \usepackage{lettrine}
+\usepackage{units}
 
 \usepackage[hidelinks]{hyperref}
 \usepackage{microtype}
