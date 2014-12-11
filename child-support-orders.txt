@@ -194,8 +194,8 @@ S.I.
 2012/3002	The Child Support (Management of Payments and Arrears) (Amendment) Regulations 2012
 2012/3042	The Child Maintenance and Other Payments Act 2008 (Commencement No 10 and Transitional Provisions) Order 2012
 2013/1517	The Child Support (Miscellaneous Amendments) Regulations 2013
-
 2013/1654	The Child Support and Claims and Payments (Miscellaneous Amendments and Change to the Minimum Amount of Liability) Regulations 2013
+
 2013/1860	The Child Maintenance and Other Payments Act 2008 (Commencement No 11 and Transitional Provisions) Order 2013
 2013/2380	The Social Security, Child Support, Vaccine Damage and Other Payments (Decisions and Appeals) (Amendment) Regulations 2013
 2013/2947	The Child Maintenance and Other Payments Act 2008 (Commencement No 12 and Savings Provisions) and the Welfare Reform Act 2012 (Commencement No 15) Order 2013
@@ -212,3 +212,4 @@ S.I.
 2014/1621	The Child Support (Consequential and Miscellaneous Amendments) (No 2) Regulations 2014
 2014/1635	The Child Maintenance and Other Payments Act 2008 (Commencement No 14 and Transitional Provisions) and the Welfare Reform Act 2012 (Commencement No 18 and Transitional and Savings Provisions) Order 2014
 2014/3229	The Marriage and Civil Partnership (Scotland) Act 2014 and Civil Partnership Act 2004 (Consequential Provisions and Modifications) Order 2014
+2014/3255	The Shared Parental Leave and Statutory Shared Parental Pay (Consequential Amendments to Subordinate Legislation) Order 2014 
