@@ -164,6 +164,7 @@ S.I.
 2008/1955	The Child Support Commissioners (Procedure) (Amendment) Regulations 2008
 2008/1957	The Social Security and Child Support (Decisions and Appeals) (Amendment) Regulations 2008
 2008/2033	The Child Maintenance and Other Payments Act 2008 (Commencement No 2) Order 2008
+2008/2365	The Social Security (Miscellaneous Amendments) (No 3) Regulations 2008
 2008/2543	The Child Support (Consequential Provisions) Regulations 2008
 2008/2544	The Child Support (Miscellaneous Amendments) (No 2) Regulations 2008
 2008/2545	The Child Support, Pensions and Social Security Act 2000 (Commencement No 14) Order 2003
@@ -177,6 +178,7 @@ S.I.
 2009/736	The Child Support (Miscellaneous and Consequential Amendments) Regulations 2009
 2009/1314	The Child Maintenance and Other Payments Act 2008 (Commencement No 5) Order 2009
 2009/1815	The Child Support Collection and Enforcement (Deduction Orders) Amendment Regulations 2009
+2009/2715	The Pensions Act 2007 (Supplementary Provision) Order 2009
 2009/2909	The Child Support (Miscellaneous Amendments) (No 2) Regulations 2009
 2009/3072	The Child Maintenance and Other Payments Act 2008 (Commencement No 6) Order 2009
 2009/3151	The Child Support (Management of Payments and Arrears) Regulations 2009
@@ -195,9 +197,9 @@ S.I.
 2012/3042	The Child Maintenance and Other Payments Act 2008 (Commencement No 10 and Transitional Provisions) Order 2012
 2013/1517	The Child Support (Miscellaneous Amendments) Regulations 2013
 2013/1654	The Child Support and Claims and Payments (Miscellaneous Amendments and Change to the Minimum Amount of Liability) Regulations 2013
-
 2013/1860	The Child Maintenance and Other Payments Act 2008 (Commencement No 11 and Transitional Provisions) Order 2013
 2013/2380	The Social Security, Child Support, Vaccine Damage and Other Payments (Decisions and Appeals) (Amendment) Regulations 2013
+
 2013/2947	The Child Maintenance and Other Payments Act 2008 (Commencement No 12 and Savings Provisions) and the Welfare Reform Act 2012 (Commencement No 15) Order 2013
 2014/107	The Marriage (Same Sex Couples) Act 2013 (Consequential Provisions) Order 2014
 2014/209	The Welfare Reform Act 2012 (Commencement No. 16 and Transitional and Transitory Provisions) Order 2014
