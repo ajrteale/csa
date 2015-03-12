@@ -199,10 +199,11 @@ S.I.
 2013/1654	The Child Support and Claims and Payments (Miscellaneous Amendments and Change to the Minimum Amount of Liability) Regulations 2013
 2013/1860	The Child Maintenance and Other Payments Act 2008 (Commencement No 11 and Transitional Provisions) Order 2013
 2013/2380	The Social Security, Child Support, Vaccine Damage and Other Payments (Decisions and Appeals) (Amendment) Regulations 2013
-
 2013/2947	The Child Maintenance and Other Payments Act 2008 (Commencement No 12 and Savings Provisions) and the Welfare Reform Act 2012 (Commencement No 15) Order 2013
+
 2014/107	The Marriage (Same Sex Couples) Act 2013 (Consequential Provisions) Order 2014
 2014/209	The Welfare Reform Act 2012 (Commencement No. 16 and Transitional and Transitory Provisions) Order 2014
+2014/560	The Marriage (Same Sex Couples) Act 2013 (Consequential and Contrary Provisions and Scotland) Order 2014
 2014/576	The Child Maintenance and Other Payments Act 2008 (Commencement No. 13) Order 2014
 2014/612	The Child Support Fees Regulations 2014
 2014/614	The Child Support (Ending Liability in Existing Cases and Transition to New Calculation Rules) Regulations 2014
@@ -218,3 +219,6 @@ S.I.
 2015/176	The Child Maintenance and Other Payments Act 2008 (Commencement No. 15) Order 2015
 2015/338	The Child Support (Miscellaneous and Consequential Amendments) Regulations 2015
 2015/339	The Jobseeker’s Allowance (Extended Period of Sickness) Amendment Regulations 2015
+2015/478	The Social Security (Miscellaneous Amendments No. 2) Regulations 2015
+2015/583	The Road Safety Act 2006 (Consequential Amendments) Order 2015
+2015/643	The Care Act 2014 (Consequential Amendments) (Secondary Legislation) Order 2015
