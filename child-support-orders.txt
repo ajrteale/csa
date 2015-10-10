@@ -5,7 +5,7 @@ S.I.
 1987/1967	The Income Support (General) Regulations 1987
 1987/1968	The Social Security (Claims and Payments) Regulations 1987
 1992/1431	The Child Support Act 1991 (Commencement No 1) Order 1992
-1992/1812	The Child Support (Information, Evidence and Disclosure) Regulations 1992
+1992/1812	The Child Support (Information, Evidence and Disclosure) Regulations 1992 (Revoked)
 1992/1813	The Child Support (Maintenance Assessment Procedure) Regulations 1992
 1992/1815	The Child Support (Maintenance Assessments and Special Cases) Regulations 1992
 1992/1816	The Child Support (Arrears, Interest and Adjustment of Maintenance Assessments) Regulations 1992
@@ -116,6 +116,7 @@ S.I.
 2002/1703	The Social Security (Jobcentre Plus Interviews) Regulations 2002
 2002/1854	The Child Support (Temporary Compensation Payment Scheme) (Modification and Amendment) Regulations 2002
 2002/1915	The Child Support Appeals (Jurisdiction of Courts) Order 2002
+2002/2469	The National Health Service Reform and Health Care Professions Act 2002 (Supplementary, Consequential etc. Provisions) Regulations 2002
 2002/2497	The Social Security Amendment (Carer's Allowance) Regulations 2002
 2002/3019	The State Pension Credit (Consequential, Transitional and Miscellaneous Provisions) Regulations 2002
 2002/3197	The State Pension Credit (Consequential, Transitional and Miscellaneous Provisions) (No 2) Regulations 2002
@@ -126,27 +127,39 @@ S.I.
 2003/328	The Child Support (Miscellaneous Amendments) Regulations 2003
 2003/346	The Child Support, Pensions and Social Security Act 2000 (Commencement No 13) Order 2003
 2003/347	The Child Support (Transitional Provision) (Miscellaneous Amendments) Regulations 2003
+2003/762	The Community Care, Services for Carers and Children’s Services (Direct Payments) (England) Regulations 2003 (Not reproduced)
 2003/916	The Child Benefit and Guardian’s Allowance (Decisions and Appeals) Regulations 2003 [Not reproduced]
 2003/1050	The Social Security and Child Support (Miscellaneous Amendments) Regulations 2003
 2003/1189	The Social Security and Child Support (Miscellaneous Amendments) (No 2) Regulations 2003
 2003/1195	The Social Security (Hospital In-Patients and Miscellaneous Amendments) Regulations 2003
 2003/1581	The State Pension Credit (Decisions and Appeals-Amendments) Regulations 2003
+2003/1731	The Social Security (Working Tax Credit and Child Tax Credit) (Consequential Amendments) (No. 3) Regulations 2003 (Not reproduced)
 2003/1886	The Social Security (Jobcentre Plus Interviews for Partners) Regulations 2003
 2003/2274	The State Pension Credit (Transitional and Miscellaneous Provisions) Amendment Regulations 2003
 2003/2779	The Child Support (Miscellaneous Amendments) (No 2) Regulations 2003
 2003/3206	The Child Support (Information, Evidence and Disclosure) Amendment Regulations 2003
 2004/98		The Social Security (Child Maintenance Premium) Amendment Regulations 2004 [Not included]
 2004/647	The State Pension Credit (Miscellaneous Amendments) Regulations 2004 
+2004/696	The Health and Social Care (Community Health and Standards) Act 2003 (Supplementary and Consequential Provision) (NHS Foundation Trusts) Order 2004 [Not included]
 2004/959	The Social Security (Working Neighbourhoods) Regulations 2004
+2004/1748	The Community Care, Services for Carers and Children’s Services (Direct Payments) (Wales) Regulations 2004 (Not reproduced)
+2004/1823	The Scottish Public Services Ombudsman Act 2002 (Consequential Provisions and Modifications) Order 2004 (Not reproduced)
 2004/2415	The Child Support (Miscellaneous Amendments) Regulations 2004
 2004/2283	The Social Security (Retirement Pensions) Amendment Regulations 2004
+2004/2327	The Social Security (Housing Benefit, Council Tax Benefit, State Pension Credit and Miscellaneous Amendments) Regulations 2004 (Not reproduced)
+2004/3168	The Fire and Rescue Services Act 2004 (Consequential Amendments) (England) Order 2004 (Not reproduced)
 2004/3368	The Social Security, Child Support and Tax Credits (Decisions and Appeals) Amendment Regulations 2004
 2005/207	The Social Security and Child Support Commissioners (Procedure) (Amendment) Regulations 2005
 2005/337	The Social Security, Child Support and Tax Credits (Miscellaneous Amendments) Regulations 2005
+2005/445 (SSI)	The Mental Health (Care and Treatment) (Scotland) Act 2003 (Modification of Subordinate Legislation) Order 2005 (Not reproduced)
 2005/785	The Child Support (Miscellaneous Amendments) Regulations 2005
-2005/2677	The Social Security (Deferral of Retirement Pensions, Shared Additional Pension and Graduated Retirement Benefit) (Miscellaneous Provisions) Regulations 2005
+2005/2060	The Fire (Scotland) Act 2005 (Consequential Provisions and Modifications) Order 2005 (Not reproduced)
+2005/2078	The Mental Health (Care and Treatment) (Scotland) Act 2003 (Consequential Provisions) Order 2005
+2005/2677	The Social Security (Deferral of Retirement Pensions, Shared Additional Pension and Graduated Retirement Benefit) (Miscellaneous Provisions) Regulations 2005 (Not reproduced)
 2005/2877	The Civil Partnership (Pensions, Social Security and Child Support) (Consequential, etc Provisions) Order 2005
 2005/2878	The Social Security (Civil Partnership) (Consequential Amendments) Regulations 2005
+2005/2929	The Fire and Rescue Services Act 2004 (Consequential Amendments) (Wales) Order 2005 (Not reproduced)
+2006/217	The Housing Benefit and Council Tax Benefit (Consequential Provisions) Regulations 2006 (Not reproduced)
 2006/832	The Social Security (Miscellaneous Amendments) (No 2) Regulations 2006
 2006/1520	The Child Support (Miscellaneous Amendments) Regulations 2006
 2006/1692	The Contracting Out (Functions Relating to Child Support) Regulations 2006
@@ -154,6 +167,7 @@ S.I.
 2007/1626	The Social Security (Miscellaneous Amendments) (No 2) Regulations 2006
 2007/1979	The Child Support (Miscellaneous Amendments) Regulations 2007
 2007/2470	The Social Security (Miscellaneous Amendments) (No 4) Regulations 2007
+2007/2538	The Independent Living Fund (2006) Order 2007 (Not reproduced)
 2007/2582	The Social Security (National Insurance Credits) Amendment Regulations 2007
 2008/536	The Child Support (Miscellaneous Amendments) Regulations 2008
 2008/787	The Welfare Reform Act 2007 (Commencement No 6 and Consequential Provisions) Order 2008
@@ -171,41 +185,81 @@ S.I.
 2008/2548	The Child Maintenance and Other Payments Act 2008 (Commencement No 3 and Transitional and Savings Provisions) Order 2008
 2008/2551	The Child Support Information Regulations 2008
 2008/2656	The Child Support (Consequential Provisions) (No 2) Regulations 2008
+2008/2667	The Social Security (Miscellaneous Amendments) (No. 5) Regulations 2008 (Not reproduced)
 2008/2675	The Child Maintenance and Other Payments Act 2008 (Commencement No 4 and Transitional Provision) Order 2008
 2008/2683	The Tribunals, Courts and Enforcement Act 2007 (Transitional and Consequential Provisions) Order 2008
 2008/2833	The Transfer of Tribunal Functions Order 2008
 2009/396	The Child Support (Miscellaneous Amendments) Regulations 2009
+2009/659	The Social Security (Additional Class 3 National Insurance Contributions) Amendment Regulations 2009 (Not reproduced)
 2009/736	The Child Support (Miscellaneous and Consequential Amendments) Regulations 2009
 2009/1314	The Child Maintenance and Other Payments Act 2008 (Commencement No 5) Order 2009
+2009/1490	The Social Security (Miscellaneous Amendments) (No. 2) Regulations 2009 (Not reproduced)
+2009/1562	The Flexible New Deal (Miscellaneous Provisions) Order 2009 (Not reproduced)
 2009/1815	The Child Support Collection and Enforcement (Deduction Orders) Amendment Regulations 2009
 2009/2715	The Pensions Act 2007 (Supplementary Provision) Order 2009
 2009/2909	The Child Support (Miscellaneous Amendments) (No 2) Regulations 2009
 2009/3072	The Child Maintenance and Other Payments Act 2008 (Commencement No 6) Order 2009
 2009/3151	The Child Support (Management of Payments and Arrears) Regulations 2009
+2010/424	The Welfare Reform Act 2009 (Section 26) (Consequential Amendments) Regulations 2010 (Not reproduced)
+2010/509	The Jobseeker’s Allowance (Sanctions for Failure to Attend) Regulations 2010 (Not reproduced)
+2010/510	The Social Security (Miscellaneous Amendments) Regulations 2010 (Not reproduced)
+2010/563	The Social Security (Work-focused Interviews etc.) (Equalisation of State Pension Age) Amendment Regulations 2010 (Not reproduced)
 2010/697	The Child Maintenance and Other Payments Act 2008 (Commencement No 7) Order 2010
+2010/840	The Social Security (Miscellaneous Amendments) (No. 3) Regulations 2010
+2010/1160	The Social Security (Loss of Benefit) Amendment Regulations 2010 (Not reproduced)
+2010/1881	The Health and Social Care Act 2008 (Miscellaneous Consequential Amendments) Order 2010 (Not reproduced)
+2010/1907	The Employment and Support Allowance (Transitional Provisions, Housing Benefit and Council Tax Benefit) (Existing Awards) (No. 2) Regulations 2010 (Not reproduced)
+2011/674	The Social Security (Miscellaneous Amendments) Regulations 2011 (Not reproduced)
+2011/688	The Jobseeker’s Allowance (Mandatory Work Activity Scheme) Regulations 2011 (Not reproduced)
+2011/917	The Jobseeker's Allowance (Employment, Skills and Enterprise Scheme) Regulations 2011 (Not reproduced)
+2011/1349	The Employment and Support Allowance (Work-Related Activity) Regulations 2011 (Not reproduced)
 2011/1464	The Child Support (Miscellaneous Amendments) Regulations 2011
+2011/1498	The Social Security (Electronic Communications) Order 2011 (Not reproduced)
+2011/1740	The Adoption and Children (Scotland) Act 2007 (Consequential Modifications) Order 2011 (Not reproduced)
+2011/2425	The Social Security (Miscellaneous Amendments) (No. 3) Regulations 2011
+2011/2426	The Social Security (Disability Living Allowance, Attendance Allowance and Carer's Allowance) (Miscellaneous Amendments) Regulations 2011 (Not reproduced)
+2011/2581	The Public Services Reform (Scotland) Act 2010 (Consequential Modifications of Enactments) Order 2011 (Not reproduced)
 2012/712	The Child Support (Miscellaneous Amendments) Regulations 2012
+2012/725	The Budget Responsibility and National Audit Act 2011 (Consequential Amendments) Order 2012 (Not reproduced)
+2012/757	The Social Security (Miscellaneous Amendments) Regulations 2012 (Not reproduced)
+2012/824	The Social Security (Suspension of Payment of Benefits and Miscellaneous Amendments) Regulations 2012 (Not reproduced)
+2012/913	The Employment and Support Allowance (Duration of Contributory Allowance) (Consequential Amendments) Regulations 2012 (Not reproduced)
+2012/919	The Employment and Support Allowance (Amendment of Linking Rules) Regulations 2012 (Not reproduced)
 2012/1267	The Social Security and Child Support (Supersession of Appeal Decisions) Regulations 2012
 2012/1649	The Child Maintenance and Other Payments Act 2008 (Commencement No 8) Order 2012
 2012/2007	The Public Bodies (Child Maintenance and Enforcement Commission: Abolition and Transfer of Functions) Order 2012
 2012/2380	The Child Support (Northern Ireland Reciprocal Arrangements) Amendment Regulations 2012
 2012/2523	The Child Maintenance and Other Payments Act 2008 (Commencement No 9) and the Welfare Reform Act 2009 (Commencement No 9) Order 2012
+2012/2568	The Jobseeker’s Allowance (Sanctions) (Amendment) Regulations 2012 (Not reproduced)
+2012/2575	The Social Security (Miscellaneous Amendments) (No. 2) Regulations 2012 (Not reproduced)
 2012/2677	The Child Support (Maintenance Calculations) Regulations 2012
 2012/2678	The Child Support Maintenance (Changes to Basic Rate Calculation and Minimum Amount of Liability) Regulations 2012
+2012/2756	The Employment and Support Allowance (Sanctions) (Amendment) Regulations 2012 (Not reproduced)
 2012/2785	The Child Support (Meaning of Child and New Calculation Rules) (Consequential and Miscellaneous Amendment) Regulations 2012
 2012/3002	The Child Support (Management of Payments and Arrears) (Amendment) Regulations 2012
 2012/3042	The Child Maintenance and Other Payments Act 2008 (Commencement No 10 and Transitional Provisions) Order 2012
+2013/235	The National Treatment Agency (Abolition) and the Health and Social Care Act 2012 (Consequential, Transitional and Saving Provisions) Order 2013
+2013/381	The Universal Credit, Personal Independence Payment, Jobseeker's Allowance and Employment and Support Allowance (Decisions and Appeals) Regulations 2013 (Not reproduced)
+2013/383	The Social Security (Payments on Account of Benefit) Regulations 2013 (Not reproduced)
+2013/388	The Personal Independence Payment (Supplementary Provisions and Consequential Amendments) Regulations 2013
+2013/443	The Social Security (Miscellaneous Amendments) Regulations 2013 (Not reproduced)
+2013/458	The Council Tax Benefit Abolition (Consequential Provision) Regulations 2013
+2013/591	The Armed Forces and Reserve Forces Compensation Scheme (Consequential Provisions: Subordinate Legislation) Order 2013 (Not reproduced)
+2013/602	The Police and Fire Reform (Scotland) Act 2012 (Consequential Provisions and Modifications) Order 2013 (Not reproduced)
+2013/630	The Universal Credit (Consequential, Supplementary, Incidental and Miscellaneous Provisions) Regulations 2013 
 2013/1517	The Child Support (Miscellaneous Amendments) Regulations 2013
 2013/1654	The Child Support and Claims and Payments (Miscellaneous Amendments and Change to the Minimum Amount of Liability) Regulations 2013
 2013/1860	The Child Maintenance and Other Payments Act 2008 (Commencement No 11 and Transitional Provisions) Order 2013
 2013/2380	The Social Security, Child Support, Vaccine Damage and Other Payments (Decisions and Appeals) (Amendment) Regulations 2013
+2013/2536	The Social Security (Miscellaneous Amendments) (No. 3) Regulations 2013 (Not reproduced)
 2013/2947	The Child Maintenance and Other Payments Act 2008 (Commencement No 12 and Savings Provisions) and the Welfare Reform Act 2012 (Commencement No 15) Order 2013
 2014/107	The Marriage (Same Sex Couples) Act 2013 (Consequential Provisions) Order 2014
+2014/513	The Social Care (Self-directed Support) (Scotland) Act 2013 (Consequential Modifications and Savings) Order 2014 (Not reproduced)
 2014/560	The Marriage (Same Sex Couples) Act 2013 (Consequential and Contrary Provisions and Scotland) Order 2014
 2014/576	The Child Maintenance and Other Payments Act 2008 (Commencement No. 13) Order 2014
-
 2014/612	The Child Support Fees Regulations 2014
 2014/614	The Child Support (Ending Liability in Existing Cases and Transition to New Calculation Rules) Regulations 2014
+2014/879	The Crime and Courts Act 2013 (Family Court: Consequential Provision) (No.2) Order 2014 (Not reproduced)
 2014/884	The Social Security (Maternity Allowance) (Miscellaneous Amendments) Regulations 2014
 2014/1097	The Income Support (Work-Related Activity) and Miscellaneous Amendments Regulations 2014
 2014/1263	The Child Support, Pensions and Social Security Act 2000 (Commencement No 15) Order 2014
@@ -213,12 +267,12 @@ S.I.
 2014/1423	The Child Support (Northern Ireland Reciprocal Arrangements) Amendment Regulations 2014
 2014/1621	The Child Support (Consequential and Miscellaneous Amendments) (No 2) Regulations 2014
 2014/1635	The Child Maintenance and Other Payments Act 2008 (Commencement No 14 and Transitional Provisions) and the Welfare Reform Act 2012 (Commencement No 18 and Transitional and Savings Provisions) Order 2014
-2014/3229	The Marriage and Civil Partnership (Scotland) Act 2014 and Civil Partnership Act 2004 (Consequential Provisions and Modifications) Order 2014
-2014/3255	The Shared Parental Leave and Statutory Shared Parental Pay (Consequential Amendments to Subordinate Legislation) Order 2014 
+2014/3229	The Marriage and Civil Partnership (Scotland) Act 2014 and Civil Partnership Act 2004 (Consequential Provisions and Modifications) Order 2014 (Not reproduced)
+2014/3255	The Shared Parental Leave and Statutory Shared Parental Pay (Consequential Amendments to Subordinate Legislation) Order 2014 (Not reproduced)
 2015/176	The Child Maintenance and Other Payments Act 2008 (Commencement No. 15) Order 2015
 2015/338	The Child Support (Miscellaneous and Consequential Amendments) Regulations 2015
 2015/339	The Jobseeker’s Allowance (Extended Period of Sickness) Amendment Regulations 2015
-2015/478	The Social Security (Miscellaneous Amendments No. 2) Regulations 2015
-2015/583	The Road Safety Act 2006 (Consequential Amendments) Order 2015
+2015/478	The Social Security (Miscellaneous Amendments No. 2) Regulations 2015 (Not reproduced)
+2015/583	The Road Safety Act 2006 (Consequential Amendments) Order 2015 (Not reproduced)
 2015/643	The Care Act 2014 (Consequential Amendments) (Secondary Legislation) Order 2015
 2015/700	The Courts Reform (Scotland) Act 2014 (Consequential Provisions and Modifications) Order 2015
