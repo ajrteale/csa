@@ -20,19 +20,19 @@
 %\everypar\markeverypar
 %\markeverypar{\the\everypar\looseness=-1\relax}
 
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-
-% Fix for perpage, broken in LaTeX 2015-01
-% Remove counter "footnote" from the reset counter list
-% of counter "chapter".
-\usepackage{remreset}
-\makeatletter
-\@removefromreset{footnote}{part}
-\makeatother
-
-\usepackage[perpage,para,symbol]{footmisc}
+%\usepackage{perpage} %the perpage package
+%\MakePerPage{footnote} %the perpage package command
+%\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+%
+%% Fix for perpage, broken in LaTeX 2015-01
+%% Remove counter "footnote" from the reset counter list
+%% of counter "chapter".
+%\usepackage{remreset}
+%\makeatletter
+%\@removefromreset{footnote}{part}
+%\makeatother
+%
+%\usepackage[perpage,para,symbol]{footmisc}
 
 \newcommand\siprefix{S.I.~}
 
